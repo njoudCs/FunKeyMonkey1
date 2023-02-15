@@ -9,9 +9,7 @@ struct onAppear: View {
         Spacer()
         
         Image(systemName: "xmark")
-          .onTapGesture {
-            
-          }
+       
         ExercisesStart()
 
       }

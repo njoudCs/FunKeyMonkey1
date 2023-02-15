@@ -13,7 +13,8 @@ struct FirstlyPage: View {
   
   // string variable to store Name
   @State private var kidsName: String = ""
-  
+  @State private var idsName: String = ""
+
  
   
   var body: some View {
@@ -27,7 +28,6 @@ struct FirstlyPage: View {
       
       Image("Back")
         .resizable()
-        .frame(width: 1194, height: 834)
       
     
         
@@ -50,9 +50,10 @@ struct FirstlyPage: View {
           .frame(width: 450 , height: 500)
           
        
-          
+         /*
           Button ("next") {
             saveName()
+            //
           }.foregroundColor(Color.white)
             .font(.system(size: 50 , weight: .heavy, design: .rounded))
             .foregroundColor(Color.white)
@@ -60,14 +61,31 @@ struct FirstlyPage: View {
             .alert(isPresented: $isAlert) { () -> Alert in
               Alert(title: Text("Alert"), message: Text("No text field should be empty"), dismissButton: .default(Text("Ok")))
           }
+          */
+          
+          /////Another
           
           NavigationLink (destination: HeyName(kidsName: $kidsName), isActive: $showHeyName){
-            label: do {Text("Next")}
-            EmptyView()
-          }
+            //  label: do {Text("Next")}
+            
+            
+            Button(action: {
+              saveName()
+              self.showHeyName = true
+            }){
+              
+            Text("Next")
+            }
+          }.foregroundColor(Color.white)
+            .font(.system(size: 70 , weight: .heavy, design: .rounded))
+            .foregroundColor(Color.white)
+            .background(Color("yellow")).cornerRadius(50)
+            .shadow(color: .black, radius: 2, x: 2, y: 2)
+            .alert(isPresented: $isAlert) { () -> Alert in
+              Alert(title: Text("Alert"), message: Text("No text field should be empty"), dismissButton: .default(Text("Ok")))
+            }
 
-          .cornerRadius(60)
-          .shadow(color: .black, radius: 2, x: 2, y: 2)
+         
           
           
         }
@@ -75,9 +93,10 @@ struct FirstlyPage: View {
       
     }
     
-  } .navigationViewStyle(StackNavigationViewStyle())
+  }.navigationViewStyle(StackNavigationViewStyle())
     
   }
+  //Start functin
   
   func saveName() {
 
@@ -98,6 +117,8 @@ struct FirstlyPage: View {
   }
 
   
+  
+//End function
   }
   
   struct FirstlyPage_Previews: PreviewProvider {

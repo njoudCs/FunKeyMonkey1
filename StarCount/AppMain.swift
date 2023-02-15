@@ -11,11 +11,11 @@ struct AppMain: App {
     WindowGroup {
       
       
-    //  TabView {
+    TabView {
         
         ContentView().environment(\.managedObjectContext, persistentContainer.viewContext)
 
-      //}
+      }
     }
   }
 }

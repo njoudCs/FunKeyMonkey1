@@ -19,7 +19,6 @@ struct HeyName: View {
           Image("Back")
               .resizable()
           
-              .frame(width: 1194, height: 834)
           
           VStack{
             
@@ -44,7 +43,6 @@ struct HeyName: View {
 //            )
 //
 //            .frame(width: 220 , height: 100)
-//
 //            .font(.system(size: 50 , weight: .heavy, design: .rounded))
 //            .background(Color("frontyello"))
 //            .foregroundColor(Color.white)

@@ -8,18 +8,13 @@ struct GoExercise: View {
       
       ZStack{
         
-        VStack{
+        HStack{
           
           
           
         }
         
       }.rotationEffect(.degrees(90))
-
-      
-      
-      
-      
       
     }
 }

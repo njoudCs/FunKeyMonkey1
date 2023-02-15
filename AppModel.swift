@@ -10,7 +10,7 @@ struct Day{
     
 
    
-    //print("Dropped Stars: \(starsCount)")
+  //  print("Dropped Stars: \(starsCount)")
 
   }
 

@@ -28,7 +28,7 @@ struct ExercisesStart: View {
           
           workoutAnimation()
             .padding(.top, 250)
-//            .frame(width: 497 , height: 420).padding(.trailing, 600.0)
+   //        .frame(width: 497 , height: 420).padding(.trailing, 600.0)
           
           
           
