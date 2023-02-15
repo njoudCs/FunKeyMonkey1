@@ -11,7 +11,7 @@ struct ExercisesStart: View {
 
 
   var body: some View {
-      
+      /*
     ZStack(){
         HStack{
           
@@ -23,14 +23,12 @@ struct ExercisesStart: View {
             .frame(width: 56.0, height: 74.0) }
         }.padding(.bottom, 600.0)
         
-        
         HStack{
           
           workoutAnimation()
             .padding(.top, 250)
    //        .frame(width: 497 , height: 420).padding(.trailing, 600.0)
-          
-          
+
           
         }
         
@@ -46,10 +44,14 @@ struct ExercisesStart: View {
 //
 //
         
-      }
-     
-        
-        
+      } */
+    
+    VStack (spacing: 16){
+      //  SearchAndFilterView(search: $search)
+        BananaEmptey()
+        ee()
+
+    }.padding()
         
       }
   
