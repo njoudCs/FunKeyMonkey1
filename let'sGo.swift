@@ -4,7 +4,7 @@ import SwiftUI
 
 struct let_sGo: View {
     var body: some View {
-        
+        Text("")
     }
 }
 
