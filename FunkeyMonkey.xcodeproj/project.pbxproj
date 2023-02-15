@@ -20,6 +20,8 @@
 		308D74B125878AC400A39EB8 /* GameLogicController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308D74B025878AC400A39EB8 /* GameLogicController.swift */; };
 		308D74B62587B18700A39EB8 /* FingersOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308D74B52587B18700A39EB8 /* FingersOverlay.swift */; };
 		5F2A7F82299BBF6D00F2B9D0 /* forTrying.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2A7F81299BBF6D00F2B9D0 /* forTrying.swift */; };
+		A9118C22299D19AA00624633 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9118C21299D19AA00624633 /* Workout.swift */; };
+		A9118C24299D19D000624633 /* let'sGo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9118C23299D19D000624633 /* let'sGo.swift */; };
 		A96E848F2991246F00C5ED06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18D775C622AD944400AE281E /* Assets.xcassets */; };
 		A96E84B12991340C00C5ED06 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96E84B02991340C00C5ED06 /* SwiftUIView.swift */; };
 		A96E84B329913BDF00C5ED06 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96E84B229913BDF00C5ED06 /* AppModel.swift */; };
@@ -49,6 +51,8 @@
 		308D74B025878AC400A39EB8 /* GameLogicController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameLogicController.swift; sourceTree = "<group>"; };
 		308D74B52587B18700A39EB8 /* FingersOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FingersOverlay.swift; sourceTree = "<group>"; };
 		5F2A7F81299BBF6D00F2B9D0 /* forTrying.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = forTrying.swift; sourceTree = "<group>"; };
+		A9118C21299D19AA00624633 /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
+		A9118C23299D19D000624633 /* let'sGo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "let'sGo.swift"; sourceTree = "<group>"; };
 		A96E84B02991340C00C5ED06 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		A96E84B229913BDF00C5ED06 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
 		A96E84B42991441B00C5ED06 /* ExercisesStart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisesStart.swift; sourceTree = "<group>"; };
@@ -74,6 +78,8 @@
 		18D775B422AD944300AE281E = {
 			isa = PBXGroup;
 			children = (
+				A9118C23299D19D000624633 /* let'sGo.swift */,
+				A9118C21299D19AA00624633 /* Workout.swift */,
 				A96E84E42999124A00C5ED06 /* HeyName.swift */,
 				A96E84E22999111D00C5ED06 /* FirstlyPage.swift */,
 				A96E84B8299522AF00C5ED06 /* onAppear.swift */,
@@ -255,6 +261,7 @@
 			files = (
 				A96E84BC2999064D00C5ED06 /* FunMonkeyModel.xcdatamodeld in Sources */,
 				18D775C522AD944300AE281E /* ContentView.swift in Sources */,
+				A9118C22299D19AA00624633 /* Workout.swift in Sources */,
 				5F2A7F82299BBF6D00F2B9D0 /* forTrying.swift in Sources */,
 				308D74B62587B18700A39EB8 /* FingersOverlay.swift in Sources */,
 				A96E84B52991441B00C5ED06 /* ExercisesStart.swift in Sources */,
@@ -263,6 +270,7 @@
 				A96E84E52999124A00C5ED06 /* HeyName.swift in Sources */,
 				A96E84E32999111D00C5ED06 /* FirstlyPage.swift in Sources */,
 				A96E84B9299522AF00C5ED06 /* onAppear.swift in Sources */,
+				A9118C24299D19D000624633 /* let'sGo.swift in Sources */,
 				304BEFC52586261B00CED98D /* CameraView.swift in Sources */,
 				304BEFBF2586253400CED98D /* CameraViewController.swift in Sources */,
 				1839F4B025190F2A00BB00F1 /* AppMain.swift in Sources */,
