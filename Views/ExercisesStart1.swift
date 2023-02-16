@@ -14,7 +14,7 @@ struct ExercisesStart: View {
 
     
            VStack(){
-             Text (" hadeel")
+             
              BananaEmptey(timeRemaining: timeRemaining)
              ee(timeRemaining: $timeRemaining)
              workoutAnimation()

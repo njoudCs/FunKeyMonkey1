@@ -10,9 +10,9 @@ struct OnBoardingStep {
 }
 
 private let onBoardingSteps = [
-    OnBoardingStep (image: "onbording1", title: "Funky Monkey Coach", description: "Hi, I'm Funky Monkey, your personal trainer, set your iPad and doing the exercises with me."),
-    OnBoardingStep (image: "onbording2", title: "Encourages You to Keep Going", description: "After completing the exercise, do High Five with me 🖐🏼."),
-    OnBoardingStep (image: "onbording3", title: "Exercise Daily for 6 Minutes", description: "The next day will unlock 24 hours after you complete the current day's exercises.")]
+  OnBoardingStep (image: "onbording1", title: "Funky Monkey Coach", description: "Hi, I'm Funky Monkey, your personal trainer, set your iPad and let's exercises togather."),
+  OnBoardingStep (image: "onbording2", title: "Encourages You to Keep Going", description: "After completing the exercise, do a High Five with me 🖐🏼."),
+  OnBoardingStep (image: "onbording3", title: "Exercise Daily for 6 Minutes", description: "The next day will be unlocked 24 hours after you complete the current day's exercises.")]
 
 struct OnboardingPage: View {
     
@@ -31,6 +31,8 @@ struct OnboardingPage: View {
     //    }else{
     //        OnboardingPage()
     //    }
+  
+  //hadeeeeeel
 
     var body: some View {
         
