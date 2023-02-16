@@ -19,6 +19,8 @@
 		304BEFCC258628F800CED98D /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304BEFCB258628F800CED98D /* AppError.swift */; };
 		308D74B125878AC400A39EB8 /* GameLogicController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308D74B025878AC400A39EB8 /* GameLogicController.swift */; };
 		308D74B62587B18700A39EB8 /* FingersOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308D74B52587B18700A39EB8 /* FingersOverlay.swift */; };
+		376FF28D299E581A00D993DD /* achivivment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376FF28C299E581A00D993DD /* achivivment.swift */; };
+		376FF28F299E5A7500D993DD /* greatjob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376FF28E299E5A7500D993DD /* greatjob.swift */; };
 		5F2A7F82299BBF6D00F2B9D0 /* forTrying.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2A7F81299BBF6D00F2B9D0 /* forTrying.swift */; };
 		A9118C22299D19AA00624633 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9118C21299D19AA00624633 /* Workout.swift */; };
 		A9118C24299D19D000624633 /* let'sGo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9118C23299D19D000624633 /* let'sGo.swift */; };
@@ -59,6 +61,8 @@
 		304BEFCB258628F800CED98D /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
 		308D74B025878AC400A39EB8 /* GameLogicController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameLogicController.swift; sourceTree = "<group>"; };
 		308D74B52587B18700A39EB8 /* FingersOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FingersOverlay.swift; sourceTree = "<group>"; };
+		376FF28C299E581A00D993DD /* achivivment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = achivivment.swift; sourceTree = "<group>"; };
+		376FF28E299E5A7500D993DD /* greatjob.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = greatjob.swift; sourceTree = "<group>"; };
 		5F2A7F81299BBF6D00F2B9D0 /* forTrying.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = forTrying.swift; sourceTree = "<group>"; };
 		A9118C21299D19AA00624633 /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
 		A9118C23299D19D000624633 /* let'sGo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "let'sGo.swift"; sourceTree = "<group>"; };
@@ -103,11 +107,13 @@
 				A9118C23299D19D000624633 /* let'sGo.swift */,
 				A9118C21299D19AA00624633 /* Workout.swift */,
 				A96E84E42999124A00C5ED06 /* HeyName.swift */,
+				376FF28C299E581A00D993DD /* achivivment.swift */,
 				A96E84E22999111D00C5ED06 /* FirstlyPage.swift */,
 				A96E84B8299522AF00C5ED06 /* onAppear.swift */,
 				A96E84B229913BDF00C5ED06 /* AppModel.swift */,
 				A96E84B62993FEA300C5ED06 /* GoExercise.swift */,
 				A96E84B02991340C00C5ED06 /* SwiftUIView.swift */,
+				376FF28E299E5A7500D993DD /* greatjob.swift */,
 				5F2A7F81299BBF6D00F2B9D0 /* forTrying.swift */,
 				A96E84BA2999064D00C5ED06 /* FunMonkeyModel.xcdatamodeld */,
 				A9118BF9299CB81E00624633 /* Managers */,
@@ -310,6 +316,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				376FF28F299E5A7500D993DD /* greatjob.swift in Sources */,
 				A9118C32299D742C00624633 /* BananaEmptey.swift in Sources */,
 				A96E84BC2999064D00C5ED06 /* FunMonkeyModel.xcdatamodeld in Sources */,
 				18D775C522AD944300AE281E /* ContentView.swift in Sources */,
@@ -330,6 +337,7 @@
 				304BEFC52586261B00CED98D /* CameraView.swift in Sources */,
 				304BEFBF2586253400CED98D /* CameraViewController.swift in Sources */,
 				1839F4B025190F2A00BB00F1 /* AppMain.swift in Sources */,
+				376FF28D299E581A00D993DD /* achivivment.swift in Sources */,
 				304BEFCC258628F800CED98D /* AppError.swift in Sources */,
 				A96E84B329913BDF00C5ED06 /* AppModel.swift in Sources */,
 				301202F0258528A7007B2E1B /* StarAnimatorView.swift in Sources */,
