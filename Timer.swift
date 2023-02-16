@@ -8,7 +8,7 @@ let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
     var body: some View {
       
       HStack {
-         
+         Text ("hadeel")
           Spacer()
           
           //Start timer **Auto** .. Njoud Al-Najem
