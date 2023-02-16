@@ -3,7 +3,7 @@ import SwiftUI
 
 struct ExercisesStart: View {
   
- 
+
   
  // let arrayImg = [UIImage(named: "BananaEmptey") , UIImage(named: "BananaEmptey") , UIImage(named: "BananaEmptey")]
   
@@ -14,6 +14,7 @@ struct ExercisesStart: View {
 
     
            VStack(){
+             
              BananaEmptey(timeRemaining: timeRemaining)
              ee(timeRemaining: $timeRemaining)
              workoutAnimation()
