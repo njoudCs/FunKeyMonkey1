@@ -23,33 +23,42 @@ struct HeyName: View {
           VStack{
             
             
-            Image("monkey")
             
-            
-            
-            
-            Text(self.kidsName)
+            Text("Welcome \(self.kidsName)")
             
                 .font(.system(size: 70 , weight: .heavy, design: .rounded))
                 .foregroundColor(Color("yellow"))
             
             
+            Image("MonkeyHi")
+                .resizable()
+                .frame(width: 480, height:650 )
+            
+             
+            
+            
+            
+            
+           
+            
+            
             
         
+            NavigationLink(destination: Workout(),
+                           label: { StrokeText(text: "Start", width: 1, color: .black)
+            }
+            )
             
-//            NavigationLink(destination: WelcomePage_2(user: user),
-//                           label: {Text("Start")
-//            }
-//            )
-//
-//            .frame(width: 220 , height: 100)
-//            .font(.system(size: 50 , weight: .heavy, design: .rounded))
-//            .background(Color("frontyello"))
-//            .foregroundColor(Color.white)
-//            .cornerRadius(60)
-
+            .frame(width: 220 , height: 100)
             
-        }
+            .font(.system(size: 50 , weight: .heavy, design: .rounded))
+            .background(Color("yellow"))
+            
+            .foregroundColor(Color.white)
+            .cornerRadius(60)
+            .shadow( radius: 4.0, x: 7.0, y: 7.0)
+            
+          } .padding(.top)
           
       
           
