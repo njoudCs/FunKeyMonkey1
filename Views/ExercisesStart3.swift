@@ -1,16 +1,14 @@
 
-
 import SwiftUI
 
-struct ExercisesStart2: View {
+struct ExercisesStart3: View {
   @State var timeRemaining = 10
 
     var body: some View {
       
-      
              VStack(){
                BananaEmptey(timeRemaining: timeRemaining)
-               //ee(timeRemaining: $timeRemaining)
+             //  ee(timeRemaining: $timeRemaining)
                workoutAnimation()
              
                Text("Running in place")
@@ -18,12 +16,12 @@ struct ExercisesStart2: View {
                    .fontWeight(.bold)
            
              }.padding()
-       
+      
     }
 }
 
-struct ExercisesStart2_Previews: PreviewProvider {
+struct ExercisesStart3_Previews: PreviewProvider {
     static var previews: some View {
-        ExercisesStart2()
+        ExercisesStart3()
     }
 }

@@ -4,10 +4,7 @@ import SwiftUI
 struct ExercisesStart: View {
   
  
-  
- // let arrayImg = [UIImage(named: "BananaEmptey") , UIImage(named: "BananaEmptey") , UIImage(named: "BananaEmptey")]
-  
-// let arrayImg1 = ["BananaEmptey" ,  "BananaEmptey", "BananaEmptey"]
+ 
 @State var timeRemaining = 10
 
   var body: some View {
@@ -15,7 +12,7 @@ struct ExercisesStart: View {
     
            VStack(){
              BananaEmptey(timeRemaining: timeRemaining)
-             ee(timeRemaining: $timeRemaining)
+             Timer1(timeRemaining: $timeRemaining)
              workoutAnimation()
            
              Text("Running in place")

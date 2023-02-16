@@ -1,8 +1,8 @@
 
 import SwiftUI
 
-struct ee: View {
-  @Binding var timeRemaining:Int 
+struct Timer1: View {
+  @Binding var timeRemaining: Int 
   
 let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
     var body: some View {

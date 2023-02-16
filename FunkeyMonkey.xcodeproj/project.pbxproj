@@ -27,6 +27,10 @@
 		A9118C2E299D65A800624633 /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9118C2D299D65A800624633 /* Timer.swift */; };
 		A9118C30299D6AE400624633 /* ExercisesStart2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9118C2F299D6AE400624633 /* ExercisesStart2.swift */; };
 		A9118C32299D742C00624633 /* BananaEmptey.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9118C31299D742C00624633 /* BananaEmptey.swift */; };
+		A9118C3B299E544200624633 /* ExercisesStart3.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9118C3A299E544200624633 /* ExercisesStart3.swift */; };
+		A9118C3D299E544D00624633 /* ExercisesStart4.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9118C3C299E544D00624633 /* ExercisesStart4.swift */; };
+		A9118C3F299E545800624633 /* ExercisesStart5.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9118C3E299E545800624633 /* ExercisesStart5.swift */; };
+		A9118C41299E593800624633 /* h.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9118C40299E593800624633 /* h.swift */; };
 		A96E848F2991246F00C5ED06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18D775C622AD944400AE281E /* Assets.xcassets */; };
 		A96E84B12991340C00C5ED06 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96E84B02991340C00C5ED06 /* SwiftUIView.swift */; };
 		A96E84B329913BDF00C5ED06 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96E84B229913BDF00C5ED06 /* AppModel.swift */; };
@@ -63,6 +67,10 @@
 		A9118C2D299D65A800624633 /* Timer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
 		A9118C2F299D6AE400624633 /* ExercisesStart2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisesStart2.swift; sourceTree = "<group>"; };
 		A9118C31299D742C00624633 /* BananaEmptey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BananaEmptey.swift; sourceTree = "<group>"; };
+		A9118C3A299E544200624633 /* ExercisesStart3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisesStart3.swift; sourceTree = "<group>"; };
+		A9118C3C299E544D00624633 /* ExercisesStart4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisesStart4.swift; sourceTree = "<group>"; };
+		A9118C3E299E545800624633 /* ExercisesStart5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisesStart5.swift; sourceTree = "<group>"; };
+		A9118C40299E593800624633 /* h.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = h.swift; sourceTree = "<group>"; };
 		A96E84B02991340C00C5ED06 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		A96E84B229913BDF00C5ED06 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
 		A96E84B42991441B00C5ED06 /* ExercisesStart1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisesStart1.swift; sourceTree = "<group>"; };
@@ -88,6 +96,7 @@
 		18D775B422AD944300AE281E = {
 			isa = PBXGroup;
 			children = (
+				A9118C40299E593800624633 /* h.swift */,
 				A9118C31299D742C00624633 /* BananaEmptey.swift */,
 				A9118C2D299D65A800624633 /* Timer.swift */,
 				A9118C25299D1B8800624633 /* Views */,
@@ -182,6 +191,9 @@
 			children = (
 				A96E84B42991441B00C5ED06 /* ExercisesStart1.swift */,
 				A9118C2F299D6AE400624633 /* ExercisesStart2.swift */,
+				A9118C3A299E544200624633 /* ExercisesStart3.swift */,
+				A9118C3C299E544D00624633 /* ExercisesStart4.swift */,
+				A9118C3E299E545800624633 /* ExercisesStart5.swift */,
 				A9118C39299E533600624633 /* Exercises5 */,
 				304BEFC92586268B00CED98D /* CameraView */,
 				A9118C26299D1B9400624633 /* onBoarding */,
@@ -308,20 +320,24 @@
 				A96E84B52991441B00C5ED06 /* ExercisesStart1.swift in Sources */,
 				A96E84E129990AC500C5ED06 /* CoreDataManager.swift in Sources */,
 				A96E84B12991340C00C5ED06 /* SwiftUIView.swift in Sources */,
+				A9118C41299E593800624633 /* h.swift in Sources */,
 				A96E84E52999124A00C5ED06 /* HeyName.swift in Sources */,
 				A96E84E32999111D00C5ED06 /* FirstlyPage.swift in Sources */,
 				A96E84B9299522AF00C5ED06 /* onAppear.swift in Sources */,
 				A9118C24299D19D000624633 /* let'sGo.swift in Sources */,
 				A9118C28299D1BB300624633 /* LaunchPage.swift in Sources */,
+				A9118C3D299E544D00624633 /* ExercisesStart4.swift in Sources */,
 				304BEFC52586261B00CED98D /* CameraView.swift in Sources */,
 				304BEFBF2586253400CED98D /* CameraViewController.swift in Sources */,
 				1839F4B025190F2A00BB00F1 /* AppMain.swift in Sources */,
 				304BEFCC258628F800CED98D /* AppError.swift in Sources */,
 				A96E84B329913BDF00C5ED06 /* AppModel.swift in Sources */,
 				301202F0258528A7007B2E1B /* StarAnimatorView.swift in Sources */,
+				A9118C3F299E545800624633 /* ExercisesStart5.swift in Sources */,
 				308D74B125878AC400A39EB8 /* GameLogicController.swift in Sources */,
 				304BEFC2258625C300CED98D /* CameraPreview.swift in Sources */,
 				A9118C30299D6AE400624633 /* ExercisesStart2.swift in Sources */,
+				A9118C3B299E544200624633 /* ExercisesStart3.swift in Sources */,
 				303C3F292584A63500CA22F3 /* StarAnimator.swift in Sources */,
 				A96E84B72993FEA400C5ED06 /* GoExercise.swift in Sources */,
 				A9118C2A299D1BCB00624633 /* OnboardingPage.swift in Sources */,

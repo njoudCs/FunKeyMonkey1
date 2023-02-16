@@ -6,8 +6,8 @@ import SwiftUI
 struct SwiftUIView: View {
     var body: some View {
       HStack(){
-        
-        FirstlyPage()
+        h()
+        //FirstlyPage()
       }
     }
 }
