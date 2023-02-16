@@ -10,7 +10,7 @@ struct onAppear: View {
         
         Image(systemName: "xmark")
        
-        ExercisesStart()
+        ExercisesStart1()
 
       }
     }

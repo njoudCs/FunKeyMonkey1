@@ -6,7 +6,7 @@ import SwiftUI
 struct BananaEmptey: View {
   let images = ["BananaEmptey" , "BananaEmptey"] // Array of image names to show
   @State var activeImageIndex = 0 // Index of the currently displayed image
-  @State var timeRemaining = 200 //300
+  @State var timeRemaining = 300
   @State var isDone = false
     var body: some View {
       HStack {

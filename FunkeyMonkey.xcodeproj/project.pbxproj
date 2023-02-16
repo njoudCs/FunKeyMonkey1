@@ -195,11 +195,6 @@
 		A9118C25299D1B8800624633 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				A96E84B42991441B00C5ED06 /* ExercisesStart1.swift */,
-				A9118C2F299D6AE400624633 /* ExercisesStart2.swift */,
-				A9118C3A299E544200624633 /* ExercisesStart3.swift */,
-				A9118C3C299E544D00624633 /* ExercisesStart4.swift */,
-				A9118C3E299E545800624633 /* ExercisesStart5.swift */,
 				A9118C39299E533600624633 /* Exercises5 */,
 				304BEFC92586268B00CED98D /* CameraView */,
 				A9118C26299D1B9400624633 /* onBoarding */,
@@ -219,6 +214,11 @@
 		A9118C39299E533600624633 /* Exercises5 */ = {
 			isa = PBXGroup;
 			children = (
+				A96E84B42991441B00C5ED06 /* ExercisesStart1.swift */,
+				A9118C2F299D6AE400624633 /* ExercisesStart2.swift */,
+				A9118C3A299E544200624633 /* ExercisesStart3.swift */,
+				A9118C3E299E545800624633 /* ExercisesStart5.swift */,
+				A9118C3C299E544D00624633 /* ExercisesStart4.swift */,
 			);
 			path = Exercises5;
 			sourceTree = "<group>";
