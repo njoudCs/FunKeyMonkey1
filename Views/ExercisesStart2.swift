@@ -2,7 +2,7 @@
 
 import SwiftUI
 
-struct ExercisesStart1: View {
+struct ExercisesStart2: View {
   
     var body: some View {
       
@@ -21,8 +21,8 @@ struct ExercisesStart1: View {
     }
 }
 
-struct ExercisesStart1_Previews: PreviewProvider {
+struct ExercisesStart2_Previews: PreviewProvider {
     static var previews: some View {
-        ExercisesStart1()
+        ExercisesStart2()
     }
 }
