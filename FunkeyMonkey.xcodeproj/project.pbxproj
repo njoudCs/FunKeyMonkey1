@@ -39,6 +39,7 @@
 		A96E84E129990AC500C5ED06 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96E84E029990AC500C5ED06 /* CoreDataManager.swift */; };
 		A96E84E32999111D00C5ED06 /* FirstlyPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96E84E22999111D00C5ED06 /* FirstlyPage.swift */; };
 		A96E84E52999124A00C5ED06 /* HeyName.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96E84E42999124A00C5ED06 /* HeyName.swift */; };
+		CEFDB172299E6F1A003CF3D6 /* RestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFDB171299E6F1A003CF3D6 /* RestView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -76,6 +77,7 @@
 		A96E84E029990AC500C5ED06 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		A96E84E22999111D00C5ED06 /* FirstlyPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstlyPage.swift; sourceTree = "<group>"; };
 		A96E84E42999124A00C5ED06 /* HeyName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeyName.swift; sourceTree = "<group>"; };
+		CEFDB171299E6F1A003CF3D6 /* RestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 		18D775B422AD944300AE281E = {
 			isa = PBXGroup;
 			children = (
+				CEFDB171299E6F1A003CF3D6 /* RestView.swift */,
 				A9118C31299D742C00624633 /* BananaEmptey.swift */,
 				A9118C2D299D65A800624633 /* Timer.swift */,
 				A9118C25299D1B8800624633 /* Views */,
@@ -326,6 +329,7 @@
 				376FF28D299E581A00D993DD /* achivivment.swift in Sources */,
 				304BEFCC258628F800CED98D /* AppError.swift in Sources */,
 				A96E84B329913BDF00C5ED06 /* AppModel.swift in Sources */,
+				CEFDB172299E6F1A003CF3D6 /* RestView.swift in Sources */,
 				301202F0258528A7007B2E1B /* StarAnimatorView.swift in Sources */,
 				308D74B125878AC400A39EB8 /* GameLogicController.swift in Sources */,
 				304BEFC2258625C300CED98D /* CameraPreview.swift in Sources */,
