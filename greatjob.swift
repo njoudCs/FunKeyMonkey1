@@ -12,34 +12,45 @@ struct greatjob: View {
                 .cornerRadius(55)
             VStack{
                 StrokeText(text: "jori", width: 1, color: .black)
-                .foregroundColor(Color("Write"))
+                .foregroundColor(Color("yellow"))
                 .font(.system(size: 40 ,design: .rounded))
                 .fontWeight(.heavy)
                     .padding(.horizontal)
     
 
                 StrokeText(text: "Great Job", width: 1, color: .black)
-                .foregroundColor(Color("Write"))
+                .foregroundColor(Color("yellow"))
                 .font(.system(size: 40 ,design: .rounded))
                 .fontWeight(.heavy)
                     .padding(.horizontal)
                 
                 Image("9")
+                .resizable()
+                .frame(width: 150,height: 150)
                     .padding()
+                    
                 Button(action: {
                     print("GO")
                 }) {
                     HStack{
-                        Text("OK")
-                            .fontWeight(.heavy)
-                            .font(.title)
-                            .frame(width:150,height:30)
-                            .shadow(color:.black, radius: 20, x: 0.0,y:70)
-
-                    } .padding()
-                        .foregroundColor(.white)
-                        .background(Color("Write"))
-                        .cornerRadius(20)
+                      StrokeText(text: "Start", width: 1, color: .black)
+                          .foregroundColor(Color.white)
+                                .font(.system(size: 35 ,design: .rounded))
+                                .fontWeight(.heavy)
+                          .padding (10)
+                      
+                          .frame (width: 200 , height: 80)
+                          .background(Color("yellow"))
+                          .cornerRadius (60)
+                          .padding(.horizontal, 44)
+                          .foregroundColor(.white)
+                          .padding (.bottom, 24)
+                          .shadow( radius: 4.0, x: 7.0, y: 7.0)
+                    }
+//                    .padding()
+//                        .foregroundColor(.white)
+//                        .background(Color("yellow"))
+//                        .cornerRadius(20)
                 }
                 
             }
