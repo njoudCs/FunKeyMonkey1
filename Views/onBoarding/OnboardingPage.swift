@@ -97,7 +97,7 @@ struct OnboardingPage: View {
                                 .padding (10)
                             
                                 .font(.system(size: 24))
-                                .frame (maxWidth: (220))
+                                .frame (width: 220 , height: 100)
                                 .background(Color("yellow"))
                                 .cornerRadius (60)
                                 .padding(.horizontal, 44)
