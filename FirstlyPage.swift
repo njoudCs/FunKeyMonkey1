@@ -69,7 +69,7 @@ struct FirstlyPage: View {
               self.showHeyName = true
             }){
               
-              StrokeText(text: "Next", width: 2, color: .black)
+              StrokeText(text: "Next", width: 1, color: .black)
               
               
               
