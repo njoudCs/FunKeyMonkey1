@@ -16,7 +16,7 @@ struct achiviment: View {
 
             VStack{
                 StrokeText(text: "Your achiviment", width: 1, color: .black)
-                .foregroundColor(Color("Write"))
+                .foregroundColor(Color("yellow"))
                 .font(.system(size: 40 ,design: .rounded))
                 .fontWeight(.heavy)
                     .padding(.horizontal)

@@ -12,14 +12,14 @@ struct greatjob: View {
                 .cornerRadius(55)
             VStack{
                 StrokeText(text: "jori", width: 1, color: .black)
-                .foregroundColor(Color("Write"))
+                .foregroundColor(Color("yellow"))
                 .font(.system(size: 40 ,design: .rounded))
                 .fontWeight(.heavy)
                     .padding(.horizontal)
     
 
                 StrokeText(text: "Great Job", width: 1, color: .black)
-                .foregroundColor(Color("Write"))
+                .foregroundColor(Color("yellow"))
                 .font(.system(size: 40 ,design: .rounded))
                 .fontWeight(.heavy)
                     .padding(.horizontal)
@@ -38,7 +38,7 @@ struct greatjob: View {
 
                     } .padding()
                         .foregroundColor(.white)
-                        .background(Color("Write"))
+                        .background(Color("yellow"))
                         .cornerRadius(20)
                 }
                 
