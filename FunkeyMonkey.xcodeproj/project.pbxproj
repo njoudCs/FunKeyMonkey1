@@ -24,7 +24,7 @@
 		A9118C24299D19D000624633 /* let'sGo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9118C23299D19D000624633 /* let'sGo.swift */; };
 		A9118C28299D1BB300624633 /* LaunchPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9118C27299D1BB300624633 /* LaunchPage.swift */; };
 		A9118C2A299D1BCB00624633 /* OnboardingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9118C29299D1BCB00624633 /* OnboardingPage.swift */; };
-		A9118C2E299D65A800624633 /* ee.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9118C2D299D65A800624633 /* ee.swift */; };
+		A9118C2E299D65A800624633 /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9118C2D299D65A800624633 /* Timer.swift */; };
 		A9118C30299D6AE400624633 /* ExercisesStart1.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9118C2F299D6AE400624633 /* ExercisesStart1.swift */; };
 		A9118C32299D742C00624633 /* BananaEmptey.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9118C31299D742C00624633 /* BananaEmptey.swift */; };
 		A96E848F2991246F00C5ED06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18D775C622AD944400AE281E /* Assets.xcassets */; };
@@ -60,7 +60,7 @@
 		A9118C23299D19D000624633 /* let'sGo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "let'sGo.swift"; sourceTree = "<group>"; };
 		A9118C27299D1BB300624633 /* LaunchPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchPage.swift; sourceTree = "<group>"; };
 		A9118C29299D1BCB00624633 /* OnboardingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPage.swift; sourceTree = "<group>"; };
-		A9118C2D299D65A800624633 /* ee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ee.swift; sourceTree = "<group>"; };
+		A9118C2D299D65A800624633 /* Timer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
 		A9118C2F299D6AE400624633 /* ExercisesStart1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisesStart1.swift; sourceTree = "<group>"; };
 		A9118C31299D742C00624633 /* BananaEmptey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BananaEmptey.swift; sourceTree = "<group>"; };
 		A96E84B02991340C00C5ED06 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
@@ -90,7 +90,7 @@
 			children = (
 				A9118C31299D742C00624633 /* BananaEmptey.swift */,
 				A9118C2F299D6AE400624633 /* ExercisesStart1.swift */,
-				A9118C2D299D65A800624633 /* ee.swift */,
+				A9118C2D299D65A800624633 /* Timer.swift */,
 				A9118C25299D1B8800624633 /* Views */,
 				A9118C23299D19D000624633 /* let'sGo.swift */,
 				A9118C21299D19AA00624633 /* Workout.swift */,
@@ -293,7 +293,7 @@
 				A9118C32299D742C00624633 /* BananaEmptey.swift in Sources */,
 				A96E84BC2999064D00C5ED06 /* FunMonkeyModel.xcdatamodeld in Sources */,
 				18D775C522AD944300AE281E /* ContentView.swift in Sources */,
-				A9118C2E299D65A800624633 /* ee.swift in Sources */,
+				A9118C2E299D65A800624633 /* Timer.swift in Sources */,
 				A9118C22299D19AA00624633 /* Workout.swift in Sources */,
 				5F2A7F82299BBF6D00F2B9D0 /* forTrying.swift in Sources */,
 				308D74B62587B18700A39EB8 /* FingersOverlay.swift in Sources */,

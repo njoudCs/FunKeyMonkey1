@@ -3,12 +3,13 @@
 import SwiftUI
 
 struct ExercisesStart1: View {
+  
     var body: some View {
       
  
         VStack(){
-          BananaEmptey()
-          ee()
+        //  BananaEmptey()
+         // ee()
           workoutAnimation()
         
           Text("Running in place")

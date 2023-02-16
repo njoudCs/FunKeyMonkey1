@@ -1,8 +1,9 @@
 import Foundation
 
 
-struct Day{
+struct Day : Identifiable {
   
+  var id = UUID()
   var exercises : [Exercises]
   
   
@@ -22,7 +23,7 @@ struct Day{
 
 
 
-struct Exercises{
+struct Exercises {
   
   var statExercises = false
   

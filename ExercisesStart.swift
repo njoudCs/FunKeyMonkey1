@@ -8,50 +8,22 @@ struct ExercisesStart: View {
  // let arrayImg = [UIImage(named: "BananaEmptey") , UIImage(named: "BananaEmptey") , UIImage(named: "BananaEmptey")]
   
 // let arrayImg1 = ["BananaEmptey" ,  "BananaEmptey", "BananaEmptey"]
-
+@State var timeRemaining = 10
 
   var body: some View {
-      /*
-    ZStack(){
-        HStack{
-          
-          
-          ForEach(0..<5) { index in
-            Image("BananaEmptey")
-              .resizable()
-              .scaledToFit()
-            .frame(width: 56.0, height: 74.0) }
-        }.padding(.bottom, 600.0)
-        
-        HStack{
-          
-          workoutAnimation()
-            .padding(.top, 250)
-   //        .frame(width: 497 , height: 420).padding(.trailing, 600.0)
 
-          
-        }
-        
-        HStack{Text("Running in place")
-            .font(.system(size: 48))
-          
-          
-        }.padding(.top, 700.0)
-        
-      
-//         Image("BananaEmptey").resizable()
-//         .frame(width: 56.0, height: 74.0)
-//
-//
-        
-      } */
     
-    VStack (spacing: 16){
-      //  SearchAndFilterView(search: $search)
-        BananaEmptey()
-        ee()
-
-    }.padding()
+           VStack(){
+             BananaEmptey(timeRemaining: timeRemaining)
+             ee(timeRemaining: $timeRemaining)
+             workoutAnimation()
+           
+             Text("Running in place")
+                 .font(.title)
+                 .fontWeight(.bold)
+         
+           }.padding()
+          
         
       }
   

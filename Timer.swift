@@ -2,7 +2,8 @@
 import SwiftUI
 
 struct ee: View {
-  @State var timeRemaining = 60
+  @Binding var timeRemaining:Int 
+  
 let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
     var body: some View {
       
@@ -32,10 +33,10 @@ let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
 
 
 
-
-struct ee_Previews: PreviewProvider {
-    static var previews: some View {
-        ee()
-    }
-}
- 
+//
+//struct ee_Previews: PreviewProvider {
+//    static var previews: some View {
+//      ee(timeRemaining: 0)
+//    }
+//}
+// 
