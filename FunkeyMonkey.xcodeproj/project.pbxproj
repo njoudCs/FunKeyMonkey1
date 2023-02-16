@@ -40,6 +40,7 @@
 		A96E84E32999111D00C5ED06 /* FirstlyPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96E84E22999111D00C5ED06 /* FirstlyPage.swift */; };
 		A96E84E52999124A00C5ED06 /* HeyName.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96E84E42999124A00C5ED06 /* HeyName.swift */; };
 		CEFDB172299E6F1A003CF3D6 /* RestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFDB171299E6F1A003CF3D6 /* RestView.swift */; };
+		CEFDB174299E7365003CF3D6 /* MonkyWaving.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFDB173299E7365003CF3D6 /* MonkyWaving.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -78,6 +79,7 @@
 		A96E84E22999111D00C5ED06 /* FirstlyPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstlyPage.swift; sourceTree = "<group>"; };
 		A96E84E42999124A00C5ED06 /* HeyName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeyName.swift; sourceTree = "<group>"; };
 		CEFDB171299E6F1A003CF3D6 /* RestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestView.swift; sourceTree = "<group>"; };
+		CEFDB173299E7365003CF3D6 /* MonkyWaving.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonkyWaving.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		18D775B422AD944300AE281E = {
 			isa = PBXGroup;
 			children = (
+				CEFDB173299E7365003CF3D6 /* MonkyWaving.swift */,
 				CEFDB171299E6F1A003CF3D6 /* RestView.swift */,
 				A9118C31299D742C00624633 /* BananaEmptey.swift */,
 				A9118C2D299D65A800624633 /* Timer.swift */,
@@ -327,6 +330,7 @@
 				304BEFBF2586253400CED98D /* CameraViewController.swift in Sources */,
 				1839F4B025190F2A00BB00F1 /* AppMain.swift in Sources */,
 				376FF28D299E581A00D993DD /* achivivment.swift in Sources */,
+				CEFDB174299E7365003CF3D6 /* MonkyWaving.swift in Sources */,
 				304BEFCC258628F800CED98D /* AppError.swift in Sources */,
 				A96E84B329913BDF00C5ED06 /* AppModel.swift in Sources */,
 				CEFDB172299E6F1A003CF3D6 /* RestView.swift in Sources */,

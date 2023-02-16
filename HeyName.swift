@@ -16,31 +16,32 @@ struct HeyName: View {
           (Color("purple"))
               .ignoresSafeArea()
           
+       
+          
           Image("Back")
               .resizable()
           
+       
+           
           
-          VStack{
+          VStack(){
             
             
-            
-            Text("Welcome \(self.kidsName)")
+            StrokeText(text: "Welcome \(self.kidsName)", width: 2, color: .black)
+
+//          
             
                 .font(.system(size: 70 , weight: .heavy, design: .rounded))
                 .foregroundColor(Color("yellow"))
-            
-            
-            Image("MonkeyHi")
-                .resizable()
-                .frame(width: 480, height:650 )
+                .padding(.top , 120)
+            WorkoutView1()
+          
+              
+//            Image("MonkeyHi")
+//                .resizable()
+//                .frame(width: 480, height:650 )
             
              
-            
-            
-            
-            
-           
-            
             
             
         
@@ -58,7 +59,7 @@ struct HeyName: View {
             .cornerRadius(60)
             .shadow( radius: 4.0, x: 7.0, y: 7.0)
             
-          } .padding(.top)
+          } .padding(.bottom , 138)
           
       
           

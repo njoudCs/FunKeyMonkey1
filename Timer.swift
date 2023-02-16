@@ -20,8 +20,9 @@ let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
             .padding()
             .overlay(
               Circle()
+               
               
-                .stroke(Color.red, lineWidth: 4)
+                .stroke(Color("purple"), lineWidth: 4)
               
             )
 
