@@ -15,7 +15,7 @@ private let onBoardingSteps = [
   OnBoardingStep (image: "onbording3", title: "Exercise Daily for 6 Minutes", description: "The next day will be unlocked 24 hours after you complete the current day's exercises.")]
 
 struct OnboardingPage: View {
-    
+    @State var showStart = false
     @State private var currentStep = 0
     init() {
         UIScrollView.appearance () .bounces = false
@@ -85,10 +85,21 @@ struct OnboardingPage: View {
                 
                 
                 Button (action:{
-                    if self.currentStep < onBoardingSteps .count - 1 {
+                    if self.currentStep < onBoardingSteps.count - 1 {
                         self.currentStep += 1
+                      
                     } else {
-                    }}){
+                    }
+                  
+                  showStart.toggle()
+                  print(showStart,"☕️")
+                  
+                }
+                
+                        
+                
+                
+                ){
                         if(currentStep == 2 ){
                             StrokeText(text: "Start", width: 1, color: .black)
                                 .foregroundColor(Color.white)
@@ -104,6 +115,9 @@ struct OnboardingPage: View {
                                 .foregroundColor(.white)
                                 .padding (.bottom, 24)
                                 .shadow( radius: 4.0, x: 7.0, y: 7.0)
+                                .fullScreenCover(isPresented: $showStart) {
+                                  FirstlyPage()
+                                }
                             
                         }
                         
@@ -128,6 +142,7 @@ struct OnboardingPage: View {
                 
                 
                 HStack{
+                  
                     ForEach (0..<onBoardingSteps.count) { it in
                         if it == currentStep {
                             Circle ()
@@ -143,6 +158,7 @@ struct OnboardingPage: View {
             }
         }
     }
+  
 }
     
     
