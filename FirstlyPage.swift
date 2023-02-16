@@ -1,5 +1,6 @@
+
 import SwiftUI
-//Test
+
 struct FirstlyPage: View {
   
   @Environment(\.managedObjectContext) private var viewContext
@@ -26,17 +27,24 @@ struct FirstlyPage: View {
      (Color("purple"))
         .ignoresSafeArea()
       
-      Image("Back")
+      Image("Back2")
         .resizable()
       
     
         
-        VStack(spacing: -80) {
+        VStack(spacing: -30) {
           
-          Text("What's your name ?")
-            .font(.system(size: 70 , weight: .heavy, design: .rounded))
-            .foregroundColor(Color("yellow"))
-            .shadow(color: .black, radius: 100 )
+          
+          
+          StrokeText(text: "What's your name?", width: 2, color: .black)
+          .foregroundColor(Color("yellow"))
+          
+          .font(.system(size: 70 ,design: .rounded))
+          .fontWeight(.heavy)
+          
+         
+          
+
           
           
           
@@ -44,26 +52,13 @@ struct FirstlyPage: View {
             self.showHeyName = true
           })
           .padding(30)
+          .background(.white)
           .cornerRadius(50)
           .autocorrectionDisabled()
       
           .frame(width: 450 , height: 500)
-          
        
-         /*
-          Button ("next") {
-            saveName()
-            //
-          }.foregroundColor(Color.white)
-            .font(.system(size: 50 , weight: .heavy, design: .rounded))
-            .foregroundColor(Color.white)
-            .background(Color("yellow"))
-            .alert(isPresented: $isAlert) { () -> Alert in
-              Alert(title: Text("Alert"), message: Text("No text field should be empty"), dismissButton: .default(Text("Ok")))
-          }
-          */
-          
-          /////Another
+       
           
           NavigationLink (destination: HeyName(kidsName: $kidsName), isActive: $showHeyName){
             //  label: do {Text("Next")}
@@ -74,13 +69,27 @@ struct FirstlyPage: View {
               self.showHeyName = true
             }){
               
-            Text("Next")
+              StrokeText(text: "Next", width: 2, color: .black)
+              
+              
+              
+
             }
-          }.foregroundColor(Color.white)
-            .font(.system(size: 70 , weight: .heavy, design: .rounded))
-            .foregroundColor(Color.white)
-            .background(Color("yellow")).cornerRadius(50)
-            .shadow(color: .black, radius: 2, x: 2, y: 2)
+          }
+          
+          .frame(width: 220 , height: 100)
+          
+          .font(.system(size: 50 , weight: .heavy, design: .rounded))
+          .background(Color("yellow"))
+          .foregroundColor(Color.white)
+          .cornerRadius(60)
+      
+          .shadow( radius: 4.0, x: 7.0, y: 7.0)
+          
+          
+          
+          
+          
             .alert(isPresented: $isAlert) { () -> Alert in
               Alert(title: Text("Alert"), message: Text("No text field should be empty"), dismissButton: .default(Text("Ok")))
             }
@@ -120,6 +129,29 @@ struct FirstlyPage: View {
   
 //End function
   }
+
+struct StrokeText: View {
+let text: String
+let width: CGFloat
+let color: Color
+
+var body: some View {
+    ZStack{
+        ZStack{
+            Text(text).offset(x:  width, y:  width)
+            Text(text).offset(x: -width, y: -width)
+            Text(text).offset(x: -width, y:  width)
+            Text(text).offset(x:  width, y: -width)
+        }
+        .foregroundColor(color)
+        Text(text)
+    }
+}
+}
+
+
+
+
   
   struct FirstlyPage_Previews: PreviewProvider {
     static var previews: some View {
