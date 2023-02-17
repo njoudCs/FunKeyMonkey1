@@ -1,13 +1,19 @@
 
 import SwiftUI
 
+
+
 struct HeyName: View {
   @Binding var kidsName: String
   @Environment(\.managedObjectContext) var moc
   @FetchRequest(entity: MonkeyCoreData.entity(), sortDescriptors: [NSSortDescriptor(keyPath: \MonkeyCoreData.kidsName, ascending: true)]) var users: FetchedResults<MonkeyCoreData>
   @State private var showingAddUser = false
+  
+
+  
     var body: some View {
        
+     
       
       NavigationView{
         

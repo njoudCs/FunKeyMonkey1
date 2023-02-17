@@ -1,6 +1,18 @@
 
 import SwiftUI
 
+//extension   UserDefaults {
+//  var OnboardingPageShown: Bool {
+//    get {
+//      return (UserDefaults.standard.value(forKey: "OnboardingPageShown") as? Bool) ??
+//      false
+//    }
+//    set {
+//      UserDefaults.standard.setValue(newValue, forKey: "OnboardingPageShown")
+//    }
+//  }
+//}
+
 struct FirstlyPage: View {
   
   @Environment(\.managedObjectContext) private var viewContext
@@ -19,6 +31,11 @@ struct FirstlyPage: View {
  
   
   var body: some View {
+    
+//    if UserDefaults.standard.OnboardingPageShown {
+//      FirstlyPage()
+//    }else{
+//      OnboardingPage()}
     
     NavigationView{
     

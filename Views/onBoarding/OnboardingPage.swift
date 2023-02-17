@@ -15,6 +15,10 @@ private let onBoardingSteps = [
   OnBoardingStep (image: "onbording3", title: "Exercise Daily for 6 Minutes", description: "The next day will be unlocked 24 hours after you complete the current day's exercises.")]
 
 struct OnboardingPage: View {
+  
+  @AppStorage("OnboardingPageShown")
+  var OnboardingPageShown: Bool = false
+  
     @State var showStart = false
     @State private var currentStep = 0
     init() {
@@ -152,10 +156,12 @@ struct OnboardingPage: View {
                             Circle ()
                                 . frame (width: 20, height: 20)
                                 .foregroundColor (.gray)
+                          
                         }
                     }
                 }
             }
+//            .onAppear(perform: {UserDefaults.standard.OnboardingPageShown = true})
         }
     }
   
