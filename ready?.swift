@@ -7,22 +7,46 @@ struct ready_: View {
         .scaledToFit()
         .frame(width: 400)      
       VStack{
-        Text("Ready?")
-        Text("go")
-//
+        StrokeText(text: "Ready?", width: 1, color: .black)
+        .foregroundColor(Color("yellow"))
+        .font(.system(size: 30 ,design: .rounded))
+        .fontWeight(.heavy)
+        .font(.title)
+        .fontWeight(.bold)
+        .padding(.bottom, 70)
+        
+        StrokeText(text: "Go", width: 1, color: .black)
+        .foregroundColor(Color("yellow"))
+        .font(.system(size: 30 ,design: .rounded))
+        .fontWeight(.heavy)
+        .font(.title)
+        .fontWeight(.bold)
+        .padding(.bottom, 70)
       }
       ZStack{
-        Rectangle()
-          .foregroundColor(Color("Label"))
-          .frame(width: 300, height: 348)
+         Rectangle()
+//          .foregroundColor(Color("Label"))
+//          .frame(width: 290, height: 400)
+        
+          .frame(width: 290, height: 400)
+                          .foregroundColor(Color("Label"))
+                          .opacity(0.2)
+                          .overlay(RoundedRectangle(cornerRadius: 3)
+                            .stroke(Color.white, lineWidth: 15))
+        
+        
         VStack{
-          Text("Stand up")
-          Text("here")
+          StrokeText(text: "Stand up here", width: 1, color: .black)
+          .foregroundColor(Color("yellow"))
+          .font(.system(size: 30 ,design: .rounded))
+          .fontWeight(.heavy)
+          .font(.title)
+          .fontWeight(.bold)
+          .padding(.bottom,10)
         }
       }
     }
   }
-  
   struct ready__Previews: PreviewProvider {
     static var previews: some View {
       ready_()
