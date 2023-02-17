@@ -1,5 +1,4 @@
 import SwiftUI
-
 struct ready_: View {
   var body: some View {
     HStack{
@@ -10,7 +9,7 @@ struct ready_: View {
       VStack{
         Text("Ready?")
         Text("go")
-//        
+//
       }
       ZStack{
         Rectangle()

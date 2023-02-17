@@ -104,12 +104,17 @@ struct CountdownView: View {
         
           Image("monkyRest")
             .resizable()
-            .frame(width: 500, height: 550)
+            .frame(width: 400, height: 460)
             
-        Text("Drink Water")
-       
-          .font(.title)
-          .fontWeight(.bold)
+        StrokeText(text: "Drink Water", width: 1, color: .black)
+        .foregroundColor(Color("yellow"))
+        .font(.system(size: 45 ,design: .rounded))
+        .fontWeight(.heavy)
+        .font(.title)
+        .fontWeight(.bold)
+        .padding(.bottom, 50)
+
+         
           
         }
         
