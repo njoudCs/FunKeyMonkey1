@@ -25,9 +25,6 @@ struct ready_: View {
       }
       ZStack{
          Rectangle()
-//          .foregroundColor(Color("Label"))
-//          .frame(width: 290, height: 400)
-        
           .frame(width: 290, height: 400)
                           .foregroundColor(Color("Label"))
                           .opacity(0.2)
