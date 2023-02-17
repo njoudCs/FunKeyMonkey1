@@ -32,17 +32,16 @@ struct Workout: View {
                               .cornerRadius(70)
                       }) .padding(.bottom,350)
                       
-                      
-                      Text("Workout")
-                          .padding(.bottom ,350)
-                          .padding(.trailing ,100)
-                          .multilineTextAlignment(.center)
-                          .font(.system(size: 70, design: .rounded))
-                          .fontWeight(.heavy)
-                          .foregroundColor(Color("yellow"))
-                          .shadow(color: .black, radius: 6)
-                          .padding(.horizontal,110)
-                  }
+                    StrokeText(text: "Workout", width: 1, color: .black)
+                      .padding(.bottom ,350)
+                      .padding(.trailing ,100)
+                      .multilineTextAlignment(.center)
+                      .font(.system(size: 70, design: .rounded))
+                      .fontWeight(.heavy)
+                      .foregroundColor(Color("yellow"))
+                      .shadow(color: .black, radius: 1)
+                      .padding(.horizontal,110)
+              }
              
                       
                      

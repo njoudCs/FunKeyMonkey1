@@ -11,8 +11,8 @@ struct Hi5View: View {
     var body: some View {
       ZStack {
         
-       
-
+        
+        
         
         CameraView {
           
@@ -24,15 +24,25 @@ struct Hi5View: View {
             .foregroundColor(.orange)
         )
         .edgesIgnoringSafeArea(.all)
-
+        
         StarAnimator(makeItRain: $gameLogicController.makeItRain) {
           gameLogicController.didRainStars(count: $0)
         }
         
-       Image ("monkey-hi5")
+        VStack(spacing:100){
+
+        Image ("monkey-hi5")
           .resizable()
           .frame(width: 450, height: 750)
           .padding(.trailing, 400.0)
+          StrokeText(text: "Give me Hi five", width: 1, color: .black)
+            .foregroundColor(Color("yellow"))
+            .font(.system(size: 45 ,design: .rounded))
+            .fontWeight(.heavy)
+            .font(.title)
+            .fontWeight(.bold)
+            .padding(.bottom, 50)
+        }
       }
       .onAppear {
         gameLogicController.start()
