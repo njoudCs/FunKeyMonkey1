@@ -25,12 +25,12 @@ struct let_sGo: View {
                       
                       lablee(text: "5 Excersize", image: "Ex.png")
                           
-                      lablee(text: "Time", image: "Time")
+                      lablee(text: "7 minutes", image: "Time")
                   }.padding(.top, 90)
-                  Image("Monkymain")
+                  Image("monkey")
                       .resizable()
                       .scaledToFit()
-                      .frame(width: 400)
+                      .frame(width: 550)
               }
           }
       }
