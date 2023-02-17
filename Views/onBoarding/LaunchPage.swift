@@ -6,6 +6,7 @@ struct LaunchPage: View {
     @State private var isActive = false
     @State private var size = 0.5
     @State private var opacity = 0.3
+  
     
     func animatedImages(for name: String) -> [UIImage] {
         

@@ -13,7 +13,7 @@ struct AppMain: App {
       
     TabView {
         
-        ContentView().environment(\.managedObjectContext, persistentContainer.viewContext)
+      LaunchPage().environment(\.managedObjectContext, persistentContainer.viewContext)
 
       }
     }

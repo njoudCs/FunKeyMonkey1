@@ -13,7 +13,7 @@ struct Workout: View {
               Color("purple").ignoresSafeArea()
               Image("whitebnana")
                   .resizable()
-               //   .scaledToFit()
+                  .scaledToFit()
               Image("Monkymain")
                   .resizable()
                   .scaledToFit()
@@ -21,14 +21,14 @@ struct Workout: View {
                  
               VStack{
                   HStack{
-                      NavigationLink(destination: let_sGo(), label: {
+                      NavigationLink(destination: achiviment(), label: {
                           Image("head")
                               .resizable()
                               .scaledToFit()
                           
                               .frame(width: 100, height: 100, alignment: .center)
                           
-                              .background(.yellow)
+                              .background(Color("yellow"))
                               .cornerRadius(70)
                       }) .padding(.bottom,350)
                       

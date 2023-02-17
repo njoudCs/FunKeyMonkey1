@@ -22,6 +22,7 @@
 		376FF28D299E581A00D993DD /* achivivment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376FF28C299E581A00D993DD /* achivivment.swift */; };
 		376FF28F299E5A7500D993DD /* greatjob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376FF28E299E5A7500D993DD /* greatjob.swift */; };
 		5F2A7F82299BBF6D00F2B9D0 /* forTrying.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2A7F81299BBF6D00F2B9D0 /* forTrying.swift */; };
+		5FDD8299299F75D0006FCC1F /* Hi5View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDD8298299F75D0006FCC1F /* Hi5View.swift */; };
 		A9118C22299D19AA00624633 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9118C21299D19AA00624633 /* Workout.swift */; };
 		A9118C24299D19D000624633 /* let'sGo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9118C23299D19D000624633 /* let'sGo.swift */; };
 		A9118C28299D1BB300624633 /* LaunchPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9118C27299D1BB300624633 /* LaunchPage.swift */; };
@@ -39,6 +40,8 @@
 		A96E84E129990AC500C5ED06 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96E84E029990AC500C5ED06 /* CoreDataManager.swift */; };
 		A96E84E32999111D00C5ED06 /* FirstlyPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96E84E22999111D00C5ED06 /* FirstlyPage.swift */; };
 		A96E84E52999124A00C5ED06 /* HeyName.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96E84E42999124A00C5ED06 /* HeyName.swift */; };
+		CEFDB172299E6F1A003CF3D6 /* RestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFDB171299E6F1A003CF3D6 /* RestView.swift */; };
+		CEFDB174299E7365003CF3D6 /* MonkyWaving.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFDB173299E7365003CF3D6 /* MonkyWaving.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +63,7 @@
 		376FF28C299E581A00D993DD /* achivivment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = achivivment.swift; sourceTree = "<group>"; };
 		376FF28E299E5A7500D993DD /* greatjob.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = greatjob.swift; sourceTree = "<group>"; };
 		5F2A7F81299BBF6D00F2B9D0 /* forTrying.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = forTrying.swift; sourceTree = "<group>"; };
+		5FDD8298299F75D0006FCC1F /* Hi5View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hi5View.swift; sourceTree = "<group>"; };
 		A9118C21299D19AA00624633 /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
 		A9118C23299D19D000624633 /* let'sGo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "let'sGo.swift"; sourceTree = "<group>"; };
 		A9118C27299D1BB300624633 /* LaunchPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchPage.swift; sourceTree = "<group>"; };
@@ -76,6 +80,8 @@
 		A96E84E029990AC500C5ED06 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		A96E84E22999111D00C5ED06 /* FirstlyPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstlyPage.swift; sourceTree = "<group>"; };
 		A96E84E42999124A00C5ED06 /* HeyName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeyName.swift; sourceTree = "<group>"; };
+		CEFDB171299E6F1A003CF3D6 /* RestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestView.swift; sourceTree = "<group>"; };
+		CEFDB173299E7365003CF3D6 /* MonkyWaving.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonkyWaving.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +98,9 @@
 		18D775B422AD944300AE281E = {
 			isa = PBXGroup;
 			children = (
+				CEFDB173299E7365003CF3D6 /* MonkyWaving.swift */,
+				5FDD8298299F75D0006FCC1F /* Hi5View.swift */,
+				CEFDB171299E6F1A003CF3D6 /* RestView.swift */,
 				A9118C31299D742C00624633 /* BananaEmptey.swift */,
 				A9118C2D299D65A800624633 /* Timer.swift */,
 				A9118C25299D1B8800624633 /* Views */,
@@ -313,6 +322,7 @@
 				5F2A7F82299BBF6D00F2B9D0 /* forTrying.swift in Sources */,
 				308D74B62587B18700A39EB8 /* FingersOverlay.swift in Sources */,
 				A96E84B52991441B00C5ED06 /* ExercisesStart1.swift in Sources */,
+				5FDD8299299F75D0006FCC1F /* Hi5View.swift in Sources */,
 				A96E84E129990AC500C5ED06 /* CoreDataManager.swift in Sources */,
 				A96E84B12991340C00C5ED06 /* SwiftUIView.swift in Sources */,
 				A96E84E52999124A00C5ED06 /* HeyName.swift in Sources */,
@@ -324,8 +334,10 @@
 				304BEFBF2586253400CED98D /* CameraViewController.swift in Sources */,
 				1839F4B025190F2A00BB00F1 /* AppMain.swift in Sources */,
 				376FF28D299E581A00D993DD /* achivivment.swift in Sources */,
+				CEFDB174299E7365003CF3D6 /* MonkyWaving.swift in Sources */,
 				304BEFCC258628F800CED98D /* AppError.swift in Sources */,
 				A96E84B329913BDF00C5ED06 /* AppModel.swift in Sources */,
+				CEFDB172299E6F1A003CF3D6 /* RestView.swift in Sources */,
 				301202F0258528A7007B2E1B /* StarAnimatorView.swift in Sources */,
 				308D74B125878AC400A39EB8 /* GameLogicController.swift in Sources */,
 				304BEFC2258625C300CED98D /* CameraPreview.swift in Sources */,
@@ -473,7 +485,7 @@
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "StarCount/Preview\\ Content";
-				DEVELOPMENT_TEAM = C48XQY4D63;
+				DEVELOPMENT_TEAM = H7UJR9Y63X;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "StarCount/Supporting Files/Info.plist";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
@@ -496,7 +508,7 @@
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "StarCount/Preview\\ Content";
-				DEVELOPMENT_TEAM = C48XQY4D63;
+				DEVELOPMENT_TEAM = H7UJR9Y63X;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "StarCount/Supporting Files/Info.plist";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
