@@ -10,6 +10,7 @@ struct ready_: View {
       VStack{
         Text("Ready?")
         Text("go")
+//        
       }
       ZStack{
         Rectangle()
