@@ -13,7 +13,7 @@ struct Workout: View {
               Color("purple").ignoresSafeArea()
               Image("whitebnana")
                   .resizable()
-                  .scaledToFit()
+                 // .scaledToFit()
               Image("Monkymain")
                   .resizable()
                   .scaledToFit()
@@ -215,7 +215,7 @@ struct Workout: View {
                 
                 VStack {
                   
-                  NavigationLink(destination: ready_(), label: {
+                  NavigationLink(destination: let_sGo(), label: {
                     level(buttonTitle: "Day 1")
                   })
                   
@@ -252,7 +252,7 @@ struct Workout: View {
         
         
       }.navigationViewStyle(StackNavigationViewStyle())
-        .navigationBarHidden(true)
+       // .navigationBarHidden(true)
     }
   
   func distance(_ item: Int) -> Double {
