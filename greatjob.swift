@@ -31,6 +31,7 @@ struct greatjob: View {
                     
                 Button(action: {
                     print("GO")
+                  
                 }) {
                     HStack{
                       StrokeText(text: "Start", width: 1, color: .black)

@@ -203,8 +203,7 @@ struct Workout: View {
                       .padding(.top,170)
                     
                   }
-                  
-                  
+   
                   
                 }
                 .frame(width: 200, height: 200)
@@ -216,7 +215,7 @@ struct Workout: View {
                 
                 VStack {
                   
-                  NavigationLink(destination: let_sGo(), label: {
+                  NavigationLink(destination: ready_(), label: {
                     level(buttonTitle: "Day 1")
                   })
                   
