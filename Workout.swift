@@ -47,13 +47,42 @@ struct Workout: View {
                      
                       
           ZStack{
-                        
+                    
+            
+           
+          
+            
               VStack {
-                      NavigationLink(destination: let_sGo(), label: {
-                                  level(buttonTitle: "Day 1")
-                              }
-                              )
-                          }.frame(width: 200, height: 200)
+//                      NavigationLink(destination: let_sGo(), label: {
+//                                  level2(buttonTitle2: "Day 7")
+//                              }
+//                              )
+                
+                ZStack{
+                 
+                  level2(buttonTitle2: " Day 7")
+                  
+                  
+                  HStack{
+                    Text("Coming soon")
+                      .font(.system(size: 25))
+                    Image(systemName: "lock")
+                      
+                  }.foregroundColor(.gray)
+                   
+                    .padding(.top,170)
+                  
+                }
+                
+                
+                
+                          }
+              
+              
+              
+              
+              
+              .frame(width: 200, height: 200)
                           .scaleEffect(1.0 - abs(distance(1)) * 0.2 )
                           .opacity(2.0 - abs(distance(1)) * 0.3 )
                           .offset(x: myXOffset(1), y: 0)
@@ -61,9 +90,22 @@ struct Workout: View {
                           
                           VStack {
                               
-                              NavigationLink(destination: let_sGo(), label: {
-                                  level(buttonTitle: "Day 2")
-                              })
+                            ZStack{
+                             
+                              level2(buttonTitle2: " Day 6")
+                              
+                              
+                              HStack{
+                                Text("Coming soon")
+                                  .font(.system(size: 25))
+                                Image(systemName: "lock")
+                                  
+                              }.foregroundColor(.gray)
+                               
+                                .padding(.top,170)
+                              
+                            }
+                            
                           }
                           .frame(width: 200, height: 200)
                           
@@ -73,10 +115,21 @@ struct Workout: View {
                           .zIndex(1.0 - abs(distance(2)) * 0.1)
                               
                           VStack {
-                              NavigationLink(destination: let_sGo(), label: {
-                                  level(buttonTitle: "Day 3")
-                              })
+                            ZStack{
+                             
+                              level2(buttonTitle2: " Day 5")
                               
+                              
+                              HStack{
+                                Text("Coming soon")
+                                  .font(.system(size: 25))
+                                Image(systemName: "lock")
+                                  
+                              }.foregroundColor(.gray)
+                               
+                                .padding(.top,170)
+                              
+                            }
                           }
                          .frame(width: 200, height: 200)
                           
@@ -87,9 +140,21 @@ struct Workout: View {
                           
                           VStack {
                               
-                              NavigationLink(destination: let_sGo(), label: {
-                                  level(buttonTitle: "Day 4")
-                              })
+                            ZStack{
+                             
+                              level2(buttonTitle2: " Day 4")
+                              
+                              
+                              HStack{
+                                Text("Coming soon")
+                                  .font(.system(size: 25))
+                                Image(systemName: "lock")
+                                  
+                              }.foregroundColor(.gray)
+                               
+                                .padding(.top,170)
+                              
+                            }
                               
                           }
                           .frame(width: 200, height: 200)
@@ -101,10 +166,21 @@ struct Workout: View {
                          
                           VStack {
                               
-                              NavigationLink(destination: let_sGo(), label: {
-                                  level(buttonTitle: "Day 5")
-                              })
+                            ZStack{
+                             
+                              level2(buttonTitle2: " Day 3")
                               
+                              
+                              HStack{
+                                Text("Coming soon")
+                                  .font(.system(size: 25))
+                                Image(systemName: "lock")
+                                  
+                              }.foregroundColor(.gray)
+                               
+                                .padding(.top,170)
+                              
+                            }
                           }
                           .frame(width: 200, height: 200)
                           
@@ -114,10 +190,23 @@ struct Workout: View {
                           .zIndex(1.0 - abs(distance(5)) * 0.1)
                          
                           VStack {
+                            ZStack{
+                             
+                              level2(buttonTitle2: " Day 2")
                               
-                              NavigationLink(destination: let_sGo(), label: {
-                                  level(buttonTitle: "Day 6")
-                              })
+                              
+                              HStack{
+                                Text("Coming soon")
+                                  .font(.system(size: 25))
+                                Image(systemName: "lock")
+                                  
+                              }.foregroundColor(.gray)
+                               
+                                .padding(.top,170)
+                              
+                            }
+                         
+                              
                               
                           }
                           .frame(width: 200, height: 200)
@@ -130,7 +219,7 @@ struct Workout: View {
                           VStack {
                               
                               NavigationLink(destination: let_sGo(), label: {
-                                  level(buttonTitle: "Day 7")
+                                  level(buttonTitle: "Day 1")
                               })
                               
                           }
@@ -141,6 +230,9 @@ struct Workout: View {
                           .offset(x: myXOffset(7), y: 0)
                           .zIndex(1.0 - abs(distance(7)) * 0.1)
               
+            
+         
+            
           }
           .gesture(
               DragGesture()
@@ -158,8 +250,14 @@ struct Workout: View {
                   
           .padding(.bottom,320)
               }
+            
+           
+            
           }
+       
+        
       }.navigationViewStyle(StackNavigationViewStyle())
+        .navigationBarHidden(true)
   }
   
   func distance(_ item: Int) -> Double {
@@ -180,11 +278,28 @@ struct level : View {
   @State var buttonTitle: String
   var body: some View{
       
-      Text(buttonTitle)
+    StrokeText(text: buttonTitle, width: 1, color: .black)
           
           .frame(width: 316,height: 316)
           .foregroundColor(.white)
           .background(Color("yellow"))
+          .cornerRadius(55)
+          .font(.system(size: 70, weight: .heavy, design: .rounded))
+       }
+}
+
+
+
+
+struct level2 : View {
+  @State var buttonTitle2: String
+  var body: some View{
+      
+    StrokeText(text: buttonTitle2, width: 1, color: .black)
+          
+          .frame(width: 316,height: 316)
+          .foregroundColor(.white)
+          .background(Color("lable"))
           .cornerRadius(55)
           .font(.system(size: 70, weight: .heavy, design: .rounded))
        }

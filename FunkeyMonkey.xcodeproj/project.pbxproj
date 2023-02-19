@@ -41,6 +41,7 @@
 		A96E84E129990AC500C5ED06 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96E84E029990AC500C5ED06 /* CoreDataManager.swift */; };
 		A96E84E32999111D00C5ED06 /* FirstlyPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96E84E22999111D00C5ED06 /* FirstlyPage.swift */; };
 		A96E84E52999124A00C5ED06 /* HeyName.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96E84E42999124A00C5ED06 /* HeyName.swift */; };
+		CE8CFFDF29A1F42400FFC12B /* ComingSoonAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8CFFDE29A1F42400FFC12B /* ComingSoonAlert.swift */; };
 		CEFDB172299E6F1A003CF3D6 /* RestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFDB171299E6F1A003CF3D6 /* RestView.swift */; };
 		CEFDB174299E7365003CF3D6 /* MonkyWaving.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFDB173299E7365003CF3D6 /* MonkyWaving.swift */; };
 /* End PBXBuildFile section */
@@ -82,6 +83,7 @@
 		A96E84E029990AC500C5ED06 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		A96E84E22999111D00C5ED06 /* FirstlyPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstlyPage.swift; sourceTree = "<group>"; };
 		A96E84E42999124A00C5ED06 /* HeyName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeyName.swift; sourceTree = "<group>"; };
+		CE8CFFDE29A1F42400FFC12B /* ComingSoonAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComingSoonAlert.swift; sourceTree = "<group>"; };
 		CEFDB171299E6F1A003CF3D6 /* RestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestView.swift; sourceTree = "<group>"; };
 		CEFDB173299E7365003CF3D6 /* MonkyWaving.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonkyWaving.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -100,6 +102,7 @@
 		18D775B422AD944300AE281E = {
 			isa = PBXGroup;
 			children = (
+				CE8CFFDE29A1F42400FFC12B /* ComingSoonAlert.swift */,
 				A9118C25299D1B8800624633 /* Views */,
 				CEFDB173299E7365003CF3D6 /* MonkyWaving.swift */,
 				5FDD8298299F75D0006FCC1F /* Hi5View.swift */,
@@ -324,6 +327,7 @@
 				A9118C22299D19AA00624633 /* Workout.swift in Sources */,
 				5F2A7F82299BBF6D00F2B9D0 /* forTrying.swift in Sources */,
 				308D74B62587B18700A39EB8 /* FingersOverlay.swift in Sources */,
+				CE8CFFDF29A1F42400FFC12B /* ComingSoonAlert.swift in Sources */,
 				A96E84B52991441B00C5ED06 /* ExercisesStart1.swift in Sources */,
 				5FDD8299299F75D0006FCC1F /* Hi5View.swift in Sources */,
 				A96E84E129990AC500C5ED06 /* CoreDataManager.swift in Sources */,
