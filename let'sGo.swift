@@ -33,7 +33,7 @@ struct let_sGo: View {
                       .frame(width: 550)
               }
           }
-      }
+      } .navigationBarHidden(true)
   }
 }
 struct lablee: View {

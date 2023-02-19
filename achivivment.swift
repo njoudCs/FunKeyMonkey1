@@ -54,7 +54,7 @@ struct achiviment: View {
                         }
                     } }
             }
-        }
+        }.navigationBarHidden(true)
     }
 }
 //struct StrokeText1: View {

@@ -53,8 +53,7 @@ struct WorkoutView: View {
     var body: some View {
         VStack (alignment: HorizontalAlignment.center, spacing: 10) {
             workoutAnimation()
-            
-        }
+                  }
     }
 }
 

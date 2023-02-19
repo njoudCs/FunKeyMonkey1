@@ -11,7 +11,7 @@ struct onAppear: View {
         Image(systemName: "xmark")
        
         ExercisesStart()
-
       }
-    }
+       } 
+  
 }
