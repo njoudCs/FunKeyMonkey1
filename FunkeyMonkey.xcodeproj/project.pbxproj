@@ -211,7 +211,6 @@
 			children = (
 				A96E84B42991441B00C5ED06 /* ExercisesStart1.swift */,
 				A9118C2F299D6AE400624633 /* ExercisesStart2.swift */,
-				A9118C39299E533600624633 /* Exercises5 */,
 				304BEFC92586268B00CED98D /* CameraView */,
 				A9118C26299D1B9400624633 /* onBoarding */,
 			);
@@ -225,13 +224,6 @@
 				A9118C29299D1BCB00624633 /* OnboardingPage.swift */,
 			);
 			path = onBoarding;
-			sourceTree = "<group>";
-		};
-		A9118C39299E533600624633 /* Exercises5 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Exercises5;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

@@ -87,38 +87,46 @@ struct ProgressBar: View {
 }
 
 struct CountdownView: View {
+  
+  @State var pushNewView: Bool = false
     @State var counter: Int = 0
     var countTo: Int = 15
     
     var body: some View {
-      VStack(spacing:100){
+      
+      ZStack{
+        VStack(spacing:100){
           
           
-            ZStack{
-                ProgressTrack()
-                ProgressBar(counter: counter, countTo: countTo)
-                Clock(counter: counter, countTo: countTo)
-            }.padding(.top)
-        
-        
-        
+          ZStack{
+            ProgressTrack()
+            ProgressBar(counter: counter, countTo: countTo)
+            Clock(counter: counter, countTo: countTo)
+          }.padding(.top)
+          
+          
+          
           Image("monkyRest")
             .resizable()
             .frame(width: 400, height: 460)
-            
-        StrokeText(text: "Drink Water", width: 1, color: .black)
-        .foregroundColor(Color("yellow"))
-        .font(.system(size: 45 ,design: .rounded))
-        .fontWeight(.heavy)
-        .font(.title)
-        .fontWeight(.bold)
-        .padding(.bottom, 50)
-
-         
+          
+          StrokeText(text: "Drink Water", width: 1, color: .black)
+            .foregroundColor(Color("yellow"))
+            .font(.system(size: 45 ,design: .rounded))
+            .fontWeight(.heavy)
+            .font(.title)
+            .fontWeight(.bold)
+            .padding(.bottom, 50)
+          
+          
           
         }
         
-        .onReceive(timer) { time in
+        if pushNewView{
+
+              Workout()
+            }
+      }.onReceive(timer) { time in
             if (self.counter < self.countTo) {
                 self.counter += 1
             }

@@ -252,7 +252,7 @@ struct Workout: View {
         
         
       }.navigationViewStyle(StackNavigationViewStyle())
-       // .navigationBarHidden(true)
+        .navigationBarHidden(true)
     }
   
   func distance(_ item: Int) -> Double {

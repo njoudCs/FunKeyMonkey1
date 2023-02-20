@@ -47,7 +47,7 @@ struct let_sGo: View {
             .cornerRadius(60)
           }
         }}.navigationViewStyle(StackNavigationViewStyle())
-      //.navigationBarHidden(true)
+      .navigationBarHidden(true)
   }
 }
 

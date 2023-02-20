@@ -4,9 +4,12 @@
 import SwiftUI
 
 struct Hi5View: View {
-  
+  @State private var hasTimeElapsed = false
   @State private var overlayPoints: [CGPoint] = []
   @StateObject private var gameLogicController = GameLogicController()
+  @State var pushNewView: Bool = false
+  
+  
   
     var body: some View {
       
@@ -63,22 +66,41 @@ struct Hi5View: View {
         
       )
     }
+  
+  
+  
   @ViewBuilder
   private var successBadge: some View {
+    ZStack{
+    if !hasTimeElapsed {
     if let success = gameLogicController.successBadge {
-      Image("high-five-clipart-md")
-        .resizable()
-        .imageScale(.large)
-        .foregroundColor(.white)
-        .frame(width: 200, height: 200)
-        .shadow(radius: 5)
+    Image("high-five-clipart-md")
+    .resizable()
+    .imageScale(.large)
+    .foregroundColor(.white)
+    .frame(width: 200, height: 200)
+    .shadow(radius: 5)
+
+        }
+        else {
+          EmptyView()
+        }
+        
+      }
       
-      
-    } else {
-      EmptyView()
+      else{
+        
+        CountdownView()
+      }
+
+        
+        
+    }.onAppear(){
+      DispatchQueue.main.asyncAfter(deadline: .now() + 4.0) {
+        hasTimeElapsed = true
+      }
     }
-    
-  }
+    }
 }
 
 struct Hi5View_Previews: PreviewProvider {
