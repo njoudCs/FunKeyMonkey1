@@ -9,6 +9,16 @@ struct Hi5View: View {
   @StateObject private var gameLogicController = GameLogicController()
   
     var body: some View {
+      
+      // Don't deleted it guys //
+      
+//      let speechService = SpeechService()
+      
+//      override func Hi5View (_ animated:Bool) {
+//        super.Hi5View(animated)
+        
+//        speechService.say("give me hi five!")
+      
       ZStack {
         
         
