@@ -46,6 +46,7 @@ struct FirstlyPage: View {
       
       Image("Back2")
         .resizable()
+        .ignoresSafeArea()
       
     
         
@@ -120,6 +121,7 @@ struct FirstlyPage: View {
     }
     
   }.navigationViewStyle(StackNavigationViewStyle())
+      .accentColor(Color("yellow"))
     
   }
   //Start functin
