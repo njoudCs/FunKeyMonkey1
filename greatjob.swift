@@ -30,7 +30,7 @@ struct greatjob: View {
         //                .resizable()
         //                .frame(width: 80,height: 80)
         Confetti()
-        Text ("let's celebrate")
+        Text ("press the monkey")
           .foregroundColor(Color("yellow"))
           .padding()
         
