@@ -36,7 +36,7 @@ struct let_sGo: View {
             }.padding(.bottom,70)
             
             
-            NavigationLink(destination: ready_(),
+            NavigationLink(destination: ready(),
                            label: { StrokeText(text: "Start", width: 1, color: .black)
             })
             

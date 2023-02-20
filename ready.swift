@@ -1,7 +1,7 @@
 // Created by Lujain Mohammed
 
 import SwiftUI
-struct ready_: View {
+struct ready: View {
   var body: some View {
     HStack{
       Image("Tshap-monkey")
@@ -46,9 +46,9 @@ struct ready_: View {
       }
     }
   }
-  struct ready__Previews: PreviewProvider {
+  struct ready_Previews: PreviewProvider {
     static var previews: some View {
-      ready_()
+      ready()
     }
   }
   
