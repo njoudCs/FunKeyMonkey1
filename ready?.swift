@@ -4,7 +4,7 @@ import SwiftUI
 struct ready_: View {
   var body: some View {
     HStack{
-      Image("monkey")
+      Image("Tshap-monkey")
         .resizable()
         .scaledToFit()
         .frame(width: 400)      
