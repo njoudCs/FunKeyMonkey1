@@ -110,10 +110,20 @@ struct CountdownView: View {
           }.padding(.top)
           
           
-          
-          Image("monkyRest")
-            .resizable()
-            .frame(width: 400, height: 460)
+          ZStack{
+         
+            Image("monkyRest")
+              .resizable()
+              .frame(width: 400, height: 460)
+            
+            
+            Image("face-monkey")
+              .resizable()
+              .frame(width: 75, height: 50)
+              .padding(.top,65)
+              .padding(.leading,30)
+            
+          }
           
           StrokeText(text: "Drink Water", width: 1, color: .black)
             .foregroundColor(Color("yellow"))
