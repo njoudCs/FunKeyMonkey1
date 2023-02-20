@@ -21,6 +21,7 @@ struct Clock: View {
           
             Text(counterToMinutes())
                 .font(.custom("Avenir Next", size: 60))
+                .foregroundColor(Color("purple"))
                 .fontWeight(.black)
           
                 
@@ -47,7 +48,8 @@ struct ProgressTrack: View {
             .fill(Color.clear)
             .frame(width: 250, height: 250)
             .overlay(
-                Circle().stroke(Color.black, lineWidth: 15)
+                Circle()
+//                  .stroke(Color.black, lineWidth: 15)
         )
     }
 }
@@ -70,7 +72,7 @@ struct ProgressBar: View {
                         )
                 )
                     .foregroundColor(
-                        (completed() ? Color.green : Color("purple"))
+                      (completed() ? Color.white : Color.gray)
                 ).animation(
                     .easeInOut(duration: 0.2)
                 )

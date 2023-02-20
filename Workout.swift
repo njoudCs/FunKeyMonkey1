@@ -7,12 +7,13 @@ struct Workout: View {
   @State private var draggingItem = 0.0
   
     var body: some View {
-      NavigationView() {
+     
           ZStack() {
               
               Color("purple").ignoresSafeArea()
               Image("whitebnana")
                   .resizable()
+                  .ignoresSafeArea()
                  // .scaledToFit()
               Image("Monkymain")
                   .resizable()
@@ -251,8 +252,8 @@ struct Workout: View {
           }
         
         
-      }.navigationViewStyle(StackNavigationViewStyle())
-        .navigationBarHidden(true)
+      
+       
     }
   
   func distance(_ item: Int) -> Double {

@@ -15,7 +15,7 @@ struct HeyName: View {
        
      
       
-      NavigationView{
+    
         
         ZStack{
   
@@ -80,7 +80,7 @@ struct HeyName: View {
         
         
         
-      }.navigationViewStyle(StackNavigationViewStyle())
+    
 
     }
 }
