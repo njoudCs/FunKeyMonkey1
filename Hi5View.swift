@@ -13,12 +13,12 @@ struct Hi5View: View {
       // Don't deleted it guys //
       
 //      let speechService = SpeechService()
-      
-//      override func Hi5View (_ animated:Bool) {
-//        super.Hi5View(animated)
-        
+//      
+//      override func onAppearview (_ animated:Bool) {
+//        super.onAppearview(animated)
+//        
 //        speechService.say("give me hi five!")
-      
+//      
       ZStack {
         
         
@@ -45,7 +45,7 @@ struct Hi5View: View {
           .resizable()
           .frame(width: 450, height: 750)
           .padding(.trailing, 400.0)
-          StrokeText(text: "Give me Hi five", width: 1, color: .black)
+          StrokeText(text: "Give me Hghi five", width: 1, color: .black)
             .foregroundColor(Color("yellow"))
             .font(.system(size: 45 ,design: .rounded))
             .fontWeight(.heavy)

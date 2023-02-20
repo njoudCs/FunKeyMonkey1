@@ -1,3 +1,4 @@
+// Created by Lujain Mohammed
 
 
 import SwiftUI
@@ -33,6 +34,7 @@ struct greatjob: View {
                     print("GO")
                   
                 }) {
+                  
                     HStack{
                       StrokeText(text: "Start", width: 1, color: .black)
                           .foregroundColor(Color.white)

@@ -23,6 +23,8 @@
 		376FF28F299E5A7500D993DD /* greatjob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376FF28E299E5A7500D993DD /* greatjob.swift */; };
 		376FF29129A0128600D993DD /* ready?.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376FF29029A0128600D993DD /* ready?.swift */; };
 		376FF29529A2CAF700D993DD /* SpeechService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376FF29429A2CAF700D993DD /* SpeechService.swift */; };
+		376FF2B329A30FA900D993DD /* Confetti.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376FF2B229A30FA900D993DD /* Confetti.swift */; };
+		376FF2B629A312D700D993DD /* ConfettiSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 376FF2B529A312D700D993DD /* ConfettiSwiftUI */; };
 		5F2A7F82299BBF6D00F2B9D0 /* forTrying.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2A7F81299BBF6D00F2B9D0 /* forTrying.swift */; };
 		5FDD8299299F75D0006FCC1F /* Hi5View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDD8298299F75D0006FCC1F /* Hi5View.swift */; };
 		A9118C22299D19AA00624633 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9118C21299D19AA00624633 /* Workout.swift */; };
@@ -67,6 +69,7 @@
 		376FF28E299E5A7500D993DD /* greatjob.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = greatjob.swift; sourceTree = "<group>"; };
 		376FF29029A0128600D993DD /* ready?.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ready?.swift"; sourceTree = "<group>"; };
 		376FF29429A2CAF700D993DD /* SpeechService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechService.swift; sourceTree = "<group>"; };
+		376FF2B229A30FA900D993DD /* Confetti.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Confetti.swift; sourceTree = "<group>"; };
 		5F2A7F81299BBF6D00F2B9D0 /* forTrying.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = forTrying.swift; sourceTree = "<group>"; };
 		5FDD8298299F75D0006FCC1F /* Hi5View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hi5View.swift; sourceTree = "<group>"; };
 		A9118C21299D19AA00624633 /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
@@ -95,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				376FF2B629A312D700D993DD /* ConfettiSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,6 +125,7 @@
 				A96E84B229913BDF00C5ED06 /* AppModel.swift */,
 				A96E84B62993FEA300C5ED06 /* GoExercise.swift */,
 				A96E84B02991340C00C5ED06 /* SwiftUIView.swift */,
+				376FF2B229A30FA900D993DD /* Confetti.swift */,
 				376FF28E299E5A7500D993DD /* greatjob.swift */,
 				5F2A7F81299BBF6D00F2B9D0 /* forTrying.swift */,
 				376FF29429A2CAF700D993DD /* SpeechService.swift */,
@@ -246,6 +251,9 @@
 			dependencies = (
 			);
 			name = FunkeyMonkey;
+			packageProductDependencies = (
+				376FF2B529A312D700D993DD /* ConfettiSwiftUI */,
+			);
 			productName = MyRWTutorial;
 			productReference = 18D775BD22AD944300AE281E /* FunkeyMonkey.app */;
 			productType = "com.apple.product-type.application";
@@ -274,6 +282,9 @@
 				Base,
 			);
 			mainGroup = 18D775B422AD944300AE281E;
+			packageReferences = (
+				376FF2B429A312D700D993DD /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */,
+			);
 			productRefGroup = 18D775BE22AD944300AE281E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -335,6 +346,7 @@
 				5FDD8299299F75D0006FCC1F /* Hi5View.swift in Sources */,
 				A96E84E129990AC500C5ED06 /* CoreDataManager.swift in Sources */,
 				A96E84B12991340C00C5ED06 /* SwiftUIView.swift in Sources */,
+				376FF2B329A30FA900D993DD /* Confetti.swift in Sources */,
 				A96E84E52999124A00C5ED06 /* HeyName.swift in Sources */,
 				A96E84E32999111D00C5ED06 /* FirstlyPage.swift in Sources */,
 				A96E84B9299522AF00C5ED06 /* onAppear.swift in Sources */,
@@ -558,6 +570,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		376FF2B429A312D700D993DD /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/simibac/ConfettiSwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		376FF2B529A312D700D993DD /* ConfettiSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 376FF2B429A312D700D993DD /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */;
+			productName = ConfettiSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		A96E84BA2999064D00C5ED06 /* FunMonkeyModel.xcdatamodeld */ = {

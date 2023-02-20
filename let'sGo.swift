@@ -33,7 +33,7 @@ struct let_sGo: View {
                 .resizable()
                 .scaledToFit()
                 .frame(width: 550)
-            }.padding(.top,70)
+            }.padding(.bottom,70)
             
             
             NavigationLink(destination: ready_(),
