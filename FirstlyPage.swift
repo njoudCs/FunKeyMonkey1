@@ -109,7 +109,7 @@ struct FirstlyPage: View {
           
           
             .alert(isPresented: $isAlert) { () -> Alert in
-              Alert(title: Text("Alert"), message: Text("Please enter yor name"), dismissButton: .default(Text("Ok")))
+              Alert(title: Text("Alert"), message: Text("Please enter your name"), dismissButton: .default(Text("Ok")))
             }
 
          
