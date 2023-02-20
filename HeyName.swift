@@ -26,6 +26,7 @@ struct HeyName: View {
           
           Image("Back")
               .resizable()
+              .ignoresSafeArea()
           
        
            
