@@ -7,57 +7,66 @@ import SwiftUI
 //*************ExercisesStart1**************//
 
 struct ExercisesStart1: View {
-let imagesc = ["BananaEmptey" ,"BananaEmptey" ,"BananaEmptey", "BananaEmptey", "BananaEmptey"]
+  let imagesc = ["BananaEmptey" ,"BananaEmptey" ,"BananaEmptey", "BananaEmptey", "BananaEmptey"]
   
   @State var timeRemaining = 10
-  
-
+  @State private var hasTimeElapsed = false
   @State var pushNewView: Bool = false
   
   var body: some View {
-
+    
+    
     ScrollView (showsIndicators: false) {
       ZStack{
         
-        CameraView()
-        
-        VStack ( spacing: 16){
+        if !hasTimeElapsed {
+          CameraView()
           
-          HStack (){
-            
-            HStack {
-           
-              ForEach(Array(imagesc.enumerated()), id: \.offset) { index, image in
-                Image(imagesc[index])
-                  .resizable()
-                  .scaledToFit()
-                .frame(width: 56.0, height: 74.0) }
+          
+          VStack ( spacing: 16){
+            HStack (){
+              
+              HStack {
+                
+                ForEach(Array(imagesc.enumerated()), id: \.offset) { index, image in
+                  Image(imagesc[index])
+                    .resizable()
+                    .scaledToFit()
+                  .frame(width: 56.0, height: 74.0) }
+                
+              }
+              
+              .padding()
+              .cornerRadius(8)
               
             }
             
-            .padding()
-            .cornerRadius(8)
+            Timer1(timeRemaining: $timeRemaining)
             
-          }
+            workoutAnimation()
+            Text("Running in place").padding(.top, 800.0)
+            
+          }.padding()
           
-          Timer1(timeRemaining: $timeRemaining)
           
-          workoutAnimation()
-          Text("Running in place").padding(.top, 800.0)
-          
-        }.padding()
+        }
         
-        if(timeRemaining == 0){
+        
+        else{
+          
           Hi5View()
         }
         
+      }.onAppear(){
+        DispatchQueue.main.asyncAfter(deadline: .now() + 10.0) {
+          hasTimeElapsed = true
+        }
       }
       
       
       
-      
-    }}}
-  
+    }}
+}
 
   
 
