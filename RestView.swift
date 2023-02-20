@@ -95,6 +95,9 @@ struct CountdownView: View {
     var body: some View {
       
       ZStack{
+        Color("purple").ignoresSafeArea()
+        Image("whitebnana")
+          .resizable()
         VStack(spacing:100){
           
           

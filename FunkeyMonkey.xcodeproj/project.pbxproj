@@ -21,7 +21,7 @@
 		308D74B62587B18700A39EB8 /* FingersOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308D74B52587B18700A39EB8 /* FingersOverlay.swift */; };
 		376FF28D299E581A00D993DD /* achivivment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376FF28C299E581A00D993DD /* achivivment.swift */; };
 		376FF28F299E5A7500D993DD /* greatjob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376FF28E299E5A7500D993DD /* greatjob.swift */; };
-		376FF29129A0128600D993DD /* ready?.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376FF29029A0128600D993DD /* ready?.swift */; };
+		376FF29129A0128600D993DD /* ready.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376FF29029A0128600D993DD /* ready.swift */; };
 		376FF29529A2CAF700D993DD /* SpeechService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376FF29429A2CAF700D993DD /* SpeechService.swift */; };
 		376FF2B329A30FA900D993DD /* Confetti.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376FF2B229A30FA900D993DD /* Confetti.swift */; };
 		376FF2B629A312D700D993DD /* ConfettiSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 376FF2B529A312D700D993DD /* ConfettiSwiftUI */; };
@@ -31,13 +31,12 @@
 		A9118C24299D19D000624633 /* let'sGo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9118C23299D19D000624633 /* let'sGo.swift */; };
 		A9118C28299D1BB300624633 /* LaunchPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9118C27299D1BB300624633 /* LaunchPage.swift */; };
 		A9118C2A299D1BCB00624633 /* OnboardingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9118C29299D1BCB00624633 /* OnboardingPage.swift */; };
-		A9118C2E299D65A800624633 /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9118C2D299D65A800624633 /* Timer.swift */; };
-		A9118C30299D6AE400624633 /* ExercisesStart2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9118C2F299D6AE400624633 /* ExercisesStart2.swift */; };
+		A9118C2E299D65A800624633 /* Timer1.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9118C2D299D65A800624633 /* Timer1.swift */; };
 		A9118C32299D742C00624633 /* BananaEmptey.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9118C31299D742C00624633 /* BananaEmptey.swift */; };
+		A9680A1929A39E2800E4F96E /* ExercisesStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9680A1829A39E2800E4F96E /* ExercisesStruct.swift */; };
 		A96E848F2991246F00C5ED06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18D775C622AD944400AE281E /* Assets.xcassets */; };
 		A96E84B12991340C00C5ED06 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96E84B02991340C00C5ED06 /* SwiftUIView.swift */; };
 		A96E84B329913BDF00C5ED06 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96E84B229913BDF00C5ED06 /* AppModel.swift */; };
-		A96E84B52991441B00C5ED06 /* ExercisesStart1.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96E84B42991441B00C5ED06 /* ExercisesStart1.swift */; };
 		A96E84B72993FEA400C5ED06 /* GoExercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96E84B62993FEA300C5ED06 /* GoExercise.swift */; };
 		A96E84B9299522AF00C5ED06 /* onAppear.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96E84B8299522AF00C5ED06 /* onAppear.swift */; };
 		A96E84BC2999064D00C5ED06 /* FunMonkeyModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A96E84BA2999064D00C5ED06 /* FunMonkeyModel.xcdatamodeld */; };
@@ -67,7 +66,7 @@
 		308D74B52587B18700A39EB8 /* FingersOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FingersOverlay.swift; sourceTree = "<group>"; };
 		376FF28C299E581A00D993DD /* achivivment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = achivivment.swift; sourceTree = "<group>"; };
 		376FF28E299E5A7500D993DD /* greatjob.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = greatjob.swift; sourceTree = "<group>"; };
-		376FF29029A0128600D993DD /* ready?.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ready?.swift"; sourceTree = "<group>"; };
+		376FF29029A0128600D993DD /* ready.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ready.swift; sourceTree = "<group>"; };
 		376FF29429A2CAF700D993DD /* SpeechService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechService.swift; sourceTree = "<group>"; };
 		376FF2B229A30FA900D993DD /* Confetti.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Confetti.swift; sourceTree = "<group>"; };
 		5F2A7F81299BBF6D00F2B9D0 /* forTrying.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = forTrying.swift; sourceTree = "<group>"; };
@@ -76,12 +75,11 @@
 		A9118C23299D19D000624633 /* let'sGo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "let'sGo.swift"; sourceTree = "<group>"; };
 		A9118C27299D1BB300624633 /* LaunchPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchPage.swift; sourceTree = "<group>"; };
 		A9118C29299D1BCB00624633 /* OnboardingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPage.swift; sourceTree = "<group>"; };
-		A9118C2D299D65A800624633 /* Timer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
-		A9118C2F299D6AE400624633 /* ExercisesStart2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisesStart2.swift; sourceTree = "<group>"; };
+		A9118C2D299D65A800624633 /* Timer1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timer1.swift; sourceTree = "<group>"; };
 		A9118C31299D742C00624633 /* BananaEmptey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BananaEmptey.swift; sourceTree = "<group>"; };
+		A9680A1829A39E2800E4F96E /* ExercisesStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisesStruct.swift; sourceTree = "<group>"; };
 		A96E84B02991340C00C5ED06 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		A96E84B229913BDF00C5ED06 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
-		A96E84B42991441B00C5ED06 /* ExercisesStart1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisesStart1.swift; sourceTree = "<group>"; };
 		A96E84B62993FEA300C5ED06 /* GoExercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoExercise.swift; sourceTree = "<group>"; };
 		A96E84B8299522AF00C5ED06 /* onAppear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onAppear.swift; sourceTree = "<group>"; };
 		A96E84BB2999064D00C5ED06 /* FunMonkeyModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FunMonkeyModel.xcdatamodel; sourceTree = "<group>"; };
@@ -114,9 +112,9 @@
 				5FDD8298299F75D0006FCC1F /* Hi5View.swift */,
 				CEFDB171299E6F1A003CF3D6 /* RestView.swift */,
 				A9118C31299D742C00624633 /* BananaEmptey.swift */,
-				A9118C2D299D65A800624633 /* Timer.swift */,
+				A9118C2D299D65A800624633 /* Timer1.swift */,
 				A9118C23299D19D000624633 /* let'sGo.swift */,
-				376FF29029A0128600D993DD /* ready?.swift */,
+				376FF29029A0128600D993DD /* ready.swift */,
 				A9118C21299D19AA00624633 /* Workout.swift */,
 				A96E84E42999124A00C5ED06 /* HeyName.swift */,
 				A96E84E22999111D00C5ED06 /* FirstlyPage.swift */,
@@ -209,8 +207,7 @@
 		A9118C25299D1B8800624633 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				A96E84B42991441B00C5ED06 /* ExercisesStart1.swift */,
-				A9118C2F299D6AE400624633 /* ExercisesStart2.swift */,
+				A9680A1729A39DA400E4F96E /* ExStruct */,
 				304BEFC92586268B00CED98D /* CameraView */,
 				A9118C26299D1B9400624633 /* onBoarding */,
 			);
@@ -224,6 +221,14 @@
 				A9118C29299D1BCB00624633 /* OnboardingPage.swift */,
 			);
 			path = onBoarding;
+			sourceTree = "<group>";
+		};
+		A9680A1729A39DA400E4F96E /* ExStruct */ = {
+			isa = PBXGroup;
+			children = (
+				A9680A1829A39E2800E4F96E /* ExercisesStruct.swift */,
+			);
+			path = ExStruct;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -329,14 +334,14 @@
 				A9118C32299D742C00624633 /* BananaEmptey.swift in Sources */,
 				A96E84BC2999064D00C5ED06 /* FunMonkeyModel.xcdatamodeld in Sources */,
 				18D775C522AD944300AE281E /* ContentView.swift in Sources */,
-				A9118C2E299D65A800624633 /* Timer.swift in Sources */,
+				A9118C2E299D65A800624633 /* Timer1.swift in Sources */,
 				A9118C22299D19AA00624633 /* Workout.swift in Sources */,
 				5F2A7F82299BBF6D00F2B9D0 /* forTrying.swift in Sources */,
 				308D74B62587B18700A39EB8 /* FingersOverlay.swift in Sources */,
 				CE8CFFDF29A1F42400FFC12B /* ComingSoonAlert.swift in Sources */,
-				A96E84B52991441B00C5ED06 /* ExercisesStart1.swift in Sources */,
 				5FDD8299299F75D0006FCC1F /* Hi5View.swift in Sources */,
 				A96E84E129990AC500C5ED06 /* CoreDataManager.swift in Sources */,
+				A9680A1929A39E2800E4F96E /* ExercisesStruct.swift in Sources */,
 				A96E84B12991340C00C5ED06 /* SwiftUIView.swift in Sources */,
 				376FF2B329A30FA900D993DD /* Confetti.swift in Sources */,
 				A96E84E52999124A00C5ED06 /* HeyName.swift in Sources */,
@@ -346,7 +351,7 @@
 				A9118C28299D1BB300624633 /* LaunchPage.swift in Sources */,
 				304BEFC52586261B00CED98D /* CameraView.swift in Sources */,
 				304BEFBF2586253400CED98D /* CameraViewController.swift in Sources */,
-				376FF29129A0128600D993DD /* ready?.swift in Sources */,
+				376FF29129A0128600D993DD /* ready.swift in Sources */,
 				1839F4B025190F2A00BB00F1 /* AppMain.swift in Sources */,
 				376FF28D299E581A00D993DD /* achivivment.swift in Sources */,
 				CEFDB174299E7365003CF3D6 /* MonkyWaving.swift in Sources */,
@@ -356,7 +361,6 @@
 				301202F0258528A7007B2E1B /* StarAnimatorView.swift in Sources */,
 				308D74B125878AC400A39EB8 /* GameLogicController.swift in Sources */,
 				304BEFC2258625C300CED98D /* CameraPreview.swift in Sources */,
-				A9118C30299D6AE400624633 /* ExercisesStart2.swift in Sources */,
 				303C3F292584A63500CA22F3 /* StarAnimator.swift in Sources */,
 				376FF29529A2CAF700D993DD /* SpeechService.swift in Sources */,
 				A96E84B72993FEA400C5ED06 /* GoExercise.swift in Sources */,
@@ -501,7 +505,7 @@
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "StarCount/Preview\\ Content";
-				DEVELOPMENT_TEAM = H7UJR9Y63X;
+				DEVELOPMENT_TEAM = C48XQY4D63;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "StarCount/Supporting Files/Info.plist";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
@@ -524,7 +528,7 @@
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "StarCount/Preview\\ Content";
-				DEVELOPMENT_TEAM = H7UJR9Y63X;
+				DEVELOPMENT_TEAM = C48XQY4D63;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "StarCount/Supporting Files/Info.plist";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";

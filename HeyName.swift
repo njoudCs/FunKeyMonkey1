@@ -41,8 +41,14 @@ struct HeyName: View {
                 .font(.system(size: 70 , weight: .heavy, design: .rounded))
                 .foregroundColor(Color("yellow"))
                 .padding(.top , 120)
-            WorkoutView1()
-          
+            ZStack{
+              
+              WorkoutView1()
+              Image ("face-monkey")
+                .resizable()
+                .frame(width: 80, height: 55)
+                .padding(.bottom, 150)
+            }
               
 //            Image("MonkeyHi")
 //                .resizable()

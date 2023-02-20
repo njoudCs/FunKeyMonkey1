@@ -1,18 +1,21 @@
 
 import SwiftUI
 
-struct ee: View {
-  @Binding var timeRemaining:Int 
+struct Timer1: View {
+  @Binding var timeRemaining: Int
   
-let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
+let timer1 = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
+  
+  
     var body: some View {
       
       HStack {
-          Spacer()
+        Spacer()
+
           
           //Start timer **Auto** .. Njoud Al-Najem
           Text("\(timeRemaining)")
-              .onReceive(timer) { _ in
+              .onReceive(timer1) { _ in
                   if timeRemaining > 0 {
                       timeRemaining -= 1
                   }
@@ -20,10 +23,7 @@ let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
             .padding()
             .overlay(
               Circle()
-               
-              
-                .stroke(Color("purple"), lineWidth: 4)
-              
+                .stroke(Color.red, lineWidth: 4)
             )
 
 
@@ -41,4 +41,4 @@ let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
 //      ee(timeRemaining: 0)
 //    }
 //}
-// 
+//

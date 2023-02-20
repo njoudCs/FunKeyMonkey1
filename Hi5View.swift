@@ -96,7 +96,7 @@ struct Hi5View: View {
         
         
     }.onAppear(){
-      DispatchQueue.main.asyncAfter(deadline: .now() + 4.0) {
+      DispatchQueue.main.asyncAfter(deadline: .now() + 10.0) {
         hasTimeElapsed = true
       }
     }
