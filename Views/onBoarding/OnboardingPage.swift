@@ -107,11 +107,9 @@ struct OnboardingPage: View {
                         if(currentStep == 2 ){
                             StrokeText(text: "Start", width: 1, color: .black)
                                 .foregroundColor(Color.white)
-                                      .font(.system(size: 50 ,design: .rounded))
-                                      .fontWeight(.heavy)
+                                .font(.system(size: 50 ,design: .rounded))
+                                .fontWeight(.heavy)
                                 .padding (10)
-                            
-                                .font(.system(size: 24))
                                 .frame (width: 220 , height: 100)
                                 .background(Color("yellow"))
                                 .cornerRadius (60)
