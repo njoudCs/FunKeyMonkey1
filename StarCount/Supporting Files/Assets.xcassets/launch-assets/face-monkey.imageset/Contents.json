@@ -1,6 +1,7 @@
 {
   "images" : [
     {
+      "filename" : "face-monkey.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
