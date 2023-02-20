@@ -12,12 +12,14 @@ struct Confetti: View {
       counter += 1
     }
   label:{
-    Text("🍌")
-      .font(.largeTitle)
+    Text("🙈")
+      .font(Font.custom("🍌", size: 60))
+
+      
     
     
     
-  }.confettiCannon(counter: $counter, confettis: [.text("🍌"), .text("🍌"), .text("🍌"), .text("🍌")], confettiSize: 30)}
+  }.confettiCannon(counter: $counter, confettis: [.text("🍌"), .text("🍌"), .text("🍌"), .text("🍌")], confettiSize: 60)}
     
     struct Confetti_Previews: PreviewProvider {
       static var previews: some View {
