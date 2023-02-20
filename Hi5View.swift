@@ -74,13 +74,13 @@ struct Hi5View: View {
     ZStack{
     if !hasTimeElapsed {
     if let success = gameLogicController.successBadge {
-    Image("high-five-clipart-md")
+   Image("high-five-clipart-md")
     .resizable()
     .imageScale(.large)
     .foregroundColor(.white)
     .frame(width: 200, height: 200)
     .shadow(radius: 5)
-
+     // playSouund(sound: "", type:"mp3")
         }
         else {
           EmptyView()

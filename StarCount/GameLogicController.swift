@@ -24,12 +24,12 @@ final class GameLogicController: ObservableObject {
     if count == goalCount {
       shouldEvaluateResult = false
       successBadge = count
-
+/*
       DispatchQueue.main.asyncAfter(deadline: .now() + 30) {
         self.successBadge = nil
         self.makeItRain = true
         self.shouldEvaluateResult = true
-      }
+      } */
     }
   }
 }
