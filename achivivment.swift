@@ -8,6 +8,7 @@ struct achiviment: View {
         ZStack{
             Image("Back")
                 .resizable()
+                .ignoresSafeArea()
             .background(Color("luj"))
             
             VStack{
