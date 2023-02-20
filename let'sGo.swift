@@ -25,9 +25,9 @@ struct let_sGo: View {
               VStack(spacing: 40){
                 
                 
-                lablee(text: "5 Excersize", image: "Ex.png")
+                lablee(text: "5 Exercises", image: "Ex.png")
                 
-                lablee(text: "7 minutes", image: "Time")
+                lablee(text: "7 Minutes", image: "Time")
               }.padding(.top, 90)
               Image("Tshap-monkey")
                 .resizable()

@@ -26,6 +26,8 @@
 		376FF2B329A30FA900D993DD /* Confetti.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376FF2B229A30FA900D993DD /* Confetti.swift */; };
 		376FF2B629A312D700D993DD /* ConfettiSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 376FF2B529A312D700D993DD /* ConfettiSwiftUI */; };
 		5F2A7F82299BBF6D00F2B9D0 /* forTrying.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2A7F81299BBF6D00F2B9D0 /* forTrying.swift */; };
+		5F5C74B329A3F67900A7B02E /* ViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F5C74B229A3F67900A7B02E /* ViewRouter.swift */; };
+		5F5C74B529A3F87500A7B02E /* MotherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F5C74B429A3F87500A7B02E /* MotherView.swift */; };
 		5FDD8299299F75D0006FCC1F /* Hi5View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDD8298299F75D0006FCC1F /* Hi5View.swift */; };
 		A9118C22299D19AA00624633 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9118C21299D19AA00624633 /* Workout.swift */; };
 		A9118C24299D19D000624633 /* let'sGo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9118C23299D19D000624633 /* let'sGo.swift */; };
@@ -71,6 +73,8 @@
 		376FF29429A2CAF700D993DD /* SpeechService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechService.swift; sourceTree = "<group>"; };
 		376FF2B229A30FA900D993DD /* Confetti.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Confetti.swift; sourceTree = "<group>"; };
 		5F2A7F81299BBF6D00F2B9D0 /* forTrying.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = forTrying.swift; sourceTree = "<group>"; };
+		5F5C74B229A3F67900A7B02E /* ViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRouter.swift; sourceTree = "<group>"; };
+		5F5C74B429A3F87500A7B02E /* MotherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotherView.swift; sourceTree = "<group>"; };
 		5FDD8298299F75D0006FCC1F /* Hi5View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hi5View.swift; sourceTree = "<group>"; };
 		A9118C21299D19AA00624633 /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
 		A9118C23299D19D000624633 /* let'sGo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "let'sGo.swift"; sourceTree = "<group>"; };
@@ -221,6 +225,8 @@
 			isa = PBXGroup;
 			children = (
 				A9118C27299D1BB300624633 /* LaunchPage.swift */,
+				5F5C74B429A3F87500A7B02E /* MotherView.swift */,
+				5F5C74B229A3F67900A7B02E /* ViewRouter.swift */,
 				A9118C29299D1BCB00624633 /* OnboardingPage.swift */,
 			);
 			path = onBoarding;
@@ -350,6 +356,7 @@
 				376FF2B329A30FA900D993DD /* Confetti.swift in Sources */,
 				A96E84E52999124A00C5ED06 /* HeyName.swift in Sources */,
 				A96E84E32999111D00C5ED06 /* FirstlyPage.swift in Sources */,
+				5F5C74B529A3F87500A7B02E /* MotherView.swift in Sources */,
 				A96E84B9299522AF00C5ED06 /* onAppear.swift in Sources */,
 				A9118C24299D19D000624633 /* let'sGo.swift in Sources */,
 				A9118C28299D1BB300624633 /* LaunchPage.swift in Sources */,
@@ -367,6 +374,7 @@
 				304BEFC2258625C300CED98D /* CameraPreview.swift in Sources */,
 				303C3F292584A63500CA22F3 /* StarAnimator.swift in Sources */,
 				376FF29529A2CAF700D993DD /* SpeechService.swift in Sources */,
+				5F5C74B329A3F67900A7B02E /* ViewRouter.swift in Sources */,
 				A96E84B72993FEA400C5ED06 /* GoExercise.swift in Sources */,
 				A9118C2A299D1BCB00624633 /* OnboardingPage.swift in Sources */,
 			);
