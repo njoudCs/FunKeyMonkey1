@@ -6,11 +6,13 @@ import SwiftUI
 struct let_sGo: View {
     var body: some View {
       
-      NavigationView(){
+      
         ZStack{
           Color("purple").ignoresSafeArea(.all)
           Image("whitebnana")
             .resizable()
+            .ignoresSafeArea()
+           
            // .scaledToFit()
           VStack{
             
@@ -49,8 +51,7 @@ struct let_sGo: View {
             .cornerRadius(60)
             .shadow( radius: 4.0, x: 7.0, y: 7.0)
           }
-        }}.navigationViewStyle(StackNavigationViewStyle())
-      .navigationBarHidden(true)
+        }
   }
 }
 

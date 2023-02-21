@@ -238,7 +238,7 @@ struct Workout: View {
                     
                   }.onEnded { value in
                     withAnimation {
-                      draggingItem = snappedItem + value.predictedEndTranslation.width / 100
+                      draggingItem = snappedItem + value.predictedEndTranslation.width / 900
                       draggingItem = round(draggingItem).remainder(dividingBy: Double(7))
                       snappedItem = draggingItem
                     }
