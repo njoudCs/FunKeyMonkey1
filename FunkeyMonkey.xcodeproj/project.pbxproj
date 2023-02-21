@@ -22,7 +22,6 @@
 		376FF28D299E581A00D993DD /* achivivment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376FF28C299E581A00D993DD /* achivivment.swift */; };
 		376FF28F299E5A7500D993DD /* greatjob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376FF28E299E5A7500D993DD /* greatjob.swift */; };
 		376FF29129A0128600D993DD /* ready.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376FF29029A0128600D993DD /* ready.swift */; };
-		376FF29529A2CAF700D993DD /* SpeechService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376FF29429A2CAF700D993DD /* SpeechService.swift */; };
 		376FF2B329A30FA900D993DD /* Confetti.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376FF2B229A30FA900D993DD /* Confetti.swift */; };
 		376FF2B629A312D700D993DD /* ConfettiSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 376FF2B529A312D700D993DD /* ConfettiSwiftUI */; };
 		5F2A7F82299BBF6D00F2B9D0 /* forTrying.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2A7F81299BBF6D00F2B9D0 /* forTrying.swift */; };
@@ -70,7 +69,6 @@
 		376FF28C299E581A00D993DD /* achivivment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = achivivment.swift; sourceTree = "<group>"; };
 		376FF28E299E5A7500D993DD /* greatjob.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = greatjob.swift; sourceTree = "<group>"; };
 		376FF29029A0128600D993DD /* ready.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ready.swift; sourceTree = "<group>"; };
-		376FF29429A2CAF700D993DD /* SpeechService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechService.swift; sourceTree = "<group>"; };
 		376FF2B229A30FA900D993DD /* Confetti.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Confetti.swift; sourceTree = "<group>"; };
 		5F2A7F81299BBF6D00F2B9D0 /* forTrying.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = forTrying.swift; sourceTree = "<group>"; };
 		5F5C74B229A3F67900A7B02E /* ViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRouter.swift; sourceTree = "<group>"; };
@@ -133,7 +131,6 @@
 				376FF2B229A30FA900D993DD /* Confetti.swift */,
 				376FF28E299E5A7500D993DD /* greatjob.swift */,
 				5F2A7F81299BBF6D00F2B9D0 /* forTrying.swift */,
-				376FF29429A2CAF700D993DD /* SpeechService.swift */,
 				A96E84BA2999064D00C5ED06 /* FunMonkeyModel.xcdatamodeld */,
 				A9118BF9299CB81E00624633 /* Managers */,
 				18D775BF22AD944300AE281E /* StarCount */,
@@ -373,7 +370,6 @@
 				308D74B125878AC400A39EB8 /* GameLogicController.swift in Sources */,
 				304BEFC2258625C300CED98D /* CameraPreview.swift in Sources */,
 				303C3F292584A63500CA22F3 /* StarAnimator.swift in Sources */,
-				376FF29529A2CAF700D993DD /* SpeechService.swift in Sources */,
 				5F5C74B329A3F67900A7B02E /* ViewRouter.swift in Sources */,
 				A96E84B72993FEA400C5ED06 /* GoExercise.swift in Sources */,
 				A9118C2A299D1BCB00624633 /* OnboardingPage.swift in Sources */,

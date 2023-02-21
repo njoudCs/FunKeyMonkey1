@@ -2,26 +2,12 @@
 
 
 import SwiftUI
-import AVFoundation
 struct Hi5View: View {
   @State private var hasTimeElapsed = false
   @State private var overlayPoints: [CGPoint] = []
   @StateObject private var gameLogicController = GameLogicController()
   @State var pushNewView: Bool = false
-  private let synthesizer = AVSpeechSynthesizer()
-  
-  var rate: Float = AVSpeechUtteranceDefaultSpeechRate
-
-  func say (_ phrase: String) {
-    
-    let utterance = AVSpeechUtterance(string: phrase)
-    utterance.rate = rate
-    utterance.voice = AVSpeechSynthesisVoice(language: "en-US")
-    
-    
-    synthesizer.speak(utterance)
-  }
-  
+ 
   
     var body: some View {
 
@@ -61,7 +47,7 @@ struct Hi5View: View {
         }
       }
       .onAppear {
-        say("give me high five")
+        
         gameLogicController.start()
       }
       .overlay(

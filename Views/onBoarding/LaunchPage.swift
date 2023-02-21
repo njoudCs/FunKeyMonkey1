@@ -1,24 +1,12 @@
 
 
 import SwiftUI
-import AVFoundation
+
 struct LaunchPage: View {
     @State private var isActive = false
     @State private var size = 0.5
     @State private var opacity = 0.3
-  private let synthesizer = AVSpeechSynthesizer()
   
-  var rate: Float = AVSpeechUtteranceDefaultSpeechRate
-
-  func say (_ phrase: String) {
-    
-    let utterance = AVSpeechUtterance(string: phrase)
-    utterance.rate = rate
-    utterance.voice = AVSpeechSynthesisVoice(language: "en-US")
-    
-    
-    synthesizer.speak(utterance)
-  }
     
     func animatedImages(for name: String) -> [UIImage] {
         
@@ -68,7 +56,6 @@ struct LaunchPage: View {
                     }
                 }
                 .onAppear {
-                  say("Funkey Monkey")
                     DispatchQueue.main.asyncAfter(deadline: .now() + 3.0) {
                         withAnimation{
                             self.isActive = true
