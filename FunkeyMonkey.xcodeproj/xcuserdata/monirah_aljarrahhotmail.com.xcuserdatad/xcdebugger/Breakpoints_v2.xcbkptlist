@@ -18,5 +18,68 @@
             endingLineNumber = "41">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BF24D733-4259-460A-9EF4-2CF86CBED289"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Views/onBoarding/LaunchPage.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "BF24D733-4259-460A-9EF4-2CF86CBED289 - 482439e83e7198dc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FunkeyMonkey.LaunchPage.body.getter : some"
+                  moduleName = "FunkeyMonkey"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/monirah_aljarrahhotmail.com/Desktop/FunkyMonky-new/FunKeyMonkey1/Views/onBoarding/LaunchPage.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "1364">
+               </Location>
+               <Location
+                  uuid = "BF24D733-4259-460A-9EF4-2CF86CBED289 - 5a8c8dfb630f21ce"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.ignoresSafeArea(_: SwiftUI.SafeAreaRegions, edges: SwiftUI.Edge.Set) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.ignoresSafeArea(_: SwiftUI.SafeAreaRegions, edges: SwiftUI.Edge.Set) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.onAppear(perform: Swift.Optional&lt;() -&gt; ()&gt;) -&gt; some&gt;&gt;.0)&gt; in FunkeyMonkey.LaunchPage.body.getter : some"
+                  moduleName = "FunkeyMonkey"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/monirah_aljarrahhotmail.com/Desktop/FunkyMonky-new/FunKeyMonkey1/Views/onBoarding/LaunchPage.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "1708">
+               </Location>
+               <Location
+                  uuid = "BF24D733-4259-460A-9EF4-2CF86CBED289 - 8887a17484c7e8ab"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 () -&gt; () in FunkeyMonkey.LaunchPage.body.getter : some"
+                  moduleName = "FunkeyMonkey"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/monirah_aljarrahhotmail.com/Desktop/FunkyMonky-new/FunKeyMonkey1/Views/onBoarding/LaunchPage.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "36">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

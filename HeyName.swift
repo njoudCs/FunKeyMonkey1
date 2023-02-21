@@ -77,9 +77,8 @@ struct HeyName: View {
           } .padding(.bottom , 138)
           
       
-          
+            
         }
-        
         
         
     

@@ -37,6 +37,7 @@ struct LaunchPage: View {
                 
                 Image("Back")
                     .resizable()
+                    .ignoresSafeArea()
                 
                 VStack{
                     
@@ -63,7 +64,7 @@ struct LaunchPage: View {
                     }
                 }
                 
-            }
+            } .onAppear(perform: {playSound(sound: "funkymonky", type: "mp3")})
         }
     }
 }

@@ -37,7 +37,7 @@ struct Hi5View: View {
           .resizable()
           .frame(width: 450, height: 750)
           .padding(.trailing, 400.0)
-          StrokeText(text: "Give me Hghi five", width: 1, color: .black)
+          StrokeText(text: "Give me high five", width: 1, color: .black)
             .foregroundColor(Color("yellow"))
             .font(.system(size: 45 ,design: .rounded))
             .fontWeight(.heavy)
@@ -47,7 +47,7 @@ struct Hi5View: View {
         }
       }
       .onAppear {
-        
+        playSound(sound: "hi5-app", type: "mp3")
         gameLogicController.start()
       }
       .overlay(
@@ -64,13 +64,17 @@ struct Hi5View: View {
     ZStack{
     if !hasTimeElapsed {
     if let success = gameLogicController.successBadge {
-   Image("high-five-clipart-md")
-    .resizable()
-    .imageScale(.large)
-    .foregroundColor(.white)
-    .frame(width: 200, height: 200)
-    .shadow(radius: 5)
-     // playSouund(sound: "", type:"mp3")
+      
+     
+   Image("")
+//    .resizable()
+//    .imageScale(.large)
+//    .foregroundColor(.white)
+//    .frame(width: 200, height: 200)
+//    .shadow(radius: 5)
+    .onAppear(perform: {playSound(sound: "letsgo-app", type: "mp3")})
+      
+      
         }
         else {
           EmptyView()
