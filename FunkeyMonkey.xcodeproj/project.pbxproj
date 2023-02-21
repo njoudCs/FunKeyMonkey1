@@ -46,6 +46,14 @@
 		A96E84E32999111D00C5ED06 /* FirstlyPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96E84E22999111D00C5ED06 /* FirstlyPage.swift */; };
 		A96E84E52999124A00C5ED06 /* HeyName.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96E84E42999124A00C5ED06 /* HeyName.swift */; };
 		CE8CFFDF29A1F42400FFC12B /* ComingSoonAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8CFFDE29A1F42400FFC12B /* ComingSoonAlert.swift */; };
+		CEFD916D29A50B9D00191DF8 /* playsound.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFD916C29A50B9D00191DF8 /* playsound.swift */; };
+		CEFD917329A5148B00191DF8 /* funkymonky.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CEFD917229A5148B00191DF8 /* funkymonky.mp3 */; };
+		CEFD917A29A5182A00191DF8 /* letsgo-app.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CEFD917429A5182A00191DF8 /* letsgo-app.mp3 */; };
+		CEFD917B29A5182A00191DF8 /* go-app.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CEFD917529A5182A00191DF8 /* go-app.mp3 */; };
+		CEFD917C29A5182A00191DF8 /* ready-app.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CEFD917629A5182A00191DF8 /* ready-app.mp3 */; };
+		CEFD917D29A5182A00191DF8 /* hi5-app.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CEFD917729A5182A00191DF8 /* hi5-app.mp3 */; };
+		CEFD917E29A5182A00191DF8 /* resttime-app.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CEFD917829A5182A00191DF8 /* resttime-app.mp3 */; };
+		CEFD917F29A5182A00191DF8 /* standuphere-app.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CEFD917929A5182A00191DF8 /* standuphere-app.mp3 */; };
 		CEFDB172299E6F1A003CF3D6 /* RestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFDB171299E6F1A003CF3D6 /* RestView.swift */; };
 		CEFDB174299E7365003CF3D6 /* MonkyWaving.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFDB173299E7365003CF3D6 /* MonkyWaving.swift */; };
 /* End PBXBuildFile section */
@@ -91,6 +99,14 @@
 		A96E84E22999111D00C5ED06 /* FirstlyPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstlyPage.swift; sourceTree = "<group>"; };
 		A96E84E42999124A00C5ED06 /* HeyName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeyName.swift; sourceTree = "<group>"; };
 		CE8CFFDE29A1F42400FFC12B /* ComingSoonAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComingSoonAlert.swift; sourceTree = "<group>"; };
+		CEFD916C29A50B9D00191DF8 /* playsound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = playsound.swift; path = ../playsound.swift; sourceTree = "<group>"; };
+		CEFD917229A5148B00191DF8 /* funkymonky.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = funkymonky.mp3; sourceTree = "<group>"; };
+		CEFD917429A5182A00191DF8 /* letsgo-app.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "letsgo-app.mp3"; sourceTree = "<group>"; };
+		CEFD917529A5182A00191DF8 /* go-app.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "go-app.mp3"; sourceTree = "<group>"; };
+		CEFD917629A5182A00191DF8 /* ready-app.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ready-app.mp3"; sourceTree = "<group>"; };
+		CEFD917729A5182A00191DF8 /* hi5-app.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "hi5-app.mp3"; sourceTree = "<group>"; };
+		CEFD917829A5182A00191DF8 /* resttime-app.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "resttime-app.mp3"; sourceTree = "<group>"; };
+		CEFD917929A5182A00191DF8 /* standuphere-app.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "standuphere-app.mp3"; sourceTree = "<group>"; };
 		CEFDB171299E6F1A003CF3D6 /* RestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestView.swift; sourceTree = "<group>"; };
 		CEFDB173299E7365003CF3D6 /* MonkyWaving.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonkyWaving.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -110,6 +126,8 @@
 		18D775B422AD944300AE281E = {
 			isa = PBXGroup;
 			children = (
+				CEFD916C29A50B9D00191DF8 /* playsound.swift */,
+				CEFD916B29A50AB300191DF8 /* Sound */,
 				A9680A1A29A3BE7A00E4F96E /* PlaySound.swift */,
 				CE8CFFDE29A1F42400FFC12B /* ComingSoonAlert.swift */,
 				A9118C25299D1B8800624633 /* Views */,
@@ -237,6 +255,20 @@
 			path = ExStruct;
 			sourceTree = "<group>";
 		};
+		CEFD916B29A50AB300191DF8 /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				CEFD917529A5182A00191DF8 /* go-app.mp3 */,
+				CEFD917729A5182A00191DF8 /* hi5-app.mp3 */,
+				CEFD917429A5182A00191DF8 /* letsgo-app.mp3 */,
+				CEFD917629A5182A00191DF8 /* ready-app.mp3 */,
+				CEFD917829A5182A00191DF8 /* resttime-app.mp3 */,
+				CEFD917929A5182A00191DF8 /* standuphere-app.mp3 */,
+				CEFD917229A5148B00191DF8 /* funkymonky.mp3 */,
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -303,8 +335,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				18D775D822AD963800AE281E /* LaunchScreen.storyboard in Resources */,
+				CEFD917D29A5182A00191DF8 /* hi5-app.mp3 in Resources */,
 				A96E848F2991246F00C5ED06 /* Assets.xcassets in Resources */,
+				CEFD917B29A5182A00191DF8 /* go-app.mp3 in Resources */,
+				CEFD917A29A5182A00191DF8 /* letsgo-app.mp3 in Resources */,
 				18D775CA22AD944400AE281E /* Preview Assets.xcassets in Resources */,
+				CEFD917E29A5182A00191DF8 /* resttime-app.mp3 in Resources */,
+				CEFD917C29A5182A00191DF8 /* ready-app.mp3 in Resources */,
+				CEFD917F29A5182A00191DF8 /* standuphere-app.mp3 in Resources */,
+				CEFD917329A5148B00191DF8 /* funkymonky.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,6 +385,7 @@
 				5F2A7F82299BBF6D00F2B9D0 /* forTrying.swift in Sources */,
 				308D74B62587B18700A39EB8 /* FingersOverlay.swift in Sources */,
 				CE8CFFDF29A1F42400FFC12B /* ComingSoonAlert.swift in Sources */,
+				CEFD916D29A50B9D00191DF8 /* playsound.swift in Sources */,
 				5FDD8299299F75D0006FCC1F /* Hi5View.swift in Sources */,
 				A96E84E129990AC500C5ED06 /* CoreDataManager.swift in Sources */,
 				A9680A1929A39E2800E4F96E /* ExercisesStruct.swift in Sources */,
@@ -513,7 +553,7 @@
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "StarCount/Preview\\ Content";
-				DEVELOPMENT_TEAM = C48XQY4D63;
+				DEVELOPMENT_TEAM = 77GHJNV3R5;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "StarCount/Supporting Files/Info.plist";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
@@ -536,7 +576,7 @@
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "StarCount/Preview\\ Content";
-				DEVELOPMENT_TEAM = C48XQY4D63;
+				DEVELOPMENT_TEAM = 77GHJNV3R5;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "StarCount/Supporting Files/Info.plist";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";

@@ -41,7 +41,7 @@ struct let_sGo: View {
             
             
             NavigationLink(destination: ready(),
-                           label: { StrokeText(text: "Start", width: 1, color: .black)
+                           label: { StrokeText(text: "Go", width: 1, color: .black)
             })
             
             .frame(width: 220 , height: 100)

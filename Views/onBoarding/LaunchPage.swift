@@ -63,7 +63,7 @@ struct LaunchPage: View {
                     }
                 }
                 
-            }
+            } .onAppear(perform: {playSound(sound: "funkymonky", type: "mp3")})
         }
     }
 }

@@ -47,7 +47,7 @@ struct Hi5View: View {
         }
       }
       .onAppear {
-        
+        playSound(sound: "hi5-app", type: "mp3")
         gameLogicController.start()
       }
       .overlay(
