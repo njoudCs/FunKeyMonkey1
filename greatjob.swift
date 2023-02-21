@@ -2,8 +2,27 @@
 
 
 import SwiftUI
+import EffectsLibrary
 
 struct greatjob: View {
+  @State private var scale: CGFloat = 1.5
+  var config = FireworksConfig(
+    content: [
+      .shape(.triangle, .yellow, 2.0),
+      . shape(.square, .yellow, 2.0),
+      . shape(.circle, .yellow, 2.0),
+//        .emoji("",10)
+
+  ],
+    
+     //      .emoji("🍌",10)]
+    intensity: .high,
+    lifetime: .long
+  )
+//  var content: [
+//      .shape(.triangle, .blue, 2.0),
+//      .shape(.square, .yellow, 2.0),
+//      .emoji("🍌",10)]
   var body: some View {
     ZStack{
       Rectangle()
@@ -25,13 +44,29 @@ struct greatjob: View {
           .font(.system(size: 40 ,design: .rounded))
           .fontWeight(.heavy)
           .padding(.bottom)
+
         
-        //                Image("9")
-        //                .resizable()
-        //                .frame(width: 80,height: 80)
-        Confetti()
-        Text ("press the monkey")
-          .foregroundColor(Color("yellow"))
+                        Image("9")
+                        .resizable()
+                        .frame(width: 80,height: 80)
+//        Confetti()
+//          .scaleEffect(scale)
+//          .onAppear{
+////            Confetti()
+//
+//            let initialAnimation =
+//            Animation.easeInOut(duration: 9)
+//            let repeatAnimation =
+//            initialAnimation
+//
+//
+//            withAnimation{
+//              scale = 1
+//
+//            }
+//          }
+//        Text ("press the monkey")
+//          .foregroundColor(Color("yellow"))
           .padding()
         
   
@@ -62,7 +97,8 @@ struct greatjob: View {
           //                        .background(Color("yellow"))
           //                        .cornerRadius(20)
         }
-        
+      FireworksView(config: config)
+
       }
       
       
