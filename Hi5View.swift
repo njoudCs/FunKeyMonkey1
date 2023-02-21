@@ -37,7 +37,7 @@ struct Hi5View: View {
           .resizable()
           .frame(width: 450, height: 750)
           .padding(.trailing, 400.0)
-          StrokeText(text: "Give me Hghi five", width: 1, color: .black)
+          StrokeText(text: "Give me high five", width: 1, color: .black)
             .foregroundColor(Color("yellow"))
             .font(.system(size: 45 ,design: .rounded))
             .fontWeight(.heavy)

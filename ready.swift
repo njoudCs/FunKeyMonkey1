@@ -49,9 +49,8 @@ struct ready: View {
               .fontWeight(.bold)
               .padding(.bottom,10)
           }
-        } .onAppear(perform: {playSound(sound: "standuphere-app", type: "mp3")})
-          .onAppear(perform: {playSound(sound: "ready-app", type: "mp3")})
-          .onAppear(perform: {playSound(sound: "go-app", type: "mp3")})
+        }
+          .onAppear(perform: {playSound(sound: "letsgo-app", type: "mp3")})
 
 
       }
