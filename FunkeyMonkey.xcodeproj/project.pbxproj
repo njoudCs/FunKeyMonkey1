@@ -10,7 +10,6 @@
 		1839F4B025190F2A00BB00F1 /* AppMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1839F4AF25190F2A00BB00F1 /* AppMain.swift */; };
 		18D775C522AD944300AE281E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D775C422AD944300AE281E /* ContentView.swift */; };
 		18D775CA22AD944400AE281E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18D775C922AD944400AE281E /* Preview Assets.xcassets */; };
-		18D775D822AD963800AE281E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D775DA22AD963800AE281E /* LaunchScreen.storyboard */; };
 		301202F0258528A7007B2E1B /* StarAnimatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301202EF258528A7007B2E1B /* StarAnimatorView.swift */; };
 		303C3F292584A63500CA22F3 /* StarAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303C3F282584A63500CA22F3 /* StarAnimator.swift */; };
 		304BEFBF2586253400CED98D /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304BEFBE2586253400CED98D /* CameraViewController.swift */; };
@@ -63,7 +62,6 @@
 		18D775C622AD944400AE281E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18D775C922AD944400AE281E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		18D775CE22AD944400AE281E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		18D775DE22AD96B400AE281E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		301202EF258528A7007B2E1B /* StarAnimatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarAnimatorView.swift; sourceTree = "<group>"; };
 		303C3F282584A63500CA22F3 /* StarAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarAnimator.swift; sourceTree = "<group>"; };
 		304BEFBE2586253400CED98D /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
@@ -206,7 +204,6 @@
 			children = (
 				304BEFC72586265600CED98D /* StarAnimator */,
 				18D775C622AD944400AE281E /* Assets.xcassets */,
-				18D775DA22AD963800AE281E /* LaunchScreen.storyboard */,
 				18D775CE22AD944400AE281E /* Info.plist */,
 				304BEFCB258628F800CED98D /* AppError.swift */,
 			);
@@ -329,7 +326,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18D775D822AD963800AE281E /* LaunchScreen.storyboard in Resources */,
 				CEFD917D29A5182A00191DF8 /* hi5-app.mp3 in Resources */,
 				A96E848F2991246F00C5ED06 /* Assets.xcassets in Resources */,
 				CEFD917B29A5182A00191DF8 /* go-app.mp3 in Resources */,
@@ -409,17 +405,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		18D775DA22AD963800AE281E /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				18D775DE22AD96B400AE281E /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		18D775CF22AD944400AE281E /* Debug */ = {
