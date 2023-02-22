@@ -26,8 +26,6 @@
 		376FF2B629A312D700D993DD /* ConfettiSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 376FF2B529A312D700D993DD /* ConfettiSwiftUI */; };
 		37A0561729A5464F00839E81 /* EffectsLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = 37A0561629A5464F00839E81 /* EffectsLibrary */; };
 		5F2A7F82299BBF6D00F2B9D0 /* forTrying.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2A7F81299BBF6D00F2B9D0 /* forTrying.swift */; };
-		5F5C74B329A3F67900A7B02E /* ViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F5C74B229A3F67900A7B02E /* ViewRouter.swift */; };
-		5F5C74B529A3F87500A7B02E /* MotherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F5C74B429A3F87500A7B02E /* MotherView.swift */; };
 		5FDD8299299F75D0006FCC1F /* Hi5View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDD8298299F75D0006FCC1F /* Hi5View.swift */; };
 		A9118C22299D19AA00624633 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9118C21299D19AA00624633 /* Workout.swift */; };
 		A9118C24299D19D000624633 /* let'sGo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9118C23299D19D000624633 /* let'sGo.swift */; };
@@ -47,7 +45,6 @@
 		A96E84E32999111D00C5ED06 /* FirstlyPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96E84E22999111D00C5ED06 /* FirstlyPage.swift */; };
 		A96E84E52999124A00C5ED06 /* HeyName.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96E84E42999124A00C5ED06 /* HeyName.swift */; };
 		CE8CFFDF29A1F42400FFC12B /* ComingSoonAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8CFFDE29A1F42400FFC12B /* ComingSoonAlert.swift */; };
-		CEFD916D29A50B9D00191DF8 /* playsound.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFD916C29A50B9D00191DF8 /* playsound.swift */; };
 		CEFD917329A5148B00191DF8 /* funkymonky.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CEFD917229A5148B00191DF8 /* funkymonky.mp3 */; };
 		CEFD917A29A5182A00191DF8 /* letsgo-app.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CEFD917429A5182A00191DF8 /* letsgo-app.mp3 */; };
 		CEFD917B29A5182A00191DF8 /* go-app.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CEFD917529A5182A00191DF8 /* go-app.mp3 */; };
@@ -80,8 +77,6 @@
 		376FF29029A0128600D993DD /* ready.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ready.swift; sourceTree = "<group>"; };
 		376FF2B229A30FA900D993DD /* Confetti.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Confetti.swift; sourceTree = "<group>"; };
 		5F2A7F81299BBF6D00F2B9D0 /* forTrying.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = forTrying.swift; sourceTree = "<group>"; };
-		5F5C74B229A3F67900A7B02E /* ViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRouter.swift; sourceTree = "<group>"; };
-		5F5C74B429A3F87500A7B02E /* MotherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotherView.swift; sourceTree = "<group>"; };
 		5FDD8298299F75D0006FCC1F /* Hi5View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hi5View.swift; sourceTree = "<group>"; };
 		A9118C21299D19AA00624633 /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
 		A9118C23299D19D000624633 /* let'sGo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "let'sGo.swift"; sourceTree = "<group>"; };
@@ -100,7 +95,6 @@
 		A96E84E22999111D00C5ED06 /* FirstlyPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstlyPage.swift; sourceTree = "<group>"; };
 		A96E84E42999124A00C5ED06 /* HeyName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeyName.swift; sourceTree = "<group>"; };
 		CE8CFFDE29A1F42400FFC12B /* ComingSoonAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComingSoonAlert.swift; sourceTree = "<group>"; };
-		CEFD916C29A50B9D00191DF8 /* playsound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = playsound.swift; path = ../playsound.swift; sourceTree = "<group>"; };
 		CEFD917229A5148B00191DF8 /* funkymonky.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = funkymonky.mp3; sourceTree = "<group>"; };
 		CEFD917429A5182A00191DF8 /* letsgo-app.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "letsgo-app.mp3"; sourceTree = "<group>"; };
 		CEFD917529A5182A00191DF8 /* go-app.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "go-app.mp3"; sourceTree = "<group>"; };
@@ -128,7 +122,6 @@
 		18D775B422AD944300AE281E = {
 			isa = PBXGroup;
 			children = (
-				CEFD916C29A50B9D00191DF8 /* playsound.swift */,
 				CEFD916B29A50AB300191DF8 /* Sound */,
 				A9680A1A29A3BE7A00E4F96E /* PlaySound.swift */,
 				CE8CFFDE29A1F42400FFC12B /* ComingSoonAlert.swift */,
@@ -242,8 +235,6 @@
 			isa = PBXGroup;
 			children = (
 				A9118C27299D1BB300624633 /* LaunchPage.swift */,
-				5F5C74B429A3F87500A7B02E /* MotherView.swift */,
-				5F5C74B229A3F67900A7B02E /* ViewRouter.swift */,
 				A9118C29299D1BCB00624633 /* OnboardingPage.swift */,
 			);
 			path = onBoarding;
@@ -389,7 +380,6 @@
 				5F2A7F82299BBF6D00F2B9D0 /* forTrying.swift in Sources */,
 				308D74B62587B18700A39EB8 /* FingersOverlay.swift in Sources */,
 				CE8CFFDF29A1F42400FFC12B /* ComingSoonAlert.swift in Sources */,
-				CEFD916D29A50B9D00191DF8 /* playsound.swift in Sources */,
 				5FDD8299299F75D0006FCC1F /* Hi5View.swift in Sources */,
 				A96E84E129990AC500C5ED06 /* CoreDataManager.swift in Sources */,
 				A9680A1929A39E2800E4F96E /* ExercisesStruct.swift in Sources */,
@@ -397,7 +387,6 @@
 				376FF2B329A30FA900D993DD /* Confetti.swift in Sources */,
 				A96E84E52999124A00C5ED06 /* HeyName.swift in Sources */,
 				A96E84E32999111D00C5ED06 /* FirstlyPage.swift in Sources */,
-				5F5C74B529A3F87500A7B02E /* MotherView.swift in Sources */,
 				A96E84B9299522AF00C5ED06 /* onAppear.swift in Sources */,
 				A9118C24299D19D000624633 /* let'sGo.swift in Sources */,
 				A9118C28299D1BB300624633 /* LaunchPage.swift in Sources */,
@@ -414,7 +403,6 @@
 				308D74B125878AC400A39EB8 /* GameLogicController.swift in Sources */,
 				304BEFC2258625C300CED98D /* CameraPreview.swift in Sources */,
 				303C3F292584A63500CA22F3 /* StarAnimator.swift in Sources */,
-				5F5C74B329A3F67900A7B02E /* ViewRouter.swift in Sources */,
 				A96E84B72993FEA400C5ED06 /* GoExercise.swift in Sources */,
 				A9118C2A299D1BCB00624633 /* OnboardingPage.swift in Sources */,
 			);
@@ -557,7 +545,7 @@
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "StarCount/Preview\\ Content";
-				DEVELOPMENT_TEAM = 77GHJNV3R5;
+				DEVELOPMENT_TEAM = H7UJR9Y63X;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "StarCount/Supporting Files/Info.plist";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
@@ -580,7 +568,7 @@
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "StarCount/Preview\\ Content";
-				DEVELOPMENT_TEAM = 77GHJNV3R5;
+				DEVELOPMENT_TEAM = H7UJR9Y63X;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "StarCount/Supporting Files/Info.plist";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";

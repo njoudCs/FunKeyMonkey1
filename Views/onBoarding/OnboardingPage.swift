@@ -24,19 +24,7 @@ struct OnboardingPage: View {
     init() {
         UIScrollView.appearance () .bounces = false
     }
-//    @AppStorage ("hasSeenOnboarding")
-//    private var hasSeenOnboarding = false
-    //show 1 time
-    
-//    after var of content
-    
-    //    if hasSeenOnboarding {
-    //        firstview()
-    //    }else{
-    //        OnboardingPage()
-    //    }
-  
-  //hadeeeeeel
+
 
     var body: some View {
         
@@ -159,7 +147,7 @@ struct OnboardingPage: View {
                     }
                 }
             }
-//            .onAppear(perform: {UserDefaults.standard.OnboardingPageShown = true})
+
         }
     }
   

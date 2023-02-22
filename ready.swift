@@ -50,7 +50,7 @@ struct ready: View {
               .padding(.bottom,10)
           }
         }
-          .onAppear(perform: {playSound(sound: "letsgo-app", type: "mp3")})
+          .onAppear(perform: {playSouund(sound: "letsgo-app", type: "mp3")})
 
 
       }

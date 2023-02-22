@@ -143,7 +143,7 @@ struct CountdownView: View {
             }
       }
       
-      .onAppear(perform: {playSound(sound: "resttime-app", type: "mp3")})
+      .onAppear(perform: {playSouund(sound: "resttime-app", type: "mp3")})
       
       .onReceive(timer) { time in
             if (self.counter < self.countTo) {

@@ -47,7 +47,7 @@ struct Hi5View: View {
         }
       }
       .onAppear {
-        playSound(sound: "hi5-app", type: "mp3")
+        playSouund(sound: "hi5-app", type: "mp3")
         gameLogicController.start()
       }
       .overlay(
@@ -72,7 +72,7 @@ struct Hi5View: View {
 //    .foregroundColor(.white)
 //    .frame(width: 200, height: 200)
 //    .shadow(radius: 5)
-    .onAppear(perform: {playSound(sound: "letsgo-app", type: "mp3")})
+    .onAppear(perform: {playSouund(sound: "letsgo-app", type: "mp3")})
       
       
         }
