@@ -25,7 +25,7 @@ import SwiftUI
 import SwiftUI
 
 
-var images : [UIImage]! = [UIImage(named: "monky-exercise/0")!, UIImage(named: "monky-exercise/1")!, UIImage(named: "monky-exercise/2")!,UIImage(named: "monky-exercise/3")!,UIImage(named: "monky-exercise/4")!,UIImage(named: "monky-exercise/5")!,UIImage(named: "monky-exercise/6")!,UIImage(named: "monky-exercise/7")!,UIImage(named: "monky-exercise/8")!,UIImage(named: "monky-exercise/9")!,UIImage(named: "monky-exercise/10")!,UIImage(named: "monky-exercise/11")!,UIImage(named: "monky-exercise/12")!,UIImage(named: "monky-exercise/13")!,UIImage(named: "monky-exercise/14")!,UIImage(named: "monky-exercise/15")!,UIImage(named: "monky-exercise/16")!,UIImage(named: "monky-exercise/17")!,UIImage(named: "monky-exercise/18")!,UIImage(named: "monky-exercise/19")!,UIImage(named: "monky-exercise/20")!,UIImage(named: "monky-exercise/21")!,UIImage(named: "monky-exercise/22")!,UIImage(named: "monky-exercise/23")!,UIImage(named: "monky-exercise/24")!,UIImage(named: "monky-exercise/25")!,UIImage(named: "monky-exercise/26")!,UIImage(named: "monky-exercise/27")!,UIImage(named: "monky-exercise/28")!,UIImage(named: "monky-exercise/29")!,UIImage(named: "monky-exercise/30")!,UIImage(named: "monky-exercise/31")!,UIImage(named: "monky-exercise/32")!,UIImage(named: "monky-exercise/33")!,UIImage(named: "monky-exercise/34")!,UIImage(named: "monky-exercise/35")!,UIImage(named: "monky-exercise/38")!]
+var images : [UIImage]! = [UIImage(named: "monky-exercise/0")!, UIImage(named: "monky-exercise/1")!, UIImage(named: "monky-exercise/2")!,UIImage(named: "monky-exercise/3")!,UIImage(named: "monky-exercise/4")!,UIImage(named: "monky-exercise/5")!,UIImage(named: "monky-exercise/6")!,UIImage(named: "monky-exercise/7")!,UIImage(named: "monky-exercise/8")!,UIImage(named: "monky-exercise/9")!,UIImage(named: "monky-exercise/10")!,UIImage(named: "monky-exercise/11")!,UIImage(named: "monky-exercise/12")!,UIImage(named: "monky-exercise/13")!,UIImage(named: "monky-exercise/14")!,UIImage(named: "monky-exercise/15")!,UIImage(named: "monky-exercise/16")!,UIImage(named: "monky-exercise/17")!,UIImage(named: "monky-exercise/18")!,UIImage(named: "monky-exercise/19")!,UIImage(named: "monky-exercise/20")!,UIImage(named: "monky-exercise/21")!,UIImage(named: "monky-exercise/22")!,UIImage(named: "monky-exercise/23")!,UIImage(named: "monky-exercise/24")!,UIImage(named: "monky-exercise/25")!,UIImage(named: "monky-exercise/26")!,UIImage(named: "monky-exercise/27")!,UIImage(named: "monky-exercise/28")!,UIImage(named: "monky-exercise/29")!,UIImage(named: "monky-exercise/30")!,UIImage(named: "monky-exercise/31")!,UIImage(named: "monky-exercise/32")!,UIImage(named: "monky-exercise/33")!,UIImage(named: "monky-exercise/34")!,UIImage(named: "monky-exercise/35")!,UIImage(named: "monky-exercise/38")!,UIImage(named: "monky-exercise/39")!,UIImage(named: "monky-exercise/40")!,UIImage(named: "monky-exercise/41")!]
 
 let animatedImage = UIImage.animatedImage(with: images, duration: 2.5)
 
@@ -54,11 +54,7 @@ struct WorkoutView: View {
         VStack (alignment: HorizontalAlignment.center, spacing: 10) {
           ZStack {
             workoutAnimation()
-            Image("face-monkey")
-              .resizable()
-              .frame(width: 65, height: 40)
-              .padding (.bottom, 430.0)
-              .padding (.trailing, 380.0)
+            
 
           }
                   }
