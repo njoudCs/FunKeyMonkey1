@@ -17,11 +17,10 @@ struct BananaEmptey: View {
                     "BananaEmptey")
                       .resizable()
                       .scaledToFit()
-                      .frame(width: 56.0, height: 74.0)
+                      .frame(width: 56.0, height: 73.0)
                   
                /* while timeRemaining>0 {
                 
-                    timeRemaining -= 60
                      
                 }
                 
