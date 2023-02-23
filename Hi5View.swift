@@ -35,18 +35,13 @@ struct Hi5View1: View {
         }
         
         VStack(spacing:100){
-          ZStack {
+         
             Image ("monkey-hi5")
               .resizable()
-              .frame(width: 450, height: 750)
+              .frame(width: 450, height: 650)
             .padding(.trailing, 400.0)
             
-            Image("face-monkey")
-              .resizable()
-              .frame(width: 95, height: 70)
-              .padding(.trailing,360.0)
-            
-          }
+      
           StrokeText(text: "Give me high five", width: 1, color: .black)
             .foregroundColor(Color("yellow"))
             .font(.system(size: 45 ,design: .rounded))
@@ -151,10 +146,13 @@ ZStack {
           
           VStack(spacing:100){
            if !hasTimeElapsed {
-            Image ("monkey-hi5")
-              .resizable()
-              .frame(width: 450, height: 750)
-              .padding(.trailing, 400.0)
+             
+               Image ("monkey-hi5")
+                 .resizable()
+                 .frame(width: 450, height: 650)
+               .padding(.trailing, 400.0)
+               
+              
             StrokeText(text: "Give me Hghi five", width: 1, color: .black)
               .foregroundColor(Color("yellow"))
               .font(.system(size: 45 ,design: .rounded))
@@ -267,7 +265,7 @@ struct Hi5View2: View {
            if !hasTimeElapsed {
             Image ("monkey-hi5")
               .resizable()
-              .frame(width: 450, height: 750)
+              .frame(width: 450, height: 650)
               .padding(.trailing, 400.0)
             StrokeText(text: "Give me Hghi five2", width: 1, color: .black)
               .foregroundColor(Color("yellow"))
@@ -371,7 +369,7 @@ struct Hi5View3: View {
            if !hasTimeElapsed {
             Image ("monkey-hi5")
               .resizable()
-              .frame(width: 450, height: 750)
+              .frame(width: 450, height: 650)
               .padding(.trailing, 400.0)
             StrokeText(text: "Give me Hghi five3", width: 1, color: .black)
               .foregroundColor(Color("yellow"))
@@ -482,7 +480,7 @@ struct Hi5View4: View {
            if !hasTimeElapsed {
             Image ("monkey-hi5")
               .resizable()
-              .frame(width: 450, height: 750)
+              .frame(width: 450, height: 650)
               .padding(.trailing, 400.0)
             StrokeText(text: "Give me Hghi five4", width: 1, color: .black)
               .foregroundColor(Color("yellow"))
@@ -600,7 +598,7 @@ struct Hi5View5: View {
            if !hasTimeElapsed {
             Image ("monkey-hi5")
               .resizable()
-              .frame(width: 450, height: 750)
+              .frame(width: 450, height: 650)
               .padding(.trailing, 400.0)
             StrokeText(text: "Give me Hghi five5", width: 1, color: .black)
               .foregroundColor(Color("yellow"))

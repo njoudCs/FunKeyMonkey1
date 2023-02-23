@@ -60,7 +60,7 @@ struct LaunchPage: View {
                     }.padding(.bottom, 220.0)
                 }
                 .onAppear {
-                    DispatchQueue.main.asyncAfter(deadline: .now() + 3.0) {
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 2.5) {
                         withAnimation{
                             self.isActive = true
                         }
