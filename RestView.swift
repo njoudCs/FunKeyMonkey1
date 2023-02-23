@@ -88,6 +88,10 @@ struct ProgressBar: View {
     }
 }
 
+
+
+/*
+
 struct CountdownView: View {
   
   @State var pushNewView: Bool = false
@@ -143,7 +147,11 @@ struct CountdownView: View {
             }
       }
       
-      .onAppear(perform: {playSouund(sound: "resttime-app", type: "mp3")})
+      .onAppear(perform: {
+        
+        playSouund(sound: "resttime-app", type: "mp3")
+        
+      })
       
       .onReceive(timer) { time in
             if (self.counter < self.countTo) {
@@ -153,8 +161,355 @@ struct CountdownView: View {
     }
 }
 
-struct CountdownView_Previews: PreviewProvider {
-    static var previews: some View {
-        CountdownView()
+*/
+
+
+
+
+
+
+
+ //***************** 1 *****************//
+
+struct CountdownView1: View {
+  
+  
+  @State var timeRemaining = 5
+
+  @State var pushNewView: Bool = false
+    @State var counter: Int = 0
+    var countTo: Int = 5
+  @State private var hasTimeElapsed = false
+
+    var body: some View {
+      
+      ZStack{
+        
+        if !hasTimeElapsed{
+          Color("purple")
+          Image("whitebnana")
+          .resizable()
+          VStack(spacing:100){
+            
+            
+            ZStack{
+              ProgressTrack()
+              ProgressBar(counter: counter, countTo: countTo)
+              Clock(counter: counter, countTo: countTo)
+            }.padding(.top)
+            
+            
+            ZStack{
+              
+              Image("monkyRest")
+                .resizable()
+                .frame(width: 400, height: 460)
+              
+              
+              Image("face-monkey")
+                .resizable()
+                .frame(width: 75, height: 50)
+                .padding(.top,65)
+                .padding(.leading,30)
+              
+            }
+            
+            StrokeText(text: "Drink Water", width: 1, color: .black)
+              .foregroundColor(Color("yellow"))
+              .font(.system(size: 45 ,design: .rounded))
+              .fontWeight(.heavy)
+              .font(.title)
+              .fontWeight(.bold)
+              .padding(.bottom, 50)
+            
+          }
+          
+        }
+        
+        else{
+          
+        ExercisesStart2()
+         
+        }
+        
+        
+        
+      }.onAppear(perform: { playSouund(sound: "resttime-app", type: "mp3")
+        
+        DispatchQueue.main.asyncAfter(deadline: .now() + 5.0) {
+          hasTimeElapsed = true }
+      })
+      .onReceive(timer) { time in
+        if (self.counter < self.countTo) {
+          self.counter += 1
+        }}
     }
 }
+
+
+
+
+
+//***************** 2 *****************//
+
+
+struct CountdownView2: View {
+  
+  
+  @State var timeRemaining = 5
+
+  @State var pushNewView: Bool = false
+    @State var counter: Int = 0
+    var countTo: Int = 5
+  @State private var hasTimeElapsed = false
+
+    var body: some View {
+      
+      ZStack{
+        
+        if !hasTimeElapsed{
+          Color("purple")
+          Image("whitebnana")
+          .resizable()
+          VStack(spacing:100){
+            
+            
+            ZStack{
+              ProgressTrack()
+              ProgressBar(counter: counter, countTo: countTo)
+              Clock(counter: counter, countTo: countTo)
+            }.padding(.top)
+            
+            
+            ZStack{
+              
+              Image("monkyRest")
+                .resizable()
+                .frame(width: 400, height: 460)
+              
+              
+              Image("face-monkey")
+                .resizable()
+                .frame(width: 75, height: 50)
+                .padding(.top,65)
+                .padding(.leading,30)
+              
+            }
+            
+            StrokeText(text: "Drink Water", width: 1, color: .black)
+              .foregroundColor(Color("yellow"))
+              .font(.system(size: 45 ,design: .rounded))
+              .fontWeight(.heavy)
+              .font(.title)
+              .fontWeight(.bold)
+              .padding(.bottom, 50)
+            
+          }
+          
+        }
+        
+        else{
+          
+        ExercisesStart3()
+         
+        }
+        
+        
+        
+      }.onAppear(perform: { playSouund(sound: "resttime-app", type: "mp3")
+        
+        DispatchQueue.main.asyncAfter(deadline: .now() + 5.0) {
+          hasTimeElapsed = true }
+      })
+      .onReceive(timer) { time in
+        if (self.counter < self.countTo) {
+          self.counter += 1
+        }}
+    }
+}
+
+
+
+
+
+
+
+
+
+struct CountdownView3: View {
+  
+  
+  @State var timeRemaining = 5
+
+  @State var pushNewView: Bool = false
+    @State var counter: Int = 0
+    var countTo: Int = 5
+  @State private var hasTimeElapsed = false
+
+    var body: some View {
+      
+      ZStack{
+        
+        if !hasTimeElapsed{
+          Color("purple")
+          Image("whitebnana")
+         .resizable()
+          VStack(spacing:100){
+            
+            
+            ZStack{
+              ProgressTrack()
+              ProgressBar(counter: counter, countTo: countTo)
+              Clock(counter: counter, countTo: countTo)
+            }.padding(.top)
+            
+            
+            ZStack{
+              
+              Image("monkyRest")
+                .resizable()
+                .frame(width: 400, height: 460)
+              
+              
+              Image("face-monkey")
+                .resizable()
+                .frame(width: 75, height: 50)
+                .padding(.top,65)
+                .padding(.leading,30)
+              
+            }
+            
+            StrokeText(text: "Drink Water", width: 1, color: .black)
+              .foregroundColor(Color("yellow"))
+              .font(.system(size: 45 ,design: .rounded))
+              .fontWeight(.heavy)
+              .font(.title)
+              .fontWeight(.bold)
+              .padding(.bottom, 50)
+            
+          }
+          
+        }
+        
+        else{
+          
+       ExercisesStart4()
+         
+        }
+        
+        
+        
+      }.onAppear(perform: { playSouund(sound: "resttime-app", type: "mp3")
+        
+        DispatchQueue.main.asyncAfter(deadline: .now() + 5.0) {
+          hasTimeElapsed = true }
+      })
+      .onReceive(timer) { time in
+        if (self.counter < self.countTo) {
+          self.counter += 1
+        }}
+    }
+}
+
+
+
+
+
+
+
+
+struct CountdownView4: View {
+  
+  
+  @State var timeRemaining = 5
+
+  @State var pushNewView: Bool = false
+    @State var counter: Int = 0
+    var countTo: Int = 5
+  @State private var hasTimeElapsed = false
+
+    var body: some View {
+      
+      ZStack{
+        
+        if !hasTimeElapsed{
+          Color("purple")
+          Image("whitebnana")
+          //.resizable()
+          VStack(spacing:100){
+            
+            
+            ZStack{
+              ProgressTrack()
+              ProgressBar(counter: counter, countTo: countTo)
+              Clock(counter: counter, countTo: countTo)
+            }.padding(.top)
+            
+            
+            ZStack{
+              
+              Image("monkyRest")
+                .resizable()
+                .frame(width: 400, height: 460)
+              
+              
+              Image("face-monkey")
+                .resizable()
+                .frame(width: 75, height: 50)
+                .padding(.top,65)
+                .padding(.leading,30)
+              
+            }
+            
+            StrokeText(text: "Drink Water", width: 1, color: .black)
+              .foregroundColor(Color("yellow"))
+              .font(.system(size: 45 ,design: .rounded))
+              .fontWeight(.heavy)
+              .font(.title)
+              .fontWeight(.bold)
+              .padding(.bottom, 50)
+            
+          }
+          
+        }
+        
+        else{
+          
+       ExercisesStart5()
+         
+        }
+        
+        
+        
+      }.onAppear(perform: { playSouund(sound: "resttime-app", type: "mp3")
+        
+        DispatchQueue.main.asyncAfter(deadline: .now() + 5.0) {
+          hasTimeElapsed = true }
+      }).onReceive(timer) { time in
+        if (self.counter < self.countTo) {
+          self.counter += 1
+        }}
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+struct CountdownView_Previews: PreviewProvider {
+    static var previews: some View {
+        CountdownView1()
+    }
+}
+
+
+*/
