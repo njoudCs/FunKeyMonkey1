@@ -27,6 +27,7 @@
 		5F2A7F82299BBF6D00F2B9D0 /* forTrying.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2A7F81299BBF6D00F2B9D0 /* forTrying.swift */; };
 		5F86032A29A7703D00D4E809 /* good job.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5F86032929A7703D00D4E809 /* good job.mp3 */; };
 		5F86032C29A7758B00D4E809 /* yay.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5F86032B29A7758B00D4E809 /* yay.mp3 */; };
+		5F86033229A7CD6B00D4E809 /* JumpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F86033129A7CD6B00D4E809 /* JumpView.swift */; };
 		5FDD8299299F75D0006FCC1F /* Hi5View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDD8298299F75D0006FCC1F /* Hi5View.swift */; };
 		A9118C22299D19AA00624633 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9118C21299D19AA00624633 /* Workout.swift */; };
 		A9118C24299D19D000624633 /* let'sGo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9118C23299D19D000624633 /* let'sGo.swift */; };
@@ -34,7 +35,6 @@
 		A9118C2A299D1BCB00624633 /* OnboardingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9118C29299D1BCB00624633 /* OnboardingPage.swift */; };
 		A9118C2E299D65A800624633 /* Timer1.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9118C2D299D65A800624633 /* Timer1.swift */; };
 		A9118C32299D742C00624633 /* BananaEmptey.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9118C31299D742C00624633 /* BananaEmptey.swift */; };
-		A94E8F3E29A78904002D16C1 /* BanansStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94E8F3D29A78904002D16C1 /* BanansStruct.swift */; };
 		A94E8F4129A7CB8E002D16C1 /* Banans.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94E8F4029A7CB8E002D16C1 /* Banans.swift */; };
 		A9680A1929A39E2800E4F96E /* ExercisesStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9680A1829A39E2800E4F96E /* ExercisesStruct.swift */; };
 		A9680A1B29A3BE7A00E4F96E /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9680A1A29A3BE7A00E4F96E /* PlaySound.swift */; };
@@ -81,6 +81,7 @@
 		5F2A7F81299BBF6D00F2B9D0 /* forTrying.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = forTrying.swift; sourceTree = "<group>"; };
 		5F86032929A7703D00D4E809 /* good job.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "good job.mp3"; sourceTree = "<group>"; };
 		5F86032B29A7758B00D4E809 /* yay.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = yay.mp3; sourceTree = "<group>"; };
+		5F86033129A7CD6B00D4E809 /* JumpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumpView.swift; sourceTree = "<group>"; };
 		5FDD8298299F75D0006FCC1F /* Hi5View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hi5View.swift; sourceTree = "<group>"; };
 		A9118C21299D19AA00624633 /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
 		A9118C23299D19D000624633 /* let'sGo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "let'sGo.swift"; sourceTree = "<group>"; };
@@ -88,7 +89,6 @@
 		A9118C29299D1BCB00624633 /* OnboardingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPage.swift; sourceTree = "<group>"; };
 		A9118C2D299D65A800624633 /* Timer1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timer1.swift; sourceTree = "<group>"; };
 		A9118C31299D742C00624633 /* BananaEmptey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BananaEmptey.swift; sourceTree = "<group>"; };
-		A94E8F3D29A78904002D16C1 /* BanansStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BanansStruct.swift; path = ../../../../../.Trash/FunKeyMonkey1/Views/BanansStruct.swift; sourceTree = "<group>"; };
 		A94E8F4029A7CB8E002D16C1 /* Banans.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Banans.swift; sourceTree = "<group>"; };
 		A9680A1829A39E2800E4F96E /* ExercisesStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisesStruct.swift; sourceTree = "<group>"; };
 		A9680A1A29A3BE7A00E4F96E /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
@@ -230,7 +230,6 @@
 			isa = PBXGroup;
 			children = (
 				A94E8F3F29A7CB57002D16C1 /* BanansStruct */,
-				A94E8F3C29A788D2002D16C1 /* BanansStructs */,
 				A9680A1729A39DA400E4F96E /* ExStruct */,
 				304BEFC92586268B00CED98D /* CameraView */,
 				A9118C26299D1B9400624633 /* onBoarding */,
@@ -243,16 +242,9 @@
 			children = (
 				A9118C27299D1BB300624633 /* LaunchPage.swift */,
 				A9118C29299D1BCB00624633 /* OnboardingPage.swift */,
+				5F86033129A7CD6B00D4E809 /* JumpView.swift */,
 			);
 			path = onBoarding;
-			sourceTree = "<group>";
-		};
-		A94E8F3C29A788D2002D16C1 /* BanansStructs */ = {
-			isa = PBXGroup;
-			children = (
-				A94E8F3D29A78904002D16C1 /* BanansStruct.swift */,
-			);
-			path = BanansStructs;
 			sourceTree = "<group>";
 		};
 		A94E8F3F29A7CB57002D16C1 /* BanansStruct */ = {
@@ -401,7 +393,6 @@
 				A9118C32299D742C00624633 /* BananaEmptey.swift in Sources */,
 				A96E84BC2999064D00C5ED06 /* FunMonkeyModel.xcdatamodeld in Sources */,
 				18D775C522AD944300AE281E /* ContentView.swift in Sources */,
-				A94E8F3E29A78904002D16C1 /* BanansStruct.swift in Sources */,
 				A9118C2E299D65A800624633 /* Timer1.swift in Sources */,
 				A9118C22299D19AA00624633 /* Workout.swift in Sources */,
 				5F2A7F82299BBF6D00F2B9D0 /* forTrying.swift in Sources */,
@@ -414,6 +405,7 @@
 				376FF2B329A30FA900D993DD /* Confetti.swift in Sources */,
 				A96E84E52999124A00C5ED06 /* HeyName.swift in Sources */,
 				A96E84E32999111D00C5ED06 /* FirstlyPage.swift in Sources */,
+				5F86033229A7CD6B00D4E809 /* JumpView.swift in Sources */,
 				A96E84B9299522AF00C5ED06 /* onAppear.swift in Sources */,
 				A94E8F4129A7CB8E002D16C1 /* Banans.swift in Sources */,
 				A9118C24299D19D000624633 /* let'sGo.swift in Sources */,
@@ -562,7 +554,7 @@
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "StarCount/Preview\\ Content";
-				DEVELOPMENT_TEAM = C48XQY4D63;
+				DEVELOPMENT_TEAM = H7UJR9Y63X;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "StarCount/Supporting Files/Info.plist";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
@@ -585,7 +577,7 @@
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "StarCount/Preview\\ Content";
-				DEVELOPMENT_TEAM = C48XQY4D63;
+				DEVELOPMENT_TEAM = H7UJR9Y63X;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "StarCount/Supporting Files/Info.plist";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";

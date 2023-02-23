@@ -43,18 +43,21 @@ struct LaunchPage: View {
                     
                     VStack{
                         
-                        Image("MonkeyHi")
-                            .resizable()
-                            .frame(width: 570, height:800 )
+                      WorkoutView2()
+                        .padding(.bottom, 520.0)
+
+//                            .resizable()
+//                            .frame(width: 570, height:800 )
                         
                    
                         
-                        StrokeText(text: "Funky Monkey", width: 2, color: .black)
-                                  .foregroundColor(Color("yellow"))
-                                  .font(.system(size: 70 ,design: .rounded))
+  StrokeText(text: "Funky Monkey", width: 2, color: .black)
+      .foregroundColor(Color("yellow"))
+      .font(.system(size: 70 ,design: .rounded))
+      .padding(.top, 500.0)
                                   .fontWeight(.heavy)
                        
-                    }
+                    }.padding(.bottom, 220.0)
                 }
                 .onAppear {
                     DispatchQueue.main.asyncAfter(deadline: .now() + 3.0) {
