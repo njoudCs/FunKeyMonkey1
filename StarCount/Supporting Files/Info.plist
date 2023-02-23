@@ -21,7 +21,7 @@
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSCameraUsageDescription</key>
-	<string>This application uses the camera to demonstrate Vision Hand Detection APIs.</string>
+	<string>This application uses the camera to demonstrate Funky Monkey app screens </string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
