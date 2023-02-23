@@ -13,25 +13,32 @@ let timer1 = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
         Spacer()
 
           
-          //Start timer **Auto** .. Njoud Al-Najem
+
           Text("\(timeRemaining)")
               .onReceive(timer1) { _ in
                   if timeRemaining > 0 {
                       timeRemaining -= 1
                   }
-              }
+              } .font(.custom("Avenir Next", size: 50))
+          .foregroundColor(Color("purple"))
+          .fontWeight(.black)
             .padding()
-            .overlay(
-              Circle()
-                .stroke(Color.red, lineWidth: 4)
-            )
+        .overlay(
+             Circle()
+              .stroke(Color.yellow, lineWidth: 4)
+           )
 
 
              
       }
-      //End of timer .. Njoud Al-Najem
+    
       
-}}
+      
+      
+}
+  
+  
+}
 
 
 

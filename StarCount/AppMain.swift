@@ -12,8 +12,8 @@ struct AppMain: App {
       
       
     TabView {
-        ready()
-     // LaunchPage().environment(\.managedObjectContext, persistentContainer.viewContext)
+    
+      LaunchPage().environment(\.managedObjectContext, persistentContainer.viewContext)
 
       }
     }

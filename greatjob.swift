@@ -5,6 +5,8 @@ import SwiftUI
 import EffectsLibrary
 
 struct greatjob: View {
+  @Binding var kidsName: String
+
   @State private var scale: CGFloat = 1.5
   var config = FireworksConfig(
     content: [
@@ -32,7 +34,12 @@ struct greatjob: View {
         .cornerRadius(55)
       
       VStack{
-        StrokeText(text: "jori", width: 1, color: .black)
+        
+        /*
+        StrokeText(text: "Welcome \(self.kidsName)", width: 2, color: .black)
+        */
+        
+        StrokeText(text: "jori\(self.kidsName)", width: 1, color: .black)
           .foregroundColor(Color("yellow"))
           .font(.system(size: 40 ,design: .rounded))
           .fontWeight(.heavy)
@@ -108,9 +115,12 @@ struct greatjob: View {
   }
   
   
+
   struct greatjob_Previews: PreviewProvider {
+    @State static var kidsName: String = ""
+    
     static var previews: some View {
-      greatjob()
+      greatjob(kidsName: $kidsName)
     }
   }
   

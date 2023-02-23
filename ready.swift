@@ -59,14 +59,14 @@ struct ready: View {
          
          else{
          
-         //ExercisesStart1()
+        // ExercisesStart1()
          }
          }
        
         
         
         .onAppear(){
-          DispatchQueue.main.asyncAfter(deadline: .now() + 80.0) {
+          DispatchQueue.main.asyncAfter(deadline: .now() + 5.0) {
             hasTimeElapsed = true}}
       }
       

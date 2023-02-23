@@ -8,7 +8,7 @@ import SwiftUI
 
 struct ExercisesStart1: View {
   
-  @State var timeRemaining = 5
+  @State var timeRemaining = 15
   @State private var hasTimeElapsed = false
   @State var pushNewView: Bool = false
   
@@ -26,14 +26,25 @@ struct ExercisesStart1: View {
             BanansStruct1()}
             Timer1(timeRemaining: $timeRemaining)
             workoutAnimation()
-            Text("Running in place").padding(.top, 800.0)}.padding()}
+           
+
+            StrokeText(text: "Running in place", width: 1, color: .black)
+              .foregroundColor(Color("yellow"))
+              .font(.system(size: 60 ,design: .rounded))
+              .fontWeight(.heavy)
+              .padding(.top, 700.0)
+            
+          }.padding()
+          
+          
+        }
         
         
         else{
           
          Hi5View1()}}
         .onAppear(){
-         DispatchQueue.main.asyncAfter(deadline: .now() + 5.0) {
+         DispatchQueue.main.asyncAfter(deadline: .now() + 15.0) {
           hasTimeElapsed = true}}
       
       
@@ -54,7 +65,7 @@ struct ExercisesStart1: View {
 
 struct ExercisesStart2: View {
   
-  @State var timeRemaining = 5
+  @State var timeRemaining = 15
   @State private var hasTimeElapsed = false
   @State var pushNewView: Bool = false
   
@@ -72,14 +83,26 @@ struct ExercisesStart2: View {
             BanansStruct2()}
             Timer1(timeRemaining: $timeRemaining)
             workoutAnimation()
-            Text("Running in place").padding(.top, 800.0)}.padding()}
+            
+            StrokeText(text: "Jumping in place", width: 1, color: .black)
+              .foregroundColor(Color("yellow"))
+              .font(.system(size: 60 ,design: .rounded))
+              .fontWeight(.heavy)
+              .padding(.top, 700.0)
+            
+            
+            
+          }.padding()
+          
+          
+        }
         
         
         else{
           
          Hi5View2()}}
         .onAppear(){
-         DispatchQueue.main.asyncAfter(deadline: .now() + 5.0) {
+         DispatchQueue.main.asyncAfter(deadline: .now() + 15.0) {
           hasTimeElapsed = true}}
       
       
@@ -97,7 +120,7 @@ struct ExercisesStart2: View {
 
 struct ExercisesStart3: View {
 
-@State var timeRemaining = 5
+@State var timeRemaining = 15
 @State private var hasTimeElapsed = false
 @State var pushNewView: Bool = false
 
@@ -115,14 +138,23 @@ var body: some View {
         BanansStruct3()}
         Timer1(timeRemaining: $timeRemaining)
         workoutAnimation()
-        Text("Running in place").padding(.top, 800.0)}.padding()}
+        
+        StrokeText(text: "Dancing in place", width: 1, color: .black)
+          .foregroundColor(Color("yellow"))
+          .font(.system(size: 60 ,design: .rounded))
+          .fontWeight(.heavy)
+          .padding(.top, 700.0)
+        
+        
+        
+      }.padding()}
     
     
     else{
       
      Hi5View3()}}
     .onAppear(){
-     DispatchQueue.main.asyncAfter(deadline: .now() + 5.0) {
+     DispatchQueue.main.asyncAfter(deadline: .now() + 15.0) {
       hasTimeElapsed = true}}
   
   
@@ -135,7 +167,7 @@ var body: some View {
 
 struct ExercisesStart4: View {
 
-@State var timeRemaining = 5
+@State var timeRemaining = 15
 @State private var hasTimeElapsed = false
 @State var pushNewView: Bool = false
 
@@ -153,14 +185,19 @@ var body: some View {
         BanansStruct4()}
         Timer1(timeRemaining: $timeRemaining)
         workoutAnimation()
-        Text("Running in place").padding(.top, 800.0)}.padding()}
+        StrokeText(text: "Running in place", width: 1, color: .black)
+          .foregroundColor(Color("yellow"))
+          .font(.system(size: 60 ,design: .rounded))
+          .fontWeight(.heavy)
+          .padding(.top, 700.0)
+          }.padding()}
     
     
     else{
       
      Hi5View4()}}
     .onAppear(){
-     DispatchQueue.main.asyncAfter(deadline: .now() + 5.0) {
+     DispatchQueue.main.asyncAfter(deadline: .now() + 15.0) {
       hasTimeElapsed = true}}
   
   
@@ -174,7 +211,7 @@ var body: some View {
 
 struct ExercisesStart5: View {
 
-@State var timeRemaining = 5
+@State var timeRemaining = 15
 @State private var hasTimeElapsed = false
 @State var pushNewView: Bool = false
 
@@ -192,7 +229,14 @@ var body: some View {
         BanansStruct5()}
         Timer1(timeRemaining: $timeRemaining)
         workoutAnimation()
-        Text("Running in place").padding(.top, 800.0)}.padding()}
+        StrokeText(text: "Running in place", width: 1, color: .black)
+          .foregroundColor(Color("yellow"))
+          .font(.system(size: 60 ,design: .rounded))
+          .fontWeight(.heavy)
+          .padding(.top, 700.0)
+        
+        
+      }.padding()}
     
     
     else{
@@ -201,7 +245,7 @@ var body: some View {
       
     }}
     .onAppear(){
-     DispatchQueue.main.asyncAfter(deadline: .now() + 5.0) {
+     DispatchQueue.main.asyncAfter(deadline: .now() + 15.0) {
       hasTimeElapsed = true}}
   
   
@@ -211,6 +255,54 @@ var body: some View {
 
 
 
+
+
+//*************ExercisesStart4**************//
+
+struct ExercisesStart6: View {
+  
+  @State private var kidsName: String = ""
+@State private var hasTimeElapsed = false
+@State var pushNewView: Bool = false
+
+var body: some View {
+
+
+// ScrollView (showsIndicators: false) {
+  ZStack{
+    
+    if !hasTimeElapsed {
+      
+      CameraView()
+      VStack ( spacing: 16){
+        HStack (){
+        BanansStruct6()}
+        workoutAnimation()
+        StrokeText(text: "Running in place", width: 1, color: .black)
+          .foregroundColor(Color("yellow"))
+          .font(.system(size: 60 ,design: .rounded))
+          .fontWeight(.heavy)
+          .padding(.top, 700.0)
+        
+        
+      }.padding()}
+    
+    
+    else{
+      
+     greatjob(kidsName: $kidsName)
+      
+    }}
+    .onAppear(){
+     DispatchQueue.main.asyncAfter(deadline: .now() + 3.0) {
+      hasTimeElapsed = true}}
+  
+  
+  
+//  }
+  }
+  
+}
 
 
 

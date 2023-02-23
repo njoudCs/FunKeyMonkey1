@@ -125,7 +125,6 @@ struct Hi5View1: View {
   @State private var overlayPoints: [CGPoint] = []
   @StateObject private var gameLogicController = GameLogicController()
   @State var pushNewView: Bool = false
-  @State var timeRemaining = 10
 
 
 
@@ -215,7 +214,7 @@ ZStack {
         
         
     }.onAppear(){
-      DispatchQueue.main.asyncAfter(deadline: .now() + 10.0) {
+      DispatchQueue.main.asyncAfter(deadline: .now() + 7.0) {
         hasTimeElapsed = true
       }
     }
@@ -237,7 +236,9 @@ struct Hi5View2: View {
   @State private var overlayPoints: [CGPoint] = []
   @StateObject private var gameLogicController = GameLogicController()
   @State var pushNewView: Bool = false
-  @State var timeRemaining = 10
+
+  
+  
 
 
 
@@ -268,7 +269,7 @@ struct Hi5View2: View {
               .resizable()
               .frame(width: 450, height: 750)
               .padding(.trailing, 400.0)
-            StrokeText(text: "Give me Hghi five", width: 1, color: .black)
+            StrokeText(text: "Give me Hghi five2", width: 1, color: .black)
               .foregroundColor(Color("yellow"))
               .font(.system(size: 45 ,design: .rounded))
               .fontWeight(.heavy)
@@ -324,7 +325,7 @@ struct Hi5View2: View {
         
         
     }.onAppear(){
-      DispatchQueue.main.asyncAfter(deadline: .now() + 10.0) {
+      DispatchQueue.main.asyncAfter(deadline: .now() + 7.0) {
         hasTimeElapsed = true
       }
     }
@@ -343,7 +344,6 @@ struct Hi5View3: View {
   @State private var overlayPoints: [CGPoint] = []
   @StateObject private var gameLogicController = GameLogicController()
   @State var pushNewView: Bool = false
-  @State var timeRemaining = 10
 
 
 
@@ -373,7 +373,7 @@ struct Hi5View3: View {
               .resizable()
               .frame(width: 450, height: 750)
               .padding(.trailing, 400.0)
-            StrokeText(text: "Give me Hghi five", width: 1, color: .black)
+            StrokeText(text: "Give me Hghi five3", width: 1, color: .black)
               .foregroundColor(Color("yellow"))
               .font(.system(size: 45 ,design: .rounded))
               .fontWeight(.heavy)
@@ -428,7 +428,7 @@ struct Hi5View3: View {
         
         
     }.onAppear(){
-      DispatchQueue.main.asyncAfter(deadline: .now() + 10.0) {
+      DispatchQueue.main.asyncAfter(deadline: .now() + 7.0) {
         hasTimeElapsed = true
       }
     }
@@ -446,7 +446,6 @@ struct Hi5View4: View {
   @State private var overlayPoints: [CGPoint] = []
   @StateObject private var gameLogicController = GameLogicController()
   @State var pushNewView: Bool = false
-  @State var timeRemaining = 10
 
 
 
@@ -485,7 +484,7 @@ struct Hi5View4: View {
               .resizable()
               .frame(width: 450, height: 750)
               .padding(.trailing, 400.0)
-            StrokeText(text: "Give me Hghi five", width: 1, color: .black)
+            StrokeText(text: "Give me Hghi five4", width: 1, color: .black)
               .foregroundColor(Color("yellow"))
               .font(.system(size: 45 ,design: .rounded))
               .fontWeight(.heavy)
@@ -521,12 +520,14 @@ struct Hi5View4: View {
     ZStack{
     if !hasTimeElapsed {
     if let success = gameLogicController.successBadge {
-   Image("high-five-clipart-md")
-    .resizable()
-    .imageScale(.large)
-    .foregroundColor(.white)
-    .frame(width: 200, height: 200)
-    .shadow(radius: 5)
+   Image("")
+   // .resizable()
+   // .imageScale(.large)
+   // .foregroundColor(.white)
+    //.frame(width: 200, height: 200)
+    //.shadow(radius: 5)
+        .onAppear(perform: {playSouund(sound: "good job", type: "mp3")})
+
      // playSouund(sound: "", type:"mp3")
         }
       
@@ -544,7 +545,7 @@ struct Hi5View4: View {
         
         
     }.onAppear(){
-      DispatchQueue.main.asyncAfter(deadline: .now() + 10.0) {
+      DispatchQueue.main.asyncAfter(deadline: .now() + 7.0) {
         hasTimeElapsed = true
       }
     }
@@ -563,7 +564,6 @@ struct Hi5View5: View {
   @State private var overlayPoints: [CGPoint] = []
   @StateObject private var gameLogicController = GameLogicController()
   @State var pushNewView: Bool = false
-  @State var timeRemaining = 10
 
 
 
@@ -602,7 +602,7 @@ struct Hi5View5: View {
               .resizable()
               .frame(width: 450, height: 750)
               .padding(.trailing, 400.0)
-            StrokeText(text: "Give me Hghi five", width: 1, color: .black)
+            StrokeText(text: "Give me Hghi five5", width: 1, color: .black)
               .foregroundColor(Color("yellow"))
               .font(.system(size: 45 ,design: .rounded))
               .fontWeight(.heavy)
@@ -651,13 +651,13 @@ struct Hi5View5: View {
       }
       
       else{
-       achiviment()
+        ExercisesStart6()
       }
 
         
         
     }.onAppear(){
-      DispatchQueue.main.asyncAfter(deadline: .now() + 10.0) {
+      DispatchQueue.main.asyncAfter(deadline: .now() + 7.0) {
         hasTimeElapsed = true
       }
     }
