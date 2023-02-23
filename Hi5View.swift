@@ -32,11 +32,18 @@ struct Hi5View: View {
         }
         
         VStack(spacing:100){
-
-        Image ("monkey-hi5")
-          .resizable()
-          .frame(width: 450, height: 750)
-          .padding(.trailing, 400.0)
+          ZStack {
+            Image ("monkey-hi5")
+              .resizable()
+              .frame(width: 450, height: 750)
+            .padding(.trailing, 400.0)
+            
+            Image("face-monkey")
+              .resizable()
+              .frame(width: 95, height: 70)
+              .padding(.trailing,360.0)
+            
+          }
           StrokeText(text: "Give me high five", width: 1, color: .black)
             .foregroundColor(Color("yellow"))
             .font(.system(size: 45 ,design: .rounded))
@@ -72,7 +79,7 @@ struct Hi5View: View {
 //    .foregroundColor(.white)
 //    .frame(width: 200, height: 200)
 //    .shadow(radius: 5)
-    .onAppear(perform: {playSouund(sound: "letsgo-app", type: "mp3")})
+    .onAppear(perform: {playSouund(sound: "good job", type: "mp3")})
       
       
         }

@@ -52,7 +52,15 @@ struct workoutAnimation: UIViewRepresentable {
 struct WorkoutView: View {
     var body: some View {
         VStack (alignment: HorizontalAlignment.center, spacing: 10) {
+          ZStack {
             workoutAnimation()
+            Image("face-monkey")
+              .resizable()
+              .frame(width: 65, height: 40)
+              .padding (.bottom, 430.0)
+              .padding (.trailing, 380.0)
+
+          }
                   }
     }
 }
