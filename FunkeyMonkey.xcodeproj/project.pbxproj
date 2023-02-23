@@ -26,6 +26,7 @@
 		37A0561729A5464F00839E81 /* EffectsLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = 37A0561629A5464F00839E81 /* EffectsLibrary */; };
 		5F2A7F82299BBF6D00F2B9D0 /* forTrying.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2A7F81299BBF6D00F2B9D0 /* forTrying.swift */; };
 		5F86032A29A7703D00D4E809 /* good job.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5F86032929A7703D00D4E809 /* good job.mp3 */; };
+		5F86032C29A7758B00D4E809 /* yay.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5F86032B29A7758B00D4E809 /* yay.mp3 */; };
 		5FDD8299299F75D0006FCC1F /* Hi5View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDD8298299F75D0006FCC1F /* Hi5View.swift */; };
 		A9118C22299D19AA00624633 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9118C21299D19AA00624633 /* Workout.swift */; };
 		A9118C24299D19D000624633 /* let'sGo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9118C23299D19D000624633 /* let'sGo.swift */; };
@@ -77,6 +78,7 @@
 		376FF2B229A30FA900D993DD /* Confetti.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Confetti.swift; sourceTree = "<group>"; };
 		5F2A7F81299BBF6D00F2B9D0 /* forTrying.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = forTrying.swift; sourceTree = "<group>"; };
 		5F86032929A7703D00D4E809 /* good job.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "good job.mp3"; sourceTree = "<group>"; };
+		5F86032B29A7758B00D4E809 /* yay.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = yay.mp3; sourceTree = "<group>"; };
 		5FDD8298299F75D0006FCC1F /* Hi5View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hi5View.swift; sourceTree = "<group>"; };
 		A9118C21299D19AA00624633 /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
 		A9118C23299D19D000624633 /* let'sGo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "let'sGo.swift"; sourceTree = "<group>"; };
@@ -256,6 +258,7 @@
 				CEFD917629A5182A00191DF8 /* ready-app.mp3 */,
 				CEFD917829A5182A00191DF8 /* resttime-app.mp3 */,
 				5F86032929A7703D00D4E809 /* good job.mp3 */,
+				5F86032B29A7758B00D4E809 /* yay.mp3 */,
 				CEFD917929A5182A00191DF8 /* standuphere-app.mp3 */,
 				CEFD917229A5148B00191DF8 /* funkymonky.mp3 */,
 			);
@@ -330,6 +333,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEFD917D29A5182A00191DF8 /* hi5-app.mp3 in Resources */,
+				5F86032C29A7758B00D4E809 /* yay.mp3 in Resources */,
 				A96E848F2991246F00C5ED06 /* Assets.xcassets in Resources */,
 				5F86032A29A7703D00D4E809 /* good job.mp3 in Resources */,
 				CEFD917B29A5182A00191DF8 /* go-app.mp3 in Resources */,

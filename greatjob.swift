@@ -99,7 +99,7 @@ struct greatjob: View {
         }
       FireworksView(config: config)
 
-      }
+      }.onAppear(perform: {playSouund(sound: "yay", type: "mp3")})
       
       
       
