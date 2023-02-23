@@ -90,6 +90,79 @@ struct ProgressBar: View {
 
 
 
+/*
+
+struct CountdownView: View {
+  
+  @State var pushNewView: Bool = false
+    @State var counter: Int = 0
+    var countTo: Int = 15
+    
+    var body: some View {
+      
+      ZStack{
+        Color("purple").ignoresSafeArea()
+        Image("whitebnana")
+          .resizable()
+        VStack(spacing:100){
+          
+          
+          ZStack{
+            ProgressTrack()
+            ProgressBar(counter: counter, countTo: countTo)
+            Clock(counter: counter, countTo: countTo)
+          }.padding(.top)
+          
+          
+          ZStack{
+         
+            Image("monkyRest")
+              .resizable()
+              .frame(width: 400, height: 460)
+            
+            
+            Image("face-monkey")
+              .resizable()
+              .frame(width: 75, height: 50)
+              .padding(.top,65)
+              .padding(.leading,30)
+            
+          }
+          
+          StrokeText(text: "Drink Water", width: 1, color: .black)
+            .foregroundColor(Color("yellow"))
+            .font(.system(size: 45 ,design: .rounded))
+            .fontWeight(.heavy)
+            .font(.title)
+            .fontWeight(.bold)
+            .padding(.bottom, 50)
+          
+          
+          
+        }
+        
+        if pushNewView{
+
+              Workout()
+            }
+      }
+      
+      .onAppear(perform: {
+        
+        playSouund(sound: "resttime-app", type: "mp3")
+        
+      })
+      
+      .onReceive(timer) { time in
+            if (self.counter < self.countTo) {
+                self.counter += 1
+            }
+        }
+    }
+}
+
+*/
+
 
 
 
@@ -118,7 +191,7 @@ struct CountdownView1: View {
           VStack(spacing:100){
             
             
-            HStack{
+            ZStack{
               ProgressTrack()
               ProgressBar(counter: counter, countTo: countTo)
               Clock(counter: counter, countTo: countTo)
@@ -140,7 +213,7 @@ struct CountdownView1: View {
               
             }
             
-            StrokeText(text: "Drink Water", width: 1, color: .black)
+            StrokeText(text: "Drink Water1", width: 1, color: .black)
               .foregroundColor(Color("yellow"))
               .font(.system(size: 45 ,design: .rounded))
               .fontWeight(.heavy)
@@ -221,7 +294,7 @@ struct CountdownView2: View {
               
             }
             
-            StrokeText(text: "Drink Water", width: 1, color: .black)
+            StrokeText(text: "Drink Water2", width: 1, color: .black)
               .foregroundColor(Color("yellow"))
               .font(.system(size: 45 ,design: .rounded))
               .fontWeight(.heavy)
@@ -303,7 +376,7 @@ struct CountdownView3: View {
               
             }
             
-            StrokeText(text: "Drink Water", width: 1, color: .black)
+            StrokeText(text: "Drink Water3", width: 1, color: .black)
               .foregroundColor(Color("yellow"))
               .font(.system(size: 45 ,design: .rounded))
               .fontWeight(.heavy)
@@ -383,7 +456,7 @@ struct CountdownView4: View {
               
             }
             
-            StrokeText(text: "Drink Water", width: 1, color: .black)
+            StrokeText(text: "Drink Water4", width: 1, color: .black)
               .foregroundColor(Color("yellow"))
               .font(.system(size: 45 ,design: .rounded))
               .fontWeight(.heavy)
