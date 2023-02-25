@@ -180,9 +180,11 @@ struct CountdownView1: View {
       ZStack{
         
         if !hasTimeElapsed{
-          Color("purple")
-          Image("whitebnana")
-          //.resizable()
+          Color("purple").edgesIgnoringSafeArea(.all)
+          Image("Back")
+          .resizable()
+          .edgesIgnoringSafeArea(.all)
+          
           VStack(spacing:100){
             
             
@@ -255,9 +257,10 @@ struct CountdownView2: View {
       ZStack{
         
         if !hasTimeElapsed{
-          Color("purple")
-          Image("whitebnana")
-         // .resizable()
+          Color("purple").edgesIgnoringSafeArea(.all)
+          Image("Back")
+          .resizable()
+          .edgesIgnoringSafeArea(.all)
           VStack(spacing:100){
             
             
@@ -331,9 +334,11 @@ struct CountdownView3: View {
       ZStack{
         
         if !hasTimeElapsed{
-          Color("purple")
-          Image("whitebnana")
-        // .resizable()
+          Color("purple").edgesIgnoringSafeArea(.all)
+          Image("Back")
+          .resizable()
+          .edgesIgnoringSafeArea(.all)
+          
           VStack(spacing:100){
             
             
@@ -405,9 +410,10 @@ struct CountdownView4: View {
       ZStack{
         
         if !hasTimeElapsed{
-          Color("purple")
-          Image("whitebnana")
-          //.resizable()
+          Color("purple").edgesIgnoringSafeArea(.all)
+          Image("Back")
+          .resizable()
+          .edgesIgnoringSafeArea(.all)
           VStack(spacing:100){
             
             

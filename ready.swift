@@ -11,7 +11,7 @@ struct ready: View {
     ZStack{
       
       if !hasTimeElapsed {
-        CameraView()
+        CameraView().ignoresSafeArea(.all)
         
         
         StrokeText(text: "Are you ready ?", width: 1, color: .black)
@@ -31,7 +31,7 @@ struct ready: View {
         
           
           Rectangle()
-          .frame(width: 290, height: 400)
+          .frame(width: 320, height: 600)
           .foregroundColor(Color("Label"))
           .opacity(0.2)
           .overlay(RoundedRectangle(cornerRadius: 3)
@@ -59,14 +59,14 @@ struct ready: View {
          
          else{
          
-          ExercisesStart1()
+         // ExercisesStart1()
          }
          }
        
         
         
         .onAppear(){
-          DispatchQueue.main.asyncAfter(deadline: .now() + 5.0) {
+          DispatchQueue.main.asyncAfter(deadline: .now() + 10.0) {
             hasTimeElapsed = true}}
       }
       

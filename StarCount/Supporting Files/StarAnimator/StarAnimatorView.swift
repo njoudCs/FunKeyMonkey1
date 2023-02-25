@@ -83,9 +83,12 @@ final class StarAnimatorView: UIView {
       star.tintColor = .systemYellow
       star.alpha = 0
 
-      star.image = UIImage(systemName: "star.fill")
+      
+    
+  star.image =  UIImage(named: "BananaFill")
+    //  star.image = UIImage(systemName: "heart.fill")
       star.preferredSymbolConfiguration =
-        .init(scale: [UIImage.SymbolScale.large, .medium, .small].randomElement() ?? .medium)
+        .init(scale: [UIImage.SymbolScale.large, .medium, .small].randomElement() ?? .small)
       star.sizeToFit()
 
       star.layer.shadowColor = UIColor.white.cgColor
@@ -96,7 +99,7 @@ final class StarAnimatorView: UIView {
 
       gravity.addItem(star)
       collision.addItem(star)
-
+      
       let dynamicBehavior = UIDynamicItemBehavior(items: [star])
       dynamicBehavior.elasticity = 0.4
       dynamicBehavior.addAngularVelocity(CGFloat.random(in: -10...10), for: star)

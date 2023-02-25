@@ -20,7 +20,8 @@ struct ExercisesStart1: View {
         
         if !hasTimeElapsed {
           
-          CameraView()
+          CameraView().edgesIgnoringSafeArea(.all)
+          
           VStack ( spacing: 16){
             HStack (){
             BanansStruct1()}
@@ -77,7 +78,8 @@ struct ExercisesStart2: View {
         
         if !hasTimeElapsed {
           
-          CameraView()
+          CameraView().edgesIgnoringSafeArea(.all)
+          
           VStack ( spacing: 16){
             HStack (){
             BanansStruct2()}
@@ -132,7 +134,8 @@ var body: some View {
     
     if !hasTimeElapsed {
       
-      CameraView()
+      CameraView().edgesIgnoringSafeArea(.all)
+      
       VStack ( spacing: 16){
         HStack (){
         BanansStruct3()}
@@ -179,7 +182,8 @@ var body: some View {
     
     if !hasTimeElapsed {
       
-      CameraView()
+      CameraView().edgesIgnoringSafeArea(.all)
+      
       VStack ( spacing: 16){
         HStack (){
         BanansStruct4()}
@@ -223,7 +227,8 @@ var body: some View {
     
     if !hasTimeElapsed {
       
-      CameraView()
+      CameraView().edgesIgnoringSafeArea(.all)
+      
       VStack ( spacing: 16){
         HStack (){
         BanansStruct5()}
@@ -257,7 +262,7 @@ var body: some View {
 
 
 
-//*************ExercisesStart4**************//
+//*************ExercisesStart5**************//
 
 struct ExercisesStart6: View {
   
@@ -273,7 +278,8 @@ var body: some View {
     
     if !hasTimeElapsed {
       
-      CameraView()
+      CameraView().edgesIgnoringSafeArea(.all)
+      
       VStack ( spacing: 16){
         HStack (){
         BanansStruct6()}
