@@ -281,21 +281,22 @@ var body: some View {
       CameraView().edgesIgnoringSafeArea(.all)
       
       VStack ( spacing: 16){
-        HStack (){
-        BanansStruct6()}
-        Spacer()
-        Image ("monkey-celebrates")
-          .resizable()
-          .frame(width: 370, height: 500)
-          .padding(.trailing, 350.0)
-        StrokeText(text: "Well Done", width: 1, color: .black)
-          .foregroundColor(Color("yellow"))
-          .font(.system(size: 60 ,design: .rounded))
-          .fontWeight(.heavy)
-          .padding(.top, 180.0)
-        
-        
-      }.padding()}
+             HStack (){
+             BanansStruct6()}
+             Spacer()
+             Image ("monkey-celebrates")
+               .resizable()
+               .frame(width: 370, height: 500)
+               .padding(.trailing, 350.0)
+               .padding(.top, 150.0)
+             StrokeText(text: "Well Done", width: 1, color: .black)
+               .foregroundColor(Color("yellow"))
+               .font(.system(size: 60 ,design: .rounded))
+               .fontWeight(.heavy)
+               .padding(.top, 130.0)
+             
+             
+           }.padding()}
     
     
     else{

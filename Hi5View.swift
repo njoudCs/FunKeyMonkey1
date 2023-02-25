@@ -147,20 +147,21 @@ ZStack {
           VStack{
            if !hasTimeElapsed {
              Spacer()
-               Image ("monkey-hi5")
-                 .resizable()
-                 .frame(width: 300, height: 400)
-                 .padding(.trailing, 365.0)
-               
-              
-            StrokeText(text: "Give Me High Five", width: 1, color: .black)
-              .foregroundColor(Color("yellow"))
-              .font(.system(size: 60 ,design: .rounded))
-              .fontWeight(.heavy)
-              .font(.title)
-              .fontWeight(.bold)
-              .padding(.top, 180.0)
-              .padding(.bottom, 10.0)
+                           Image ("monkey-hi5")
+                             .resizable()
+                             .frame(width: 300, height: 400)
+                             .padding(.trailing, 350.0)
+                           
+                          
+                        StrokeText(text: "Give Me High Five", width: 1, color: .black)
+                          .foregroundColor(Color("yellow"))
+                          .font(.system(size: 60 ,design: .rounded))
+                          .fontWeight(.heavy)
+                          .font(.title)
+                          .fontWeight(.bold)
+                          .padding(.top, 165.0)
+                          .padding(.bottom, 10.0)
+
           }
       }
        // else {
@@ -265,20 +266,21 @@ struct Hi5View2: View {
           VStack{
            if !hasTimeElapsed {
              Spacer()
-               Image ("monkey-hi5")
-                 .resizable()
-                 .frame(width: 300, height: 400)
-                 .padding(.trailing, 365.0)
-               
-              
-            StrokeText(text: "Give Me High Five", width: 1, color: .black)
-              .foregroundColor(Color("yellow"))
-              .font(.system(size: 60 ,design: .rounded))
-              .fontWeight(.heavy)
-              .font(.title)
-              .fontWeight(.bold)
-              .padding(.top, 180.0)
-              .padding(.bottom, 10.0)
+                           Image ("monkey-hi5")
+                             .resizable()
+                             .frame(width: 300, height: 400)
+                             .padding(.trailing, 350.0)
+                           
+                          
+                        StrokeText(text: "Give Me High Five", width: 1, color: .black)
+                          .foregroundColor(Color("yellow"))
+                          .font(.system(size: 60 ,design: .rounded))
+                          .fontWeight(.heavy)
+                          .font(.title)
+                          .fontWeight(.bold)
+                          .padding(.top, 165.0)
+                          .padding(.bottom, 10.0)
+
           }
       }
        // else {
@@ -373,20 +375,21 @@ struct Hi5View3: View {
           VStack{
            if !hasTimeElapsed {
              Spacer()
-               Image ("monkey-hi5")
-                 .resizable()
-                 .frame(width: 300, height: 400)
-                 .padding(.trailing, 365.0)
-               
-              
-            StrokeText(text: "Give Me High Five", width: 1, color: .black)
-              .foregroundColor(Color("yellow"))
-              .font(.system(size: 60 ,design: .rounded))
-              .fontWeight(.heavy)
-              .font(.title)
-              .fontWeight(.bold)
-              .padding(.top, 180.0)
-              .padding(.bottom, 10.0)
+                           Image ("monkey-hi5")
+                             .resizable()
+                             .frame(width: 300, height: 400)
+                             .padding(.trailing, 350.0)
+                           
+                          
+                        StrokeText(text: "Give Me High Five", width: 1, color: .black)
+                          .foregroundColor(Color("yellow"))
+                          .font(.system(size: 60 ,design: .rounded))
+                          .fontWeight(.heavy)
+                          .font(.title)
+                          .fontWeight(.bold)
+                          .padding(.top, 165.0)
+                          .padding(.bottom, 10.0)
+
           }
       }
        // else {
@@ -488,20 +491,21 @@ struct Hi5View4: View {
           VStack{
            if !hasTimeElapsed {
              Spacer()
-               Image ("monkey-hi5")
-                 .resizable()
-                 .frame(width: 300, height: 400)
-                 .padding(.trailing, 365.0)
-               
-              
-            StrokeText(text: "Give Me High Five", width: 1, color: .black)
-              .foregroundColor(Color("yellow"))
-              .font(.system(size: 60 ,design: .rounded))
-              .fontWeight(.heavy)
-              .font(.title)
-              .fontWeight(.bold)
-              .padding(.top, 180.0)
-              .padding(.bottom, 10.0)
+                           Image ("monkey-hi5")
+                             .resizable()
+                             .frame(width: 300, height: 400)
+                             .padding(.trailing, 350.0)
+                           
+                          
+                        StrokeText(text: "Give Me High Five", width: 1, color: .black)
+                          .foregroundColor(Color("yellow"))
+                          .font(.system(size: 60 ,design: .rounded))
+                          .fontWeight(.heavy)
+                          .font(.title)
+                          .fontWeight(.bold)
+                          .padding(.top, 165.0)
+                          .padding(.bottom, 10.0)
+
           }
       }
        // else {
@@ -610,20 +614,21 @@ struct Hi5View5: View {
           VStack{
            if !hasTimeElapsed {
              Spacer()
-               Image ("monkey-hi5")
-                 .resizable()
-                 .frame(width: 300, height: 400)
-                 .padding(.trailing, 365.0)
-               
-              
-            StrokeText(text: "Give Me High Five", width: 1, color: .black)
-              .foregroundColor(Color("yellow"))
-              .font(.system(size: 60 ,design: .rounded))
-              .fontWeight(.heavy)
-              .font(.title)
-              .fontWeight(.bold)
-              .padding(.top, 180.0)
-              .padding(.bottom, 10.0)
+                           Image ("monkey-hi5")
+                             .resizable()
+                             .frame(width: 300, height: 400)
+                             .padding(.trailing, 350.0)
+                           
+                          
+                        StrokeText(text: "Give Me High Five", width: 1, color: .black)
+                          .foregroundColor(Color("yellow"))
+                          .font(.system(size: 60 ,design: .rounded))
+                          .fontWeight(.heavy)
+                          .font(.title)
+                          .fontWeight(.bold)
+                          .padding(.top, 165.0)
+                          .padding(.bottom, 10.0)
+
           }
       }
        // else {
