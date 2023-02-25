@@ -34,13 +34,37 @@ struct greatjob: View {
         
                         Image("9")
                         .resizable()
-                        .frame(width: 80,height: 80)
+                        .frame(width: 120,height: 120)
 
-          .padding()
+                        .padding(.bottom,90)
         
   
        
         }
+      
+      
+      
+      NavigationLink(destination: Workout(),
+                     label: { StrokeText(text: "Start", width: 1, color: .black)
+      }
+      )
+      
+      .frame(width: 150 , height: 70)
+      
+      .font(.system(size: 40 , weight: .heavy, design: .rounded))
+      .background(Color("yellow"))
+      
+      .foregroundColor(Color.white)
+      .cornerRadius(60)
+      .shadow( radius: 4.0, x: 7.0, y: 7.0)
+      .padding(.top,270)
+      
+      
+      
+      
+      
+      
+      
 
       } .onAppear(perform: {
         trigger = 1

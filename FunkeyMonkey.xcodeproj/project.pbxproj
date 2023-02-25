@@ -551,7 +551,7 @@
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "StarCount/Preview\\ Content";
-				DEVELOPMENT_TEAM = C48XQY4D63;
+				DEVELOPMENT_TEAM = 77GHJNV3R5;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "StarCount/Supporting Files/Info.plist";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
@@ -574,7 +574,7 @@
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "StarCount/Preview\\ Content";
-				DEVELOPMENT_TEAM = C48XQY4D63;
+				DEVELOPMENT_TEAM = 77GHJNV3R5;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "StarCount/Supporting Files/Info.plist";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
