@@ -23,6 +23,7 @@
 		376FF29129A0128600D993DD /* ready.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376FF29029A0128600D993DD /* ready.swift */; };
 		376FF2B329A30FA900D993DD /* Confetti.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376FF2B229A30FA900D993DD /* Confetti.swift */; };
 		376FF2B629A312D700D993DD /* ConfettiSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 376FF2B529A312D700D993DD /* ConfettiSwiftUI */; };
+		37A0569C29AABEFD00839E81 /* EffectsLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = 37A0569B29AABEFD00839E81 /* EffectsLibrary */; };
 		5F2A7F82299BBF6D00F2B9D0 /* forTrying.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2A7F81299BBF6D00F2B9D0 /* forTrying.swift */; };
 		5F86032A29A7703D00D4E809 /* good job.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5F86032929A7703D00D4E809 /* good job.mp3 */; };
 		5F86032C29A7758B00D4E809 /* yay.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5F86032B29A7758B00D4E809 /* yay.mp3 */; };
@@ -117,6 +118,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				376FF2B629A312D700D993DD /* ConfettiSwiftUI in Frameworks */,
+				37A0569C29AABEFD00839E81 /* EffectsLibrary in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,6 +298,7 @@
 			name = FunkeyMonkey;
 			packageProductDependencies = (
 				376FF2B529A312D700D993DD /* ConfettiSwiftUI */,
+				37A0569B29AABEFD00839E81 /* EffectsLibrary */,
 			);
 			productName = MyRWTutorial;
 			productReference = 18D775BD22AD944300AE281E /* FunkeyMonkey.app */;
@@ -327,7 +330,7 @@
 			mainGroup = 18D775B422AD944300AE281E;
 			packageReferences = (
 				376FF2B429A312D700D993DD /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */,
-				37A0561529A5464F00839E81 /* XCRemoteSwiftPackageReference "effects-library" */,
+				37A0569A29AABEFD00839E81 /* XCRemoteSwiftPackageReference "effects-library" */,
 			);
 			productRefGroup = 18D775BE22AD944300AE281E /* Products */;
 			projectDirPath = "";
@@ -622,12 +625,12 @@
 				minimumVersion = 1.0.0;
 			};
 		};
-		37A0561529A5464F00839E81 /* XCRemoteSwiftPackageReference "effects-library" */ = {
+		37A0569A29AABEFD00839E81 /* XCRemoteSwiftPackageReference "effects-library" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/GetStream/effects-library.git";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
+				branch = main;
+				kind = branch;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
@@ -637,6 +640,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 376FF2B429A312D700D993DD /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */;
 			productName = ConfettiSwiftUI;
+		};
+		37A0569B29AABEFD00839E81 /* EffectsLibrary */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 37A0569A29AABEFD00839E81 /* XCRemoteSwiftPackageReference "effects-library" */;
+			productName = EffectsLibrary;
 		};
 /* End XCSwiftPackageProductDependency section */
 

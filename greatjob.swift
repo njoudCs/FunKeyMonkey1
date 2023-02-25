@@ -2,13 +2,16 @@
 
 
 import SwiftUI
-import ConfettiSwiftUI
+import EffectsLibrary
 
 struct greatjob: View {
   @Binding var kidsName: String
-
-  @State var trigger: Int = 0
-
+  var config = FireworksConfig(
+    intensity: .high,
+    lifetime: .long,
+    initialVelocity: .fast)
+  //  @State var trigger: Int = 0
+  
   var body: some View {
     ZStack{
       Rectangle()
@@ -30,17 +33,17 @@ struct greatjob: View {
           .font(.system(size: 40 ,design: .rounded))
           .fontWeight(.heavy)
           .padding(.bottom)
-
         
-                        Image("9")
-                        .resizable()
-                        .frame(width: 120,height: 120)
-
-                        .padding(.bottom,90)
         
-  
-       
-        }
+        Image("9")
+          .resizable()
+          .frame(width: 120,height: 120)
+        
+          .padding(.bottom,90)
+        
+        
+        
+      }
       
       
       
@@ -64,28 +67,30 @@ struct greatjob: View {
       
       
       
-      
+      FireworksView(config: config)
 
-      } .onAppear(perform: {
-        trigger = 1
-      
-    })
-      .onAppear(perform: {playSouund(sound: "yay", type: "mp3")})
-    
-    .confettiCannon(counter: $trigger,confettis: [.text("🍌"), .text("🍌"), .text("🍌"), .text("🍌")], confettiSize: 60, repetitions: 20)
-    
- 
-  }
-
-      
-      
       
     }
+    //    .onAppear(perform: {
+    //        trigger = 1
     
-  
-  
-  
+    //    })
+    .onAppear(perform: {playSouund(sound: "yay", type: "mp3")})
+    
+    //    .confettiCannon(counter: $trigger,confettis: [.text("🍌"), .text("🍌"), .text("🍌"), .text("🍌")], confettiSize: 60, repetitions: 20)
+    //
+    //
+    //  }
+    
+    
+    
+    
+  }
 
+  
+  
+  
+  
   struct greatjob_Previews: PreviewProvider {
     @State static var kidsName: String = ""
     
@@ -94,4 +99,5 @@ struct greatjob: View {
     }
   }
   
-
+  
+}
