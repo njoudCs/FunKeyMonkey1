@@ -29,7 +29,7 @@ struct ExercisesStart1: View {
             workoutAnimation()
            
 
-            StrokeText(text: "Running in place", width: 1, color: .black)
+            StrokeText(text: "Arm Swings", width: 1, color: .black)
               .foregroundColor(Color("yellow"))
               .font(.system(size: 60 ,design: .rounded))
               .fontWeight(.heavy)
@@ -86,7 +86,7 @@ struct ExercisesStart2: View {
             Timer1(timeRemaining: $timeRemaining)
             workoutAnimation()
             
-            StrokeText(text: "Jumping in place", width: 1, color: .black)
+            StrokeText(text: "Arm Swings", width: 1, color: .black)
               .foregroundColor(Color("yellow"))
               .font(.system(size: 60 ,design: .rounded))
               .fontWeight(.heavy)
@@ -142,7 +142,7 @@ var body: some View {
         Timer1(timeRemaining: $timeRemaining)
         workoutAnimation()
         
-        StrokeText(text: "Dancing in place", width: 1, color: .black)
+        StrokeText(text: "Arm Swings", width: 1, color: .black)
           .foregroundColor(Color("yellow"))
           .font(.system(size: 60 ,design: .rounded))
           .fontWeight(.heavy)
@@ -189,7 +189,7 @@ var body: some View {
         BanansStruct4()}
         Timer1(timeRemaining: $timeRemaining)
         workoutAnimation()
-        StrokeText(text: "Running in place", width: 1, color: .black)
+        StrokeText(text: "Arm Swings", width: 1, color: .black)
           .foregroundColor(Color("yellow"))
           .font(.system(size: 60 ,design: .rounded))
           .fontWeight(.heavy)
@@ -234,7 +234,7 @@ var body: some View {
         BanansStruct5()}
         Timer1(timeRemaining: $timeRemaining)
         workoutAnimation()
-        StrokeText(text: "Running in place", width: 1, color: .black)
+        StrokeText(text: "Arm Swings", width: 1, color: .black)
           .foregroundColor(Color("yellow"))
           .font(.system(size: 60 ,design: .rounded))
           .fontWeight(.heavy)
@@ -283,8 +283,11 @@ var body: some View {
       VStack ( spacing: 16){
         HStack (){
         BanansStruct6()}
-        workoutAnimation()
-        StrokeText(text: "Running in place", width: 1, color: .black)
+        Image ("monkey-celebrates")
+          .resizable()
+          .frame(width: 450, height: 650)
+          .padding(.trailing, 400.0)
+        StrokeText(text: "Well Done", width: 1, color: .black)
           .foregroundColor(Color("yellow"))
           .font(.system(size: 60 ,design: .rounded))
           .fontWeight(.heavy)

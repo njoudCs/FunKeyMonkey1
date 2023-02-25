@@ -204,7 +204,7 @@ struct CountdownView1: View {
               
             
             
-            StrokeText(text: "Drink Water1", width: 1, color: .black)
+            StrokeText(text: "Drink Water", width: 1, color: .black)
               .foregroundColor(Color("yellow"))
               .font(.system(size: 45 ,design: .rounded))
               .fontWeight(.heavy)
@@ -280,7 +280,7 @@ struct CountdownView2: View {
               
         
             
-            StrokeText(text: "Drink Water2", width: 1, color: .black)
+            StrokeText(text: "Drink Water", width: 1, color: .black)
               .foregroundColor(Color("yellow"))
               .font(.system(size: 45 ,design: .rounded))
               .fontWeight(.heavy)
@@ -358,7 +358,7 @@ struct CountdownView3: View {
               
          
             
-            StrokeText(text: "Drink Water3", width: 1, color: .black)
+            StrokeText(text: "Drink Water", width: 1, color: .black)
               .foregroundColor(Color("yellow"))
               .font(.system(size: 45 ,design: .rounded))
               .fontWeight(.heavy)
@@ -433,7 +433,7 @@ struct CountdownView4: View {
               
          
             
-            StrokeText(text: "Drink Water4", width: 1, color: .black)
+            StrokeText(text: "Drink Water", width: 1, color: .black)
               .foregroundColor(Color("yellow"))
               .font(.system(size: 45 ,design: .rounded))
               .fontWeight(.heavy)
