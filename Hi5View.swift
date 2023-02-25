@@ -144,22 +144,23 @@ ZStack {
             gameLogicController.didRainStars(count: $0)
           }
           
-          VStack(spacing:100){
+          VStack{
            if !hasTimeElapsed {
-             
+             Spacer()
                Image ("monkey-hi5")
                  .resizable()
-                 .frame(width: 450, height: 650)
-               .padding(.trailing, 400.0)
+                 .frame(width: 300, height: 400)
+                 .padding(.trailing, 365.0)
                
               
-            StrokeText(text: "Give Me high Five", width: 1, color: .black)
+            StrokeText(text: "Give Me High Five", width: 1, color: .black)
               .foregroundColor(Color("yellow"))
-              .font(.system(size: 45 ,design: .rounded))
+              .font(.system(size: 60 ,design: .rounded))
               .fontWeight(.heavy)
               .font(.title)
               .fontWeight(.bold)
-              .padding(.bottom, 50)
+              .padding(.top, 180.0)
+              .padding(.bottom, 10.0)
           }
       }
        // else {
@@ -261,19 +262,23 @@ struct Hi5View2: View {
             gameLogicController.didRainStars(count: $0)
           }
           
-          VStack(spacing:100){
+          VStack{
            if !hasTimeElapsed {
-            Image ("monkey-hi5")
-              .resizable()
-              .frame(width: 450, height: 650)
-              .padding(.trailing, 400.0)
-            StrokeText(text: "Give Me high Five", width: 1, color: .black)
+             Spacer()
+               Image ("monkey-hi5")
+                 .resizable()
+                 .frame(width: 300, height: 400)
+                 .padding(.trailing, 365.0)
+               
+              
+            StrokeText(text: "Give Me High Five", width: 1, color: .black)
               .foregroundColor(Color("yellow"))
-              .font(.system(size: 45 ,design: .rounded))
+              .font(.system(size: 60 ,design: .rounded))
               .fontWeight(.heavy)
               .font(.title)
               .fontWeight(.bold)
-              .padding(.bottom, 50)
+              .padding(.top, 180.0)
+              .padding(.bottom, 10.0)
           }
       }
        // else {
@@ -365,19 +370,23 @@ struct Hi5View3: View {
             gameLogicController.didRainStars(count: $0)
           }
           
-          VStack(spacing:100){
+          VStack{
            if !hasTimeElapsed {
-            Image ("monkey-hi5")
-              .resizable()
-              .frame(width: 450, height: 650)
-              .padding(.trailing, 400.0)
-            StrokeText(text: "Give Me high Five", width: 1, color: .black)
+             Spacer()
+               Image ("monkey-hi5")
+                 .resizable()
+                 .frame(width: 300, height: 400)
+                 .padding(.trailing, 365.0)
+               
+              
+            StrokeText(text: "Give Me High Five", width: 1, color: .black)
               .foregroundColor(Color("yellow"))
-              .font(.system(size: 45 ,design: .rounded))
+              .font(.system(size: 60 ,design: .rounded))
               .fontWeight(.heavy)
               .font(.title)
               .fontWeight(.bold)
-              .padding(.bottom, 50)
+              .padding(.top, 180.0)
+              .padding(.bottom, 10.0)
           }
       }
        // else {
@@ -476,19 +485,23 @@ struct Hi5View4: View {
             gameLogicController.didRainStars(count: $0)
           }
           
-          VStack(spacing:100){
+          VStack{
            if !hasTimeElapsed {
-            Image ("monkey-hi5")
-              .resizable()
-              .frame(width: 450, height: 650)
-              .padding(.trailing, 400.0)
-            StrokeText(text: "GGive Me high Five", width: 1, color: .black)
+             Spacer()
+               Image ("monkey-hi5")
+                 .resizable()
+                 .frame(width: 300, height: 400)
+                 .padding(.trailing, 365.0)
+               
+              
+            StrokeText(text: "Give Me High Five", width: 1, color: .black)
               .foregroundColor(Color("yellow"))
-              .font(.system(size: 45 ,design: .rounded))
+              .font(.system(size: 60 ,design: .rounded))
               .fontWeight(.heavy)
               .font(.title)
               .fontWeight(.bold)
-              .padding(.bottom, 50)
+              .padding(.top, 180.0)
+              .padding(.bottom, 10.0)
           }
       }
        // else {
@@ -594,19 +607,23 @@ struct Hi5View5: View {
             gameLogicController.didRainStars(count: $0)
           }
           
-          VStack(spacing:100){
+          VStack{
            if !hasTimeElapsed {
-            Image ("monkey-hi5")
-              .resizable()
-              .frame(width: 450, height: 650)
-              .padding(.trailing, 400.0)
-            StrokeText(text: "Give Me high Five", width: 1, color: .black)
+             Spacer()
+               Image ("monkey-hi5")
+                 .resizable()
+                 .frame(width: 300, height: 400)
+                 .padding(.trailing, 365.0)
+               
+              
+            StrokeText(text: "Give Me High Five", width: 1, color: .black)
               .foregroundColor(Color("yellow"))
-              .font(.system(size: 45 ,design: .rounded))
+              .font(.system(size: 60 ,design: .rounded))
               .fontWeight(.heavy)
               .font(.title)
               .fontWeight(.bold)
-              .padding(.bottom, 50)
+              .padding(.top, 180.0)
+              .padding(.bottom, 10.0)
           }
       }
        // else {

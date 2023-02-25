@@ -291,7 +291,7 @@ var body: some View {
           .foregroundColor(Color("yellow"))
           .font(.system(size: 60 ,design: .rounded))
           .fontWeight(.heavy)
-          .padding(.top, 700.0)
+          .padding(.top, 70.0)
         
         
       }.padding()}
