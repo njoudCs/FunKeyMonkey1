@@ -24,8 +24,9 @@ struct ready: View {
         Image("Tshap-monkey")
           .resizable()
           .scaledToFit()
-          .frame(width: 400)
-          .padding(.trailing, 333)
+          .frame(width: 450)
+          .padding(.trailing, 350)
+          .padding(.top, 165)
         
         ZStack{
         
