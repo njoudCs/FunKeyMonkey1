@@ -9,7 +9,7 @@ struct let_sGo: View {
       
         ZStack{
           Color("purple").ignoresSafeArea(.all)
-          Image("whitebnana")
+          Image("Back")
             .resizable()
             .ignoresSafeArea()
            
@@ -74,7 +74,7 @@ struct let_sGo: View {
 //
 //    ZStack{
 //      Color("purple").ignoresSafeArea(.all)
-//      Image("whitebnana")
+//      Image("Back")
 //        .resizable()
 //        .ignoresSafeArea()
 //      // .scaledToFit()

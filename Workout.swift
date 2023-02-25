@@ -11,7 +11,7 @@ struct Workout: View {
           ZStack() {
               
               Color("purple").ignoresSafeArea()
-              Image("whitebnana")
+              Image("Back")
                   .resizable()
                   .ignoresSafeArea()
                  // .scaledToFit()

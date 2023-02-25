@@ -102,7 +102,7 @@ struct CountdownView: View {
       
       ZStack{
         Color("purple").ignoresSafeArea()
-        Image("whitebnana")
+        Image("Back")
           .resizable()
         VStack(spacing:100){
           

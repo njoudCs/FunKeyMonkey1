@@ -29,7 +29,7 @@ struct FirstlyPage: View {
      (Color("purple"))
         .ignoresSafeArea()
       
-      Image("Back2")
+      Image("Back")
         .resizable()
         .ignoresSafeArea()
       
