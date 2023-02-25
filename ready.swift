@@ -59,7 +59,7 @@ struct ready: View {
          
          else{
          
-         // ExercisesStart1()
+      ExercisesStart1()
          }
          }
        

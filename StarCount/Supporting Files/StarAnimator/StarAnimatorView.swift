@@ -86,7 +86,7 @@ final class StarAnimatorView: UIView {
       
     
   star.image =  UIImage(named: "BananaFill")
-    //  star.image = UIImage(systemName: "heart.fill")
+    //star.image = UIImage(systemName: "heart.fill")
       star.preferredSymbolConfiguration =
         .init(scale: [UIImage.SymbolScale.large, .medium, .small].randomElement() ?? .small)
       star.sizeToFit()
