@@ -31,13 +31,11 @@ struct greatjob: View {
         
         VStack{
           
-          StrokeText(text: "", width: 1, color: .black)
+          
+          StrokeText(text: (kidName), width: 1, color: .black)
             .foregroundColor(Color("yellow"))
             .font(.system(size: 40 ,design: .rounded))
             .fontWeight(.heavy)
-            .padding(.horizontal)
-          
-          StrokeText(text: (kidName), width: 1, color: .black)
           StrokeText(text: "Great Job ", width: 1, color: .black)
             .foregroundColor(Color("yellow"))
             .font(.system(size: 40 ,design: .rounded))
@@ -46,7 +44,7 @@ struct greatjob: View {
           
           Image("9")
             .resizable()
-            .frame(width: 120,height: 120)
+            .frame(width: 150,height: 150)
           
             .padding(.bottom,90)
           

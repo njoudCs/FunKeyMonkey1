@@ -172,7 +172,7 @@ struct CountdownView1: View {
 
   @State var pushNewView: Bool = false
     @State var counter: Int = 0
-    var countTo: Int = 10
+    var countTo: Int = 15
   @State private var hasTimeElapsed = false
 
     var body: some View {
@@ -226,7 +226,7 @@ struct CountdownView1: View {
         
       }.onAppear(perform: { playSouund(sound: "resttime-app", type: "mp3")
         
-        DispatchQueue.main.asyncAfter(deadline: .now() + 10.0) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 15.0) {
           hasTimeElapsed = true }
       })
       .onReceive(timer) { time in
@@ -249,7 +249,7 @@ struct CountdownView2: View {
 
   @State var pushNewView: Bool = false
     @State var counter: Int = 0
-    var countTo: Int = 10
+    var countTo: Int = 15
   @State private var hasTimeElapsed = false
 
     var body: some View {
@@ -302,7 +302,7 @@ struct CountdownView2: View {
         
       }.onAppear(perform: { playSouund(sound: "resttime-app", type: "mp3")
         
-        DispatchQueue.main.asyncAfter(deadline: .now() + 10.0) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 15.0) {
           hasTimeElapsed = true }
       })
       .onReceive(timer) { time in
@@ -326,7 +326,7 @@ struct CountdownView3: View {
 
   @State var pushNewView: Bool = false
     @State var counter: Int = 0
-    var countTo: Int = 10
+    var countTo: Int = 15
   @State private var hasTimeElapsed = false
 
     var body: some View {
@@ -381,7 +381,7 @@ struct CountdownView3: View {
         
       }.onAppear(perform: { playSouund(sound: "resttime-app", type: "mp3")
         
-        DispatchQueue.main.asyncAfter(deadline: .now() + 10.0) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 15.0) {
           hasTimeElapsed = true }
       }).onReceive(timer) { time in
         if (self.counter < self.countTo) {
@@ -403,7 +403,7 @@ struct CountdownView4: View {
 
   @State var pushNewView: Bool = false
     @State var counter: Int = 0
-    var countTo: Int = 10
+    var countTo: Int = 15
   @State private var hasTimeElapsed = false
 
     var body: some View {
@@ -459,7 +459,7 @@ struct CountdownView4: View {
         
       }.onAppear(perform: { playSouund(sound: "resttime-app", type: "mp3")
         
-        DispatchQueue.main.asyncAfter(deadline: .now() + 10.0) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 15.0) {
           hasTimeElapsed = true }
       })
       .onReceive(timer) { time in

@@ -29,7 +29,7 @@ struct let_sGo: View {
                 
                 lablee(text: "5 Exercises", image: "Ex.png")
                 
-                lablee(text: "7 Minutes", image: "Time")
+                lablee(text: "6 Minutes", image: "Time")
               }.padding(.top, 90)
               Image("Tshap-monkey")
                 .resizable()

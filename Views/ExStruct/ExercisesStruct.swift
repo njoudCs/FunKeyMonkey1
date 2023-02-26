@@ -8,7 +8,7 @@ import SwiftUI
 
 struct ExercisesStart1: View {
   
-  @State var timeRemaining = 15
+  @State var timeRemaining = 60
   @State private var hasTimeElapsed = false
   @State var pushNewView: Bool = false
   
@@ -45,7 +45,7 @@ struct ExercisesStart1: View {
           
          Hi5View1()}}
         .onAppear(){
-         DispatchQueue.main.asyncAfter(deadline: .now() + 15.0) {
+         DispatchQueue.main.asyncAfter(deadline: .now() + 60.0) {
           hasTimeElapsed = true}}
       
       
@@ -66,7 +66,7 @@ struct ExercisesStart1: View {
 
 struct ExercisesStart2: View {
   
-  @State var timeRemaining = 15
+  @State var timeRemaining = 60
   @State private var hasTimeElapsed = false
   @State var pushNewView: Bool = false
   
@@ -104,7 +104,7 @@ struct ExercisesStart2: View {
           
          Hi5View2()}}
         .onAppear(){
-         DispatchQueue.main.asyncAfter(deadline: .now() + 15.0) {
+         DispatchQueue.main.asyncAfter(deadline: .now() + 60.0) {
           hasTimeElapsed = true}}
       
       
@@ -122,7 +122,7 @@ struct ExercisesStart2: View {
 
 struct ExercisesStart3: View {
 
-@State var timeRemaining = 15
+@State var timeRemaining = 60
 @State private var hasTimeElapsed = false
 @State var pushNewView: Bool = false
 
@@ -157,7 +157,7 @@ var body: some View {
       
      Hi5View3()}}
     .onAppear(){
-     DispatchQueue.main.asyncAfter(deadline: .now() + 15.0) {
+     DispatchQueue.main.asyncAfter(deadline: .now() + 60.0) {
       hasTimeElapsed = true}}
   
   
@@ -170,7 +170,7 @@ var body: some View {
 
 struct ExercisesStart4: View {
 
-@State var timeRemaining = 15
+@State var timeRemaining = 60
 @State private var hasTimeElapsed = false
 @State var pushNewView: Bool = false
 
@@ -203,7 +203,7 @@ var body: some View {
     
   }
     .onAppear(){
-     DispatchQueue.main.asyncAfter(deadline: .now() + 15.0) {
+     DispatchQueue.main.asyncAfter(deadline: .now() + 60.0) {
       hasTimeElapsed = true}}
   
   
@@ -217,7 +217,7 @@ var body: some View {
 
 struct ExercisesStart5: View {
 
-@State var timeRemaining = 15
+@State var timeRemaining = 60
 @State private var hasTimeElapsed = false
 @State var pushNewView: Bool = false
 
@@ -252,7 +252,7 @@ var body: some View {
       
     }}
     .onAppear(){
-     DispatchQueue.main.asyncAfter(deadline: .now() + 15.0) {
+     DispatchQueue.main.asyncAfter(deadline: .now() + 60.0) {
       hasTimeElapsed = true}}
   
   

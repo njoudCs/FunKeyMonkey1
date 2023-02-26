@@ -13,9 +13,9 @@ struct AppMain: App {
       
     TabView {
      // ready()
-     Hi5View5()
+    // Hi5View5()
       
-   // LaunchPage().environment(\.managedObjectContext, persistentContainer.viewContext)
+    LaunchPage().environment(\.managedObjectContext, persistentContainer.viewContext)
 
       }
     }
