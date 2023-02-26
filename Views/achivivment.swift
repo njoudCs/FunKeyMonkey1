@@ -3,7 +3,7 @@
 import SwiftUI
 
 struct achiviment: View {
-    @State var text = ""
+//    @State var text = ""
   @AppStorage("KID_NAME") var kidName: String = ""
 
     var body: some View {
@@ -17,8 +17,8 @@ struct achiviment: View {
                
             }
 
-            VStack{
-                StrokeText(text: "Your achiviment", width: 1, color: .black)
+          VStack{
+                StrokeText(text: "Your Achievement", width: 1, color: .black)
                 .foregroundColor(Color("yellow"))
                 .font(.system(size: 70 ,design: .rounded))
                 .fontWeight(.heavy)
@@ -26,10 +26,11 @@ struct achiviment: View {
 
                     
                         
-                TextField("\(kidName)", text: $text)
-                    .font(.system(size: 40))
-                    .padding(.vertical,9)
-                    .padding(.horizontal,20)
+                Text("Name : \(kidName)")
+                .font(.system(size: 40, weight: .heavy))
+                .padding(.trailing, 180)
+                .foregroundColor(Color("luj"))
+                 
                     .frame(width: 500 , height:100 )
                     .background(Color("Label"))
                     .cornerRadius(55)
@@ -42,9 +43,10 @@ struct achiviment: View {
                         .frame(width: 500 , height: 550)
                         .cornerRadius(60)
                     VStack{
-                        Text("Badges").font(.system(size: 40))
-                        .padding(.leading, 120.0)
-                            .padding(.trailing, 400)
+                      Text("Badges").font(.system(size: 40, weight: .heavy))
+                        .foregroundColor(Color("luj"))
+                     
+                            .padding(.trailing, 260)
                             ZStack{
                             Rectangle()
                                 .foregroundColor(Color("Label"))

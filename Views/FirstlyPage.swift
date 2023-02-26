@@ -13,6 +13,8 @@ struct FirstlyPage: View {
   @Environment(\.managedObjectContext) var moc
   @Environment(\.presentationMode) var presentationMode
   
+ 
+  
   // string variable to store Name
   @State private var kidTextField: String = ""
   @State private var idsName: String = ""
@@ -63,22 +65,20 @@ struct FirstlyPage: View {
           .frame(width: 450 , height: 500)
        
        
-          
+     
           NavigationLink (destination: HeyName(), isActive: $showHeyName){
-              label: do {Text("Next")}
-            
-            
+     
+    
             Button(action: {
               saveName()
               self.showHeyName = true
             }){
               
-              StrokeText(text: "Next", width: 1, color: .black)
+             StrokeText(text: "Next", width: 1, color: .black)
               
-              
-              
-
             }
+
+            
           }
           
           .frame(width: 220 , height: 100)
@@ -108,7 +108,9 @@ struct FirstlyPage: View {
   
     
   }.navigationViewStyle(StackNavigationViewStyle())
-      .accentColor(Color("yellow"))
+      .accentColor(Color.blue)
+     
+
     
   }
   //Start functin

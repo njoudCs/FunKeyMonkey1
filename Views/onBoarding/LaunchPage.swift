@@ -36,8 +36,11 @@ struct LaunchPage: View {
                     .ignoresSafeArea()
                 
                 Image("Back")
+              
                     .resizable()
+                    //.scaledToFit()
                     .ignoresSafeArea()
+                   
                 
                 VStack{
                     
