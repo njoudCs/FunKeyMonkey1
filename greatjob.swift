@@ -11,7 +11,8 @@ struct greatjob: View {
     lifetime: .long,
     initialVelocity: .fast)
   //  @State var trigger: Int = 0
-  
+  @AppStorage("KID_NAME") var kidName: String = ""
+
   var body: some View {
     ZStack{
       Rectangle()
@@ -21,19 +22,18 @@ struct greatjob: View {
         .cornerRadius(55)
       
       VStack{
-        StrokeText(text: "jori\(self.kidsName)", width: 1, color: .black)
+        StrokeText(text: "" , width: 1, color: .black)
           .foregroundColor(Color("yellow"))
           .font(.system(size: 40 ,design: .rounded))
           .fontWeight(.heavy)
           .padding(.horizontal)
         
         
-        StrokeText(text: "Great Job", width: 1, color: .black)
+        StrokeText(text: "Great Job \(kidName)", width: 1, color: .black)
           .foregroundColor(Color("yellow"))
           .font(.system(size: 40 ,design: .rounded))
           .fontWeight(.heavy)
           .padding(.bottom)
-        
         
         Image("9")
           .resizable()
