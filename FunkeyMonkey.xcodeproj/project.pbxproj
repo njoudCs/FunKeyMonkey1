@@ -128,29 +128,15 @@
 		18D775B422AD944300AE281E = {
 			isa = PBXGroup;
 			children = (
-				CEFD916B29A50AB300191DF8 /* Sound */,
+				A96E84B229913BDF00C5ED06 /* AppModel.swift */,
 				A9680A1A29A3BE7A00E4F96E /* PlaySound.swift */,
 				CE8CFFDE29A1F42400FFC12B /* ComingSoonAlert.swift */,
-				A9118C25299D1B8800624633 /* Views */,
-				CEFDB173299E7365003CF3D6 /* MonkyWaving.swift */,
-				5FDD8298299F75D0006FCC1F /* Hi5View.swift */,
-				CEFDB171299E6F1A003CF3D6 /* RestView.swift */,
-				A9118C31299D742C00624633 /* BananaEmptey.swift */,
-				A9118C2D299D65A800624633 /* Timer1.swift */,
-				A9118C23299D19D000624633 /* let'sGo.swift */,
-				376FF29029A0128600D993DD /* ready.swift */,
-				A9118C21299D19AA00624633 /* Workout.swift */,
-				A96E84E42999124A00C5ED06 /* HeyName.swift */,
-				A96E84E22999111D00C5ED06 /* FirstlyPage.swift */,
-				376FF28C299E581A00D993DD /* achivivment.swift */,
 				A96E84B8299522AF00C5ED06 /* onAppear.swift */,
-				A96E84B229913BDF00C5ED06 /* AppModel.swift */,
-				A96E84B62993FEA300C5ED06 /* GoExercise.swift */,
-				A96E84B02991340C00C5ED06 /* SwiftUIView.swift */,
 				376FF2B229A30FA900D993DD /* Confetti.swift */,
-				376FF28E299E5A7500D993DD /* greatjob.swift */,
-				5F2A7F81299BBF6D00F2B9D0 /* forTrying.swift */,
 				A96E84BA2999064D00C5ED06 /* FunMonkeyModel.xcdatamodeld */,
+				CEFD916B29A50AB300191DF8 /* Sound */,
+				A9118C25299D1B8800624633 /* Views */,
+				A94E8F4229AB4FBE002D16C1 /* Helper */,
 				A9118BF9299CB81E00624633 /* Managers */,
 				18D775BF22AD944300AE281E /* StarCount */,
 				18D775BE22AD944300AE281E /* Products */,
@@ -229,6 +215,17 @@
 		A9118C25299D1B8800624633 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				376FF28C299E581A00D993DD /* achivivment.swift */,
+				A96E84B02991340C00C5ED06 /* SwiftUIView.swift */,
+				376FF28E299E5A7500D993DD /* greatjob.swift */,
+				A96E84E42999124A00C5ED06 /* HeyName.swift */,
+				A96E84E22999111D00C5ED06 /* FirstlyPage.swift */,
+				A9118C21299D19AA00624633 /* Workout.swift */,
+				A9118C23299D19D000624633 /* let'sGo.swift */,
+				376FF29029A0128600D993DD /* ready.swift */,
+				A96E84B62993FEA300C5ED06 /* GoExercise.swift */,
+				CEFDB171299E6F1A003CF3D6 /* RestView.swift */,
+				5FDD8298299F75D0006FCC1F /* Hi5View.swift */,
 				A94E8F3F29A7CB57002D16C1 /* BanansStruct */,
 				A9680A1729A39DA400E4F96E /* ExStruct */,
 				304BEFC92586268B00CED98D /* CameraView */,
@@ -253,6 +250,17 @@
 				A94E8F4029A7CB8E002D16C1 /* Banans.swift */,
 			);
 			path = BanansStruct;
+			sourceTree = "<group>";
+		};
+		A94E8F4229AB4FBE002D16C1 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				A9118C31299D742C00624633 /* BananaEmptey.swift */,
+				5F2A7F81299BBF6D00F2B9D0 /* forTrying.swift */,
+				CEFDB173299E7365003CF3D6 /* MonkyWaving.swift */,
+				A9118C2D299D65A800624633 /* Timer1.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 		A9680A1729A39DA400E4F96E /* ExStruct */ = {
@@ -553,11 +561,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "StarCount/Preview\\ Content";
-				DEVELOPMENT_TEAM = B7M43CRZYR;
+				DEVELOPMENT_ASSET_PATHS = "\"StarCount/Preview Content\"";
+				DEVELOPMENT_TEAM = C48XQY4D63;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "StarCount/Supporting Files/Info.plist";
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.sports";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -565,8 +573,11 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.njoud.starcount;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -576,11 +587,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "StarCount/Preview\\ Content";
-				DEVELOPMENT_TEAM = H7UJR9Y63X;
+				DEVELOPMENT_ASSET_PATHS = "\"StarCount/Preview Content\"";
+				DEVELOPMENT_TEAM = C48XQY4D63;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "StarCount/Supporting Files/Info.plist";
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.sports";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -588,8 +599,11 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.njoud.starcount;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
