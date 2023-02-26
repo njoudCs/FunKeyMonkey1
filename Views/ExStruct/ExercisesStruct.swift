@@ -199,7 +199,9 @@ var body: some View {
     
     else{
       
-     Hi5View4()}}
+     Hi5View4()}
+    
+  }
     .onAppear(){
      DispatchQueue.main.asyncAfter(deadline: .now() + 15.0) {
       hasTimeElapsed = true}}

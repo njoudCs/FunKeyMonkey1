@@ -13,10 +13,9 @@ struct AppMain: App {
       
     TabView {
      // ready()
- // CountdownView4()
-     
+     Hi5View5()
       
-    LaunchPage().environment(\.managedObjectContext, persistentContainer.viewContext)
+   // LaunchPage().environment(\.managedObjectContext, persistentContainer.viewContext)
 
       }
     }

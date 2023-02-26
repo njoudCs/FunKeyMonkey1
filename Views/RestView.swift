@@ -461,7 +461,8 @@ struct CountdownView4: View {
         
         DispatchQueue.main.asyncAfter(deadline: .now() + 10.0) {
           hasTimeElapsed = true }
-      }).onReceive(timer) { time in
+      })
+      .onReceive(timer) { time in
         if (self.counter < self.countTo) {
           self.counter += 1
         }}

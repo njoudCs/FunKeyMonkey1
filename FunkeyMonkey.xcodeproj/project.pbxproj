@@ -36,6 +36,7 @@
 		A9118C2E299D65A800624633 /* Timer1.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9118C2D299D65A800624633 /* Timer1.swift */; };
 		A9118C32299D742C00624633 /* BananaEmptey.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9118C31299D742C00624633 /* BananaEmptey.swift */; };
 		A94E8F4129A7CB8E002D16C1 /* Banans.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94E8F4029A7CB8E002D16C1 /* Banans.swift */; };
+		A94E8F4429AB8A76002D16C1 /* g.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94E8F4329AB8A76002D16C1 /* g.swift */; };
 		A9680A1929A39E2800E4F96E /* ExercisesStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9680A1829A39E2800E4F96E /* ExercisesStruct.swift */; };
 		A9680A1B29A3BE7A00E4F96E /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9680A1A29A3BE7A00E4F96E /* PlaySound.swift */; };
 		A96E848F2991246F00C5ED06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18D775C622AD944400AE281E /* Assets.xcassets */; };
@@ -90,6 +91,7 @@
 		A9118C2D299D65A800624633 /* Timer1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timer1.swift; sourceTree = "<group>"; };
 		A9118C31299D742C00624633 /* BananaEmptey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BananaEmptey.swift; sourceTree = "<group>"; };
 		A94E8F4029A7CB8E002D16C1 /* Banans.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Banans.swift; sourceTree = "<group>"; };
+		A94E8F4329AB8A76002D16C1 /* g.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = g.swift; sourceTree = "<group>"; };
 		A9680A1829A39E2800E4F96E /* ExercisesStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisesStruct.swift; sourceTree = "<group>"; };
 		A9680A1A29A3BE7A00E4F96E /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
 		A96E84B02991340C00C5ED06 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
@@ -170,6 +172,7 @@
 			isa = PBXGroup;
 			children = (
 				18D775C922AD944400AE281E /* Preview Assets.xcassets */,
+				A94E8F4329AB8A76002D16C1 /* g.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -431,6 +434,7 @@
 				308D74B125878AC400A39EB8 /* GameLogicController.swift in Sources */,
 				304BEFC2258625C300CED98D /* CameraPreview.swift in Sources */,
 				303C3F292584A63500CA22F3 /* StarAnimator.swift in Sources */,
+				A94E8F4429AB8A76002D16C1 /* g.swift in Sources */,
 				A96E84B72993FEA400C5ED06 /* GoExercise.swift in Sources */,
 				A9118C2A299D1BCB00624633 /* OnboardingPage.swift in Sources */,
 			);
