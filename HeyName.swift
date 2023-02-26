@@ -6,7 +6,7 @@ import SwiftUI
 struct HeyName: View {
   
   
-  @Binding var kidsName: String
+  @AppStorage("KID_NAME") var kidName: String = ""
   @Environment(\.managedObjectContext) var moc
   @FetchRequest(entity: MonkeyCoreData.entity(), sortDescriptors: [NSSortDescriptor(keyPath: \MonkeyCoreData.kidsName, ascending: true)]) var users: FetchedResults<MonkeyCoreData>
   @State private var showingAddUser = false
@@ -36,7 +36,7 @@ struct HeyName: View {
           VStack(){
             
             
-            StrokeText(text: "Welcome \(self.kidsName)", width: 2, color: .black)
+            StrokeText(text: "Welcome \(kidName)", width: 2, color: .black)
 
 //          
             
@@ -90,7 +90,7 @@ struct HeyName_Previews: PreviewProvider {
   // when using @Binding, @State static must be used to show preview
   @State static var kidsName: String = ""
     static var previews: some View {
-      HeyName(kidsName: $kidsName)
+      HeyName()
       
     }
 }

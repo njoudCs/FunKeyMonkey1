@@ -14,11 +14,11 @@ struct FirstlyPage: View {
   @Environment(\.presentationMode) var presentationMode
   
   // string variable to store Name
-  @State private var kidsName: String = ""
+  @State private var kidTextField: String = ""
   @State private var idsName: String = ""
+  @AppStorage("KID_NAME") var kidName: String = ""
 
- 
-  
+
   var body: some View {
 
     
@@ -51,9 +51,10 @@ struct FirstlyPage: View {
           
           
           
-          TextField("Write your name here" , text: $kidsName, onCommit: {
+          TextField("Write your name here" , text: $kidTextField, onCommit: {
             self.showHeyName = true
           })
+          
           .padding(30)
           .background(.white)
           .cornerRadius(50)
@@ -63,7 +64,7 @@ struct FirstlyPage: View {
        
        
           
-          NavigationLink (destination: HeyName(kidsName: $kidsName), isActive: $showHeyName){
+          NavigationLink (destination: HeyName(), isActive: $showHeyName){
             //  label: do {Text("Next")}
             
             
@@ -104,6 +105,7 @@ struct FirstlyPage: View {
       
       
     }
+  
     
   }.navigationViewStyle(StackNavigationViewStyle())
       .accentColor(Color("yellow"))
@@ -113,18 +115,24 @@ struct FirstlyPage: View {
   
   func saveName() {
 
-    if self.kidsName == ""
+    if self.kidTextField == ""
     {self.isAlert = true
         return
     }
-    let userInfo = MonkeyCoreData(context: self.moc)
-    userInfo.kidsName = self.kidsName
     
-    do {
-        try self.moc.save()
-    } catch {
-        print("whoops \(error.localizedDescription)")
-    }
+    // UserDefaults
+    kidName = kidTextField
+    
+    
+    // CoreData
+//    let userInfo = MonkeyCoreData(context: self.moc)
+//    userInfo.kidsName = self.kidsName
+//
+//    do {
+//        try self.moc.save()
+//    } catch {
+//        print("whoops \(error.localizedDescription)")
+//    }
      
     
   }

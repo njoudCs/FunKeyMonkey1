@@ -15,7 +15,7 @@ private let onBoardingSteps = [
   OnBoardingStep (image: "onbording3", title: "Exercise Daily for 6 Minutes", description: "The next day will be unlocked 24 hours after you complete the current day's exercises.")]
 
 struct OnboardingPage: View {
-  
+  @AppStorage("KID_NAME") var kidName: String = ""
   @AppStorage("OnboardingPageShown")
   var OnboardingPageShown: Bool = false
   
@@ -79,6 +79,7 @@ struct OnboardingPage: View {
                 Button (action:{
                     if self.currentStep < onBoardingSteps.count - 1 {
                         self.currentStep += 1
+                
                       
                     } else {
                     }
@@ -106,9 +107,14 @@ struct OnboardingPage: View {
                                 .padding (.bottom, 24)
                                 .shadow( radius: 4.0, x: 7.0, y: 7.0)
                                 .fullScreenCover(isPresented: $showStart) {
-                                  FirstlyPage()
+                                  
+                                  if !self.kidName.isEmpty {
+                                    HeyName()
+                                  } else {
+                                    FirstlyPage()
+                                  }
                                 }
-                            
+                          
                         }
                         
                         
