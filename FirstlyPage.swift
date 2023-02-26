@@ -65,7 +65,7 @@ struct FirstlyPage: View {
        
           
           NavigationLink (destination: HeyName(), isActive: $showHeyName){
-            //  label: do {Text("Next")}
+              label: do {Text("Next")}
             
             
             Button(action: {

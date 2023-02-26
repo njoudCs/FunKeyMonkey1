@@ -10,6 +10,7 @@ struct HeyName: View {
   @Environment(\.managedObjectContext) var moc
   @FetchRequest(entity: MonkeyCoreData.entity(), sortDescriptors: [NSSortDescriptor(keyPath: \MonkeyCoreData.kidsName, ascending: true)]) var users: FetchedResults<MonkeyCoreData>
   @State private var showingAddUser = false
+  @State private var isPresented: Bool = false
   
 
   
@@ -58,12 +59,17 @@ struct HeyName: View {
             
              
             
+///
+
+//            NavigationLink(destination: Workout(),
+//                           label: { StrokeText(text: "Start", width: 1, color: .black)
+//            }
+//            )
             
-        
-            NavigationLink(destination: Workout(),
-                           label: { StrokeText(text: "Start", width: 1, color: .black)
+            StrokeText(text: "Start", width: 1, color: .black)
+              .onTapGesture {
+              isPresented = true
             }
-            )
             
             .frame(width: 220 , height: 100)
             
@@ -78,6 +84,8 @@ struct HeyName: View {
           
       
             
+        }.fullScreenCover(isPresented: $isPresented) {
+          Workout()
         }
         
         

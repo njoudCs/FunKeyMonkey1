@@ -7,7 +7,9 @@ struct Workout: View {
   @State private var draggingItem = 0.0
   
     var body: some View {
-     
+      NavigationStack {
+        
+      
           ZStack() {
               
               Color("purple").ignoresSafeArea()
@@ -252,7 +254,7 @@ struct Workout: View {
           }
         
         
-      
+      }.navigationTitle("Workout")
        
     }
   

@@ -3,7 +3,7 @@
 import SwiftUI
 struct ready: View {
   @State private var hasTimeElapsed = false
-  
+  @AppStorage("KID_NAME") var kidName: String = ""
   var body: some View {
     
     
@@ -14,7 +14,7 @@ struct ready: View {
         CameraView().ignoresSafeArea(.all)
         
         
-        StrokeText(text: "Are you ready ?", width: 1, color: .black)
+        StrokeText(text: "Are you ready ? \(kidName)", width: 1, color: .black)
           .foregroundColor(Color("yellow"))
           .font(.system(size: 60 ,design: .rounded))
           .fontWeight(.heavy)
