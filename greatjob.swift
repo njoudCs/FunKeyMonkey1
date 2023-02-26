@@ -22,7 +22,7 @@ struct greatjob: View {
         .cornerRadius(55)
       
       VStack{
-        StrokeText(text: "" , width: 1, color: .black)
+        StrokeText(text: "", width: 1, color: .black)
           .foregroundColor(Color("yellow"))
           .font(.system(size: 40 ,design: .rounded))
           .fontWeight(.heavy)
@@ -48,7 +48,7 @@ struct greatjob: View {
       
       
       NavigationLink(destination: Workout(),
-                     label: { StrokeText(text: "Start", width: 1, color: .black)
+                     label: { StrokeText(text: "ok", width: 1, color: .black)
       }
       )
       

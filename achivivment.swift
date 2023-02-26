@@ -4,6 +4,8 @@ import SwiftUI
 
 struct achiviment: View {
     @State var text = ""
+  @AppStorage("KID_NAME") var kidName: String = ""
+
     var body: some View {
         ZStack{
             Image("Back")
@@ -24,9 +26,8 @@ struct achiviment: View {
 
                     
                         
-                TextField("Name", text: $text)
+                TextField("\(kidName)", text: $text)
                     .font(.system(size: 40))
-                    
                     .padding(.vertical,9)
                     .padding(.horizontal,20)
                     .frame(width: 500 , height:100 )
