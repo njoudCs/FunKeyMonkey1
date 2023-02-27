@@ -567,7 +567,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"StarCount/Preview Content\"";
-				DEVELOPMENT_TEAM = C48XQY4D63;
+				DEVELOPMENT_TEAM = H7UJR9Y63X;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "StarCount/Supporting Files/Info.plist";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.sports";
@@ -595,7 +595,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"StarCount/Preview Content\"";
-				DEVELOPMENT_TEAM = C48XQY4D63;
+				DEVELOPMENT_TEAM = H7UJR9Y63X;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "StarCount/Supporting Files/Info.plist";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.sports";
